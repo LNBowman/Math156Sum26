@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Assessment 1</title>
+  <introduction>
+    <p>
+        The specific Learning Outcomes in your packet are listed in the table below.
+PF-1, PF-2, PF-3, and PF-4 do not have specific problems, they are based on the assessment in its entirety.
+    </p>
+    <p>
+        Assessment Specific Instructions:
+    <ul>
+		<li>You have 1 hour to complete this assessment.</li>
+		<li>This assessment is a closed book and closed notes.</li>
+		<li>Calculators/Phones are NOT allowed on this assessment. Using these will result in all outcomes with a grade of N on all outcomes.</li> 
+		<li>All answers should be completely simplified with the correct units where necessary. </li>
+		<li>All graphs/diagrams should be completely labeled.</li>
+        <li>If a specific method is requested, credit will not be given if another method is used.</li>
+	</ul>	
+    </p>
+  </introduction>
+  <page>
+    <exercise>
+      <statement>
+    <p>
+        BF-1 Solving Quadratic Equations
+        (Complete both problems to get M, complete one problem with considerable progress on the other to get P)
+    </p>
+    <p> Solve each equation.
+          <ol>
+            <li><m>8(x+3)-3(4x+5)=6(2x+7)-x)+3</m></li>
+            <li><m>14y-5 = 5y^2 + 10y</m></li>
+          </ol>
+    </p>
+      </statement>
+    </exercise>
+    </page>
+    <page>
+    <exercise>
+      <statement>
+        <p>
+            BF-2 Forms of Lines
+            (Complete both problems to earn M, complete one problem with progress on the other to earn P)
+        </p>
+        <p> Given the line <m>4x-y=22</m>
+          <ol>
+                <li>Find the equation of the line parallel to the given line passing through the point <m>(-3, 9)</m>. Leave answer in slope-intercept form.</li>    
+                <li>Find the equation of the line perpendicular to the given line passing through the point <m>(4, -3)</m>. Leave the answer in standard form.</li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+  </page>
+  <page>
+    <exercise>
+        <statement>
+            <p>BF-3 Difference Quotient and Piecewise Functions
+                (Complete both problems to earn M, complete problem 1 and parts a and d of problem 2 to earn P)
+            </p>
+            <p>Problem 1: Given the function <m>f(x)=\frac{4x}{x-1}</m>.  Find and simplify <m>\frac{f(a)-f(4)}{a-4}</m> 
+            </p>
+            <p>
+                Problem 2: a) Graph the function <me>g(x)=ds\frac{1}{2}(x+3)^2 \amp x\geq 1; 5+x \amp x \lt 1</me>.
+                b) State the boundary points of the function.
+                c) State the intercepts.
+                d) State the domain of the function.
+            </p>
+        </statement>
+    </exercise>
+  </page>
+</worksheet>
