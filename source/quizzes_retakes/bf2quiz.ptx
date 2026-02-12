@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>BF-2 Forms of Linear Equations</title>
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Once you open the quiz, your timer begins.  
+      I would recommend having an additional timer that goes off about 5 
+      minutes prior, so that you know when to start uploading your work.
+    </p>
+    <p> Write out complete solutions to the following problems.</p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          Find the equation of the line, in slope-intercept form, that 
+          passes through the points <m>(-4,-1)</m> and <m>(2,2)</m>.  Sketch 
+          the line with appropriate intercepts.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <introduction>
+        <p>Consider the equation <m>7x-2y=14</m>.</p>
+      </introduction>
+        <task><statement><p>Find the equation, in standard form, of the line parallel 
+            to the given line that passes through the point <m>(3,-2)</m>.</p></statement>
+        </task>
+        <task><statement><p>Find the equation, in point-slope form, of the line 
+            perpendicular to the given line that passes through the point 
+            <m>(-2,-1)</m>.</p></statement>
+        </task>
+    </exercise>
+  </page>
+</worksheet>

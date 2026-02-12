@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>BF-2 Forms of Linear Equations</title>
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Once you open the quiz, your timer begins.  
+      I would recommend having an additional timer that goes off about 5 
+      minutes prior, so that you know when to start uploading your work.
+    </p>
+    <p> Write out complete solutions to the following problems.</p>
+  </introduction>
+
+  <page>
+    <exercise workspace="3cm">
+      <statement>
+        <p>
+          Find the equation of the line, in slope-intercept form, that 
+          passes through the points <m>(-4,-1)</m> and <m>(2,2)</m>.  Sketch 
+          the line with appropriate intercepts.
+        </p>
+      </statement>
+    </exercise>
+    <exercise workspace="3cm">
+      <statement>
+        <p>Solve <m>49x^2-14x=24</m> by factoring</p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Solve <m>-y^2+6y-29=-4y^2</m> using the quadratic formula.</p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

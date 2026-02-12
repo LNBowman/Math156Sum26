@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>BF-1 Linear and Quadratic Equations</title>
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Once you open the quiz, your timer begins.  
+      I would recommend having an additional timer that goes off about 5 
+      minutes prior, so that you know when to start uploading your work.
+    </p>
+    <p> Write out complete solutions to the following problems.</p>
+  </introduction>
+
+  <page>
+    <exercise workspace="3cm">
+      <statement>
+        <p>
+          Solve the following equation: <m>\frac{3}{5}x+\frac{2}{25}=\frac{23}{10}</m> 
+        </p>
+      </statement>
+    </exercise>
+    <exercise workspace="3cm">
+      <statement>
+        <p>Solve <m>(7x+15)^2=48</m> using the extraction of roots method.</p>
+      </statement>
+    </exercise>
+    <exercise workspace="3cm">
+      <statement>
+        <p>Solve <m>10x^2=20x+1</m> using the quadratic formula.</p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

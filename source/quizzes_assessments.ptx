@@ -23,6 +23,9 @@
     <chapter xml:id="course-quizzes_retakes">
       <title>Quizzes and Retakes</title>
       <xi:include href="./quizzes_retakes/sample.ptx"/>
+      <xi:include href="./quizzes_retakes/bf1quiz.ptx"/>
+      <xi:include href="./quizzes_retakes/bf1retake.ptx"/>
+      <xi:include href="./quizzes_retakes/bf2quiz.ptx"/>
       
 
     </chapter>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Enter title her</title>
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Once you open the quiz, your timer begins.  I would recommend having an additional timer
+        that goes off about 5 minutes prior, so that you know when to start uploading your work.
+    </p>
+    <p>Enter mastery information here.
+         </p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          Enter a simple problem 
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Here is an example with some parts</p>
+            <p>
+                a) part 1
+                b) part 2
+                c) part 3
+            </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>
