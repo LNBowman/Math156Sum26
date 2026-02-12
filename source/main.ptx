@@ -18,6 +18,11 @@
 
       <!-- Course syllabus -->
       <xi:include href="./syllabus/syllabus.ptx" />
+      <xi:include href="./syllabus/components.ptx" />
+      <xi:include href="./syllabus/rubrics.ptx" />
+      <xi:include href="./syllabus/policies.ptx" />
+      <xi:include href="./syllabus/support.ptx" />
+      <xi:include href="./syllabus/schedule.ptx" />
       <!-- Other documents could go here, like a schedule, project description, etc. -->
     </chapter>
 

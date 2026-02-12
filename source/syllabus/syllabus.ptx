@@ -1,86 +1,197 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <section xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Syllabus</title>
-
-  <introduction>
-    <p>
-    </p>
-  </introduction>
+<title>Course Information</title>
   <!-- Include chapters -->
-  <subsection xml:id="sec-course-info">
-    <title>Course Information</title>
-
-    <p>
-      This is the syllabus for <term>course name (MATH xxx, section xxx)</term> for [term] 20xx.
-      It is a [n] credit course.
-      <!-- use a description list (dl) for short items -->
-      <dl>
-        <li>
-          <title>Instructor</title>
-
-          <p>
-            Prof. Lastname, Office Location, <url href="mailto:prof.lastname@example.edu">prof.lastname@example.edu</url>.
-          </p>
-        </li>
-
-        <li>
-          <title>Student Hours</title>
-
-          <p>
-            TBD
-          </p>
-        </li>
-
-        <li>
-          <title>Class meets</title>
-
-          <p>
-            course times and location.
-          </p>
-        </li>
-
-        <li>
-          <title>Course Description</title>
-
-          <p>
-            course description from catalog
-          </p>
-        </li>
-
-        <li>
-          <title>Prerequisite</title>
-
-          <p>
-            list of prerequisites
-          </p>
-        </li>
-
-        <li>
-          <title>Textbook and course materials</title>
-
-          <p>
-            <pubtitle>textbook name</pubtitle>
-            by textbook author.
-          </p>
-        </li>
-      </dl>
+  <paragraphs>
+    <title>Math F156X Precalculus Spring 2026 Course Syllabus</title>
+      <blockquote><p> This is a 4-credit course. This course requires both in-person 
+      (proctored testing) and online components. If you do not have a 
+      testing center nearby, please work with Testing Services to set up 
+      proctoring. If you do not have reliable internet, you will need to 
+      make arrangements to access and submit course materials. In this course, 
+      we will use a mastery-based assessment format instead of the traditional 
+      percentage-based system. This assessment style will give you a clearer 
+      picture of the expectations in our course, how well you have mastered the 
+      course material, and how you can improve your understanding (and your grade!). 
+      Throughout the course, you will be given opportunities to develop your skills, 
+      assess these skills, and relearn material to improve your understanding.  
+      We will have online homework, written quizzes, and proctored assessments. Every 
+      problem on a quiz or assessment will be mapped to one of the course standards. 
+      In addition to these assignments, you will also be asked to complete engagement 
+      activities throughout the course.</p>
+      <p>The key ideas of mastery-based learning are:
+        <ul>
+          <li>You will either receive credit or need to reassess; There are no 0 grades unless you do not try;</li>
+        <li>You will be given many opportunities to improve your understanding and your score;</li>
+        <li>Non-mastery items are based on completion;</li>
+        <li>Once you have attained a minimum grade you can only improve.</li>
+        </ul>
     </p>
+  </blockquote>
+  </paragraphs>
+  
+    
+    <paragraphs>
+      <title>Instructor and Section Information</title>
+      <p>Instructor: Dr. Latrice Bowman</p><p>Office: Chapman 301B</p>
+      <p>email: <url href="mailto:lnbowman@alaska.edu">lnbowman@alaska.edu</url></p>
+      <p>phone: 907-474-5427 (you will find it easier to reach me through email)</p>
+    </paragraphs>
+    <p>
+      <alert>Student Help Hours</alert></p><p>
+      Hours are by appointment through Zoom.  You can use 
+            <url href="https://scheduler.zoom.us/latrice-bowman">
+              Dr. Bowman's Appointment Scheduler</url> to set up an appointment.</p>
+    <p>
+      <alert>Class Meetings</alert>
+      This is an asynchronous online course so there are 
+            no class meeting times, however, you will need to set up times with your 
+            proctor to take assessments.
+    </p>
+    <p>
+      <alert>Course Description</alert>
+      Various classes of functions and their graphs are explored numerically, 
+            algebraically and graphically. Function classes include polynomial, 
+            rational, exponential, logarithmic and trigonometric. Skills and concepts 
+            needed for calculus are emphasized. This class is intended for students 
+            intending to take MATH F251X.
+    </p>
+    <p>
+      <alert>Prerequisite</alert>
+      Placement or Instructor Permission.
+    </p>
+    <p>
+      <alert>Textbook and course materials</alert>
+      <ul>
+              <li><p> Canvas - Canvas is our Learning Management System (LMS).  
+                This is basically where you will find all of the resources for 
+                this course (videos, readings, due dates, quizzes, practice, and 
+                your feedback). It is also a good place to collaborate with your peers.
+              </p></li>
+              <li><p>
+                Gradescope - an online tool we will use to submit quizzes, review 
+                feedback, and store your graded work.  You can access Gradescope through 
+                any of the links in Canvas or by going to gradescope.com and logging in 
+                with your school credentials. Gradescope is free for your use.
+              </p></li>
+              <li><p>
+                 Flatworld and eText - We will use Precalculus v3.0 by Edward Burger. 
+                 The ebook and HW access can be purchased through the bookstore for 
+                 about $39.99 (plus bookstore markup). Links to the course software and 
+                 ebook will be included in the Canvas modules so that you will not need 
+                 separate login information. You should not expect to buy a physical 
+                 textbook for this course unless you want a print version (this is an 
+                 additional cost through the bookstore). Be aware that you will have 2 
+                 weeks of free access to this software before you need to purchase access, 
+                 so everyone will be able to access the material on the first day of class.
+              </p></li>
+              <li><p>
+                 Airtable access -  In the first week of class, you will receive an email 
+                 allowing you access to the Airtable Grade Progress page (this link will also 
+                 be in Canvas). You will want to bookmark this link. This link will provide 
+                 you with information about your course progress throughout the semester.
+              </p></li>
+              <li><p>
+                 Digitizing materials.  For some of the work in this course, you will need to 
+                 take pictures of your work or create a PDF of your solutions and upload them. 
+                 You are welcome to use the course apps if you do not have other means for 
+                 digitizing your work.
+              </p></li>
+              <li><p>
+                  Proctor for assessments.  If you are in the Fairbanks area, you will be expected 
+                  to take your assessments at the UAF Testing Services located on the 6th floor of 
+                  the Rasmuson Library.  If you are not in the Fairbanks area, you will need to 
+                  find a proctor. For all assessments in this course, you will need to schedule them 
+                  in advance and ensure you take them within the required dates.<em>You will need to
+                    set up your proctor in the first week of class, as your proctor will need to be 
+                    approved by Testing Services prior to any materials being sent.
+                  </em>
+              </p></li>
+              <li><p>
+                  This course tests the student’s ability to apply mathematical methods.  Many of 
+                  these methods require basic algebra skills as well as some computations necessary 
+                  for Calculus. Students should get into the habit of simplifying answers and writing 
+                  out exact solutions. This means that while working through the course, some problems 
+                  may require the use of a graphing calculator or other computer graphing system, 
+                  students should get into the habit of writing out exact solutions and using the 
+                  calculator only when specifically asked to round an answer or to get approximate 
+                  answers for complicated expressions. You will be expected to show specific methods 
+                  and computations. <em>Calculators are NOT allowed on any quiz or assessment. The use 
+                    of a calculator on either of these items is a form of academic dishonesty and will 
+                    result in an automatic grade of N on that assignment and possible disciplinary 
+                    action for repeated offenses.</em> 
+                  </p></li>
+            </ul>
+          </p>
+    
 
   <!-- Use paragraphs to break apart subsections -->
     <paragraphs>
-      <title>Course Overview</title>
-
+      <title>Course Learning Outcomes</title>
+      <p>When students leave this course, they should have a solid foundation that 
+        prepares them for a Calculus course. This means that students will have
+        <ul>
+          <li><p>acquired study habits and learning tools to prepare them for success 
+            in a math course;</p></li>
+          <li><p>a solid foundation in algebraic manipulation;</p></li>
+          <li><p>an ability to effectively communicate mathematics, both written 
+            and oral;</p></li>
+          <li><p>acquired methods to effectively evaluate one's work;</p></li>
+          <li><p>acquired knowledge of functions to model and analyze various 
+            mathematical situations.</p></li>
+        </ul>
+        To meet these course outcomes, students will be specifically assessed on 
+        the following standards:
+      </p></paragraphs>
       <p>
+        <alert>Foundation Standards are assessed in all of the content modules</alert>
+        <ul>
+          <li><p>PF-1 Simplifying Algebraic Expressions</p></li>
+          <li><p>PF-2 Basics of Graphing Functions</p></li>
+          <li><p>PF-3 Problem Structure</p></li>
+          <li><p>PF-4 Mathematical Communication</p></li>
+        </ul>
+        <alert>Content Standards are assessed through the specific content modules</alert>
+        <ul>
+          <li><alert>Basics of Functions</alert>
+             <ul>
+              <li><p>BF-1 Linear and Quadratic Equations</p></li>
+              <li><p>BF-2 Forms of Linear Equations</p></li>
+              <li><p>BF-3 Difference Quotients and Piecewise Functions</p></li>
+              <li><p>BF-4 Transformations and Combinations</p></li>
+             </ul> 
+          </li>
+          <li><alert>Graphing Algebraic Functions</alert>
+             <ul>
+              <li><p>GR-1 Graphing Quadratic Functions and Models</p></li>
+              <li><p>GR-2 Graphing Polynomial Functions</p></li>
+              <li><p>GR-3 Graphing Rational Functions</p></li>
+              <li><p>GR-4 Systems</p></li>
+              <li><p>GR-5 Graphing Systems</p></li>
+             </ul>  
+          </li>
+          <li><alert>Exponentials and Logarithms</alert>
+              <ul>
+              <li><p>EL-1 Graphing Exponential and Logarithmic Functions</p></li>
+              <li><p>EL-2 Exponential and Logarithmic Equations</p></li>
+              <li><p>EL-3 Exponential Models</p></li>
+             </ul>  
+          </li>
+          <li><alert>Trigonometric Functions</alert>
+              <ul>
+              <li><p>TF-1 Right Triangle Applications</p></li>
+              <li><p>TF-2 Graphing Trigonometric Functions</p></li>
+              <li><p>TF-3 Trigonometric Equations</p></li>
+              <li><p>TF-4 Law of Sines and Cosines Applications</p></li>
+             </ul>  
+          </li>
+        </ul>
       </p>
-    </paragraphs>
-  </subsection>
+      <p>There will be concepts covered in this course that are necessary 
+        for understanding some of this content, which may be given in the 
+        course lectures and homework but will not be assessed formally.
+      </p>
 
-  <!-- Other subsections for larger dividers -->
-  <subsection xml:id="sec-assessments">
-    <title>Assessments and Grades</title>
-
-    <p>
-    </p>
-  </subsection>
+  
 </section>
