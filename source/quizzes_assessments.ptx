@@ -6,18 +6,16 @@
   <xi:include href="./docinfo.ptx" />
   <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
   <book>
-    <title>Precalculus</title>
-
+    <title>Precalculus</title>  
     <subtitle>MATH F156X Summer 2026</subtitle>
-
+    
     <!-- Optional: include frontmatter with author info and date -->
-    <xi:include href="./frontmatter.ptx" />
+    <xi:include href="./frontmatter_quiz.ptx" />
+
 
     <chapter xml:id="course-assessments">
       <title>Assessments</title>
       <xi:include href="./assessments/assessment1.ptx"/>
-      
-
     </chapter>
 
     <chapter xml:id="course-quizzes_retakes">
@@ -26,8 +24,6 @@
       <xi:include href="./quizzes_retakes/bf1quiz.ptx"/>
       <xi:include href="./quizzes_retakes/bf1retake.ptx"/>
       <xi:include href="./quizzes_retakes/bf2quiz.ptx"/>
-      
-
     </chapter>
     <!-- Include additional chapters for other categories -->
 
