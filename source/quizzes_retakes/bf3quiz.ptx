@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>BF-3 Difference Quotients and Piecewise Functions</title>
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Once you open the quiz, your timer begins.  I would recommend having an additional timer
+        that goes off about 5 minutes prior, so that you know when to start uploading your work.
+    </p>
+    <p> Write out complete solutions to the following problems.</p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          Given the function <m>f(x)=\frac{2x}{x-1}</m>. Find and simplify the difference quotient <m>\frac{f(x+h)-f(x)}{h}</m>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p> Graph the function <me>f(x)=\begin{cases}\frac{1}{4}(x+2)^2 \text{ }&amp; \text{ }x\ge 1\\7+2x \text{ }&amp; \text{ }  x\lt 1 \end{cases}</me>
+Also state the domain, boundary points and intercepts.
+            </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

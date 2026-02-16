@@ -24,6 +24,9 @@
       <xi:include href="./quizzes_retakes/bf1quiz.ptx"/>
       <xi:include href="./quizzes_retakes/bf1retake.ptx"/>
       <xi:include href="./quizzes_retakes/bf2quiz.ptx"/>
+      <xi:include href="./quizzes_retakes/bf2retake.ptx"/>
+      <xi:include href="./quizzes_retakes/bf3quiz.ptx"/>
+      <xi:include href="./quizzes_retakes/bf3retake.ptx"/>
     </chapter>
     <!-- Include additional chapters for other categories -->
 

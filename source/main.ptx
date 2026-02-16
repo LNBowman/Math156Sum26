@@ -31,12 +31,17 @@
 
       <introduction>
         <p>
-          The following notes are intended to remind you what we covered each week.
-          They are not a substitute for attending class and not a substitute for reading the textbook.
+          The following notes are intended to remind you what we covered for each 
+          learning outcome. They are not a substitute for attending class/watching 
+          the lecture videos and are not a substitute for reading the textbook. These
+          notes will give a general overview of the content for the learning outcome.
+        </p>
+        <p>
+          
         </p>
       </introduction>
 
-      <xi:include href="./notes/week01.ptx"/>
+      <xi:include href="./notes/bf1information.ptx"/>
       <xi:include href="./notes/week02.ptx"/>
       <!-- etc. -->
 

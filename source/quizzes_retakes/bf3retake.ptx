@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>BF-3 Difference Quotients and Piecewise Functions</title>
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Once you open the quiz, your timer begins.  I would recommend having an additional timer
+        that goes off about 5 minutes prior, so that you know when to start uploading your work.
+    </p>
+    <p> Write out complete solutions to the following problems.</p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          Given the function <m>g(x)=-4x^2+3x-2</m>. Find and simplify the difference quotient <m>\frac{g(x)-g(a)}{x-a}</m>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p> Graph the function <me>f(x)=\begin{cases}x^2+4x+5 &amp; x\lt 0\\-2(x-6)\text{ }&amp;\text{ }x \gt 0 \end{cases}</me>
+Also state the domain, boundary points and intercepts.
+            </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

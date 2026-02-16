@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-bf1information">
+  <title>BF-1 Linear and Quadratic Equations</title>
+
+  <introduction>
+    <p>
+      For this outcome we will be looking at one variable equations that are reducible
+      to either a linear or a quadratic form.  Specifically, for this outcome, students
+      should be able to:
+      <ul>
+        <li><p>Determine if an equation is linear or quadratic</p></li>
+        <li><p>If it is a linear equation:
+          <ul>
+            <li><p>Use correct mathematical structure to write out steps progressing to a solution.</p></li>
+            <li><p>Use algebraic methods to remove grouping symbols and combine like terms.</p></li>
+            <li><p>Simplify algebraic expressions to obtain the solution.</p></li>
+          </ul>
+        </p></li>
+        <li><p>If it is a quadratic equation:
+          <ul>
+            <li><p>Use correct mathematical structure to write out steps progressing to a solution.</p></li>
+            <li><p>Determine the most appropriate method for solving the quadratic, if a specific method is
+              not requested.
+            </p></li>
+            <li><p>Use algebraic methods to rewrite the quadratic expression (factoring, completing the 
+              square or setting up the quadratic formula.
+            </p></li>
+            <li><p>Simplify algebraic expressions to obtain the solution.</p></li>
+          </ul>
+        </p></li>
+      </ul>
+    </p>
+  </introduction>
+
+  <!-- Can also be <handout> instead of <subsection> to get a printable version -->
+  <subsection>
+    <title>Linear Equations </title>
+    <p>An algebraic equation is a mathematical statement that relates two algebraic 
+      expressions involving at lest one variable.</p>
+    <p>The solution set for an equation is the set of elements in the domain of 
+      the variable that make the equation true.  (Each element of the solution set 
+      is a solution or root)</p>
+      <p>An equation is called an identity if the equation is true for all elements 
+        in the domain of the variable. An equation is called conditional if it 
+        is true for certain domain values and false for others. Two equations are 
+        equivalent if the solution set is the same for both equations.</p>
+        <p>Properties of Equality: For any real number a, b and c, we have the following properties
+          <ol>
+            <li><p>Addition Property:<m>\text{If }a=b\text{ then }a+c=b+c</m></p></li>
+            <li><p>Subtraction Property:<m>\text{If }a=b\text{ then }a-c=b-c</m></p></li>
+            <li><p>Multiplication Property:<m>\text{If }a=b\text{ then }ac=bc</m></p>
+            <p>(We assume that here <m>c \ne 0</m></p></li>
+            <li><p>Division Property:<m>\text{If }a=b\text{ then }\frac{a}{c}=\frac{b}{c}</m></p>
+            <p>(We assume that here <m>c\ne 0</m></p></li>
+            <li><p>Substitution Property: <m>\text{If }a=b</m> then either can be used to
+            replace the other in any statement without changing the truth value of the 
+            statement.</p></li>
+          </ol>
+        </p>
+        <p>Any equation that can be written in the form  is considered a linear, 
+          first-degree equation in one variable.</p>
+  </subsection>
+
+
+  <subsection>
+    <title>Absolute Value Equations</title>
+    <p>The distance on the number line between zero and a number, <m>x</m> is 
+      the absolute value of x, denoted <m>|x|</m>.</p><p> Note: Absolute value of a number
+        is never negative, as it represents a distance.</p>
+        <p>When solving absolute value equations we need to consider when the 
+          distance is both positive and negative. So if we had an equation
+          <m>|ax+b|=c</m> we can rewrite this as two equations, by dropping the 
+          absolute value and setting the expression equal to the positive and negative 
+          distance. <me>ax+b=c \text{ and }ax+b=-c</me></p>
+  </subsection>
+
+
+  <subsection>
+    <title>Quadratic Equations</title>
+    <p>Quadratic equations can be written as <m>ax^2+bx+c=0</m> where <m>a, b,</m> 
+      and <m>c</m> are constants and <m>a!=0</m>. There are four different methods
+      that can be used to solve a quadratic equation.
+      <ol>
+        <li><p>Factoring:</p><p>Here the idea is to move all terms to one side of
+          the equal sign and set the other side equal to <m>0</m>.  Factoring the 
+          terms we want to try and get either <m>x(ax+b)=0</m> or <m>(ax+b)(cx+d)=0</m>.
+          These two forms will allow us to use the <em>Zero Property of Equality</em> to 
+          solve. This property says: If <m>m(n)=0\text{ then either }m=0\text{ or }n=0</m>.
+        </p></li>
+        <li><p>Extraction of Roots:</p><p>This method is most useful if our quadratic is
+          in the form <m>(ax+b)^2=c</m>.  Here we can take the square root of both sides 
+          to "extract the roots" from <m>c</m>. We can then solve the two resulting linear
+          equations.
+        </p></li>
+        <li><p>Quadratic Formula:</p><p>Given <m>ax^2+bx+c=0</m> we can use the formula
+        <m>x=\frac{-b\pm \sqrt{b^2-4ac}}{2a}</m> to find the values.</p><p><m>b^2-4ac</m>
+        is known as the discriminant which tells the types of solutions you should expect 
+      from the equation.
+        <ol>
+          <li><p>if <m>b^2-4ac /gt 0</m> then there are two distinct real roots.</p></li>
+          <li><p>if <m>b^2-4ac=0</m> then there one real double root.</p></li>
+          <li><p>if <m>b^2-4ac \lt 0</m> then there are two imaginary roots.</p></li>
+        </ol>
+      </p></li>
+        <li><p>Completing the Square:</p><p> This method is most useful in rewriting
+          the quadratic in vertex form.  The idea is to use perfect square trinomial, 
+          and the properties of equality to rewrite the quadratic into the form 
+          <m>a(x-h)^2+k</m> where <m>(h,k)</m> is the vertex of the quadratic.
+        </p></li>
+      </ol>
+    </p>
+  </subsection>
+</section>
