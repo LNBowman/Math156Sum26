@@ -42,7 +42,9 @@
       </introduction>
 
       <xi:include href="./notes/bf1information.ptx"/>
-      <xi:include href="./notes/week02.ptx"/>
+      <xi:include href="./notes/bf2information.ptx"/>
+      <xi:include href="./notes/bf3information.ptx"/>
+      <xi:include href="./notes/bf4information.ptx"/>
       <!-- etc. -->
 
     </chapter>
@@ -63,10 +65,11 @@
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
-    <chapter xml:id="handouts">
-      <title>Handouts</title>
+    <chapter xml:id="slides">
+      <title>Lecture Slides</title>
       <!-- Include handouts -->
-      <!--<xi:include href="./handouts/handout-filename.ptx"/>-->
+      <xi:include href="./slides/slides.ptx"/>
+      <xi:include href="./slides/linear_equations.ptx"/>
     </chapter>
 
     <chapter xml:id="homework">

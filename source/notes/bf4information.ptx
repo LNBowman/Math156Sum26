@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-bf4information">
+  <title>BF-4 Transformations and Combinations</title>
+
+  <introduction>
+    <p>
+      For this outcome we will be looking at creating new functions 
+      by shifting, reflecting, stretching, or compressing a graph.  
+      We will also be combining two or more functions using algebraic 
+      operations and the evaluation of functions to create new functions. 
+      Specifically, for this outcome, students should be able to:
+      <ul>
+        <li><p>Given a transformed function, determine the basic function
+           that was transformed.
+        </p></li>
+        <li><p>Given two functions, identify the transformations that will
+           change one function into the other.
+        </p></li>
+        <li><p>Apply transformations in the correct order to move points on
+           a graph.
+        </p></li>
+        <li><p>Given a transformed graph and that of a basic function, determine 
+          the equation of the transformed graph.
+        </p></li>
+        <li><p>Given two or more functions, be able to evaluate:
+          <ul>
+            <li><p>The sum or difference function.</p></li>
+            <li><p>The sum or difference function evaluated at a point.</p></li>
+            <li><p>The product or quotient function.</p></li>
+            <li><p>The product or quotient function evaluated at a point.</p></li>
+            <li><p>The composition function.</p></li>
+            <li><p>The composition function evaluated at a point.</p></li>
+            <li><p>The domain of any combination.</p></li>
+          </ul>
+        </p></li>
+      </ul>
+    </p>
+  </introduction>
+
+    <!-- Can also be <handout> instead of <subsection> to get a printable version -->
+  <subsection>
+  <title>Transformations of Functions</title>
+  <p></p>
+  </subsection>
+  <subsection>
+    <title>Combinations of Functions</title>
+    <p></p>
+  </subsection>
+  <subsection>
+    <title>Compositions of Functions</title>
+    <p></p>
+  </subsection>
+</section>

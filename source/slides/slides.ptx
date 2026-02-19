@@ -6,8 +6,8 @@
   <!-- Include the docinfo common to the course, in the parent folder (..) -->
   <xi:include href="../docinfo.ptx"/>
 
-  <slideshow xml:id="slides">
-    <title>Slides for MATH xxx</title>
+  <slideshow xml:id="slides-slides">
+    <title>Slides for MATH 156</title>
 
     <frontmatter>
       <titlepage-items/>

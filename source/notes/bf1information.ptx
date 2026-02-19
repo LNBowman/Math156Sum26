@@ -79,7 +79,7 @@
   <subsection>
     <title>Quadratic Equations</title>
     <p>Quadratic equations can be written as <m>ax^2+bx+c=0</m> where <m>a, b,</m> 
-      and <m>c</m> are constants and <m>a!=0</m>. There are four different methods
+      and <m>c</m> are constants and <m>a\ne0</m>. There are four different methods
       that can be used to solve a quadratic equation.
       <ol>
         <li><p>Factoring:</p><p>Here the idea is to move all terms to one side of
@@ -98,7 +98,7 @@
         is known as the discriminant which tells the types of solutions you should expect 
       from the equation.
         <ol>
-          <li><p>if <m>b^2-4ac /gt 0</m> then there are two distinct real roots.</p></li>
+          <li><p>if <m>b^2-4ac \gt 0</m> then there are two distinct real roots.</p></li>
           <li><p>if <m>b^2-4ac=0</m> then there one real double root.</p></li>
           <li><p>if <m>b^2-4ac \lt 0</m> then there are two imaginary roots.</p></li>
         </ol>

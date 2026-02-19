@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-bf2information">
+  <title>BF-2 Linear Forms of Lines</title>
+
+  <introduction>
+    <p>
+      For this outcome we will be looking at relations in two variables.  
+      We will look at how to visualize points, lines, and other curves, 
+      and how to identify intercepts.  We will look at linear equations 
+      in two variables and discuss the different forms that can be used 
+      to describe them.  We will also look at slope (rate of change) and 
+      how that can be used to work with linear equations.  Specifically, 
+      for this outcome, students should be able to:
+      <ul>
+        <li><p>For any line be able to write the equation in:
+          <ul>
+            <li><p>point-slope form.</p></li>
+            <li><p>slope-intercept form.</p></li>
+            <li><p>standard form.</p></li>
+          </ul>
+        </p></li>
+        <li><p>Given a point and a slope:
+          <ul>
+            <li><p>Write the equation of the line.</p></li>
+            <li><p>Graph the equation of the line.</p></li>
+            <li><p>State the intercepts or other points on the line.</p></li>
+          </ul>
+        </p></li>
+        <li><p>Given two points:
+          <ul>
+            <li><p>Find the slope of the line between the points.</p></li>
+            <li><p>Find the equation of the line between the points.</p></li>
+          </ul>
+        </p></li>
+        <li><p>Given a line:
+          <ul>
+            <li><p>Find the equation that is parallel to the given line.</p></li>
+            <li><p>Find the equation that is perpendicular to the given line.</p></li>
+          </ul>
+        </p></li>
+      </ul>
+    </p>
+  </introduction>
+
+    <!-- Can also be <handout> instead of <subsection> to get a printable version -->
+  <subsection>
+  <title>Slope</title>
+  <p>Slope (or the steepness) of a line can be thought of as rise over run.  
+    Give, two points on the line, <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> then 
+    slope can be written as: <m>m=\frac{y_2-y_1}{x_2-x_1}</m></p>
+    <note><p>No slope <m>\ne</m> Zero slope <m>\ne</m> Undefined slope.</p>
+      <p>These all represent different things.</p></note> 
+      <p>Every line has a slope, so the term <em>no slope</em> does not make 
+        sense when referring to a line. <em>Zero slope</em> refers to horizontal 
+        lines where <m>y_2=y_1</m> so <m>m=0</m>. <em>Undefined slope</em> 
+        refers to vertical lines where <m>x_2=x_1</m> so <m>m</m> is undefined.</p>
+       <p>Positive slope means that the line increases as <m>x</m> increases or 
+        that the line rises to the right. Negative slope means that the 
+        line decreases as <m>x</m> increases or that the line falls to the right</p>
+        <p>If <m>m_1</m> is the slope of line 1, and <m>m_2</m> is the slope of
+          line 2. Then:
+          <ul>
+            <li><p>line 1 and line 2 are parallel if <m>m_1=m_2</m>.</p></li>
+            <li><p>line 1 and line 2 are perpendicular if <m>m_1=-\frac{1}{m_2}</m>.</p></li>
+          </ul>
+  </p>
+  </subsection>
+  <subsection>
+    <title>Forms of Linear Equations</title>
+    <p>There are three main forms for the equation of a line.</p><p><em>Standard form</em>
+       is <m>Ax+BY=C</m> where <m>A, B</m>, and <m>C</m> are integers and <m>A\gt 0</m>.
+      </p>
+      <p>The point-slope form is useful when you know the slope <m>m</m> and
+      a point, <m>(x_1,y_1)</m>, on the line.  The point-slope form is given as
+    <m>y-y_1=m(x-x1)</m></p>
+    <p>The slope-intercept form is most commonly used to graph a line. For this form,
+      we need the slope <m>m</m> and the y-intercept <m>(0,b)</m>.  The slope-intercept 
+      form is given by <m>y=mx+b</m>.
+    </p>
+    <p>There are also two special cases for lines; horizontal and vertical lines, which
+      correspond to our specific slopes.  For a horizontal line <m>m=0</m> so any form 
+      of the equation can be reduced to <m>y=b</m> where <m>(0,b)</m> is the y-intercept. 
+      For a vertical line, <m>m</m> is undefined. So any form of the equation, can be 
+      reduced to <m>x=a</m> where <m>(a,0)</m> is the x-intercept.
+    </p>
+  </subsection>
+</section>
