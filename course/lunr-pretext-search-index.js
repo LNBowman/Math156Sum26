@@ -100,40 +100,76 @@ var ptx_lunr_docs = [
   "body": " BF-1 Linear and Quadratic Equations   For this outcome we will be looking at one variable equations that are reducible to either a linear or a quadratic form. Specifically, for this outcome, students should be able to:  Determine if an equation is linear or quadratic  If it is a linear equation:  Use correct mathematical structure to write out steps progressing to a solution.  Use algebraic methods to remove grouping symbols and combine like terms.  Simplify algebraic expressions to obtain the solution.    If it is a quadratic equation:  Use correct mathematical structure to write out steps progressing to a solution.  Determine the most appropriate method for solving the quadratic, if a specific method is not requested.  Use algebraic methods to rewrite the quadratic expression (factoring, completing the square or setting up the quadratic formula.  Simplify algebraic expressions to obtain the solution.         Linear Equations  An algebraic equation is a mathematical statement that relates two algebraic expressions involving at lest one variable.  The solution set for an equation is the set of elements in the domain of the variable that make the equation true. (Each element of the solution set is a solution or root)  An equation is called an identity if the equation is true for all elements in the domain of the variable. An equation is called conditional if it is true for certain domain values and false for others. Two equations are equivalent if the solution set is the same for both equations.  Properties of Equality: For any real number a, b and c, we have the following properties  Addition Property:  Subtraction Property:  Multiplication Property:  (We assume that here  Division Property:  (We assume that here  Substitution Property: then either can be used to replace the other in any statement without changing the truth value of the statement.    Any equation that can be written in the form is considered a linear, first-degree equation in one variable.    Videos  Here are the videos for this part of the learning outcome. Feel free to watch these as many times as you need to, to understand the content. You can also pause and rewind as needed.    Absolute Value Equations  The distance on the number line between zero and a number, is the absolute value of x, denoted . Note: Absolute value of a number is never negative, as it represents a distance.  When solving absolute value equations we need to consider when the distance is both positive and negative. So if we had an equation we can rewrite this as two equations, by dropping the absolute value and setting the expression equal to the positive and negative distance.    Videos  Here are the videos for this part of the learning outcome. Feel free to watch these as many times as you need to, to understand the content. You can also pause and rewind as needed.    Quadratic Equations  Quadratic equations can be written as where and are constants and . There are four different methods that can be used to solve a quadratic equation.  Factoring: Here the idea is to move all terms to one side of the equal sign and set the other side equal to . Factoring the terms we want to try and get either or . These two forms will allow us to use the Zero Property of Equality to solve. This property says: If .  Extraction of Roots: This method is most useful if our quadratic is in the form . Here we can take the square root of both sides to \"extract the roots\" from . We can then solve the two resulting linear equations.  Quadratic Formula: Given we can use the formula to find the values. is known as the discriminant which tells the types of solutions you should expect from the equation.  if then there are two distinct real roots.  if then there one real double root.  if then there are two imaginary roots.    Completing the Square: This method is most useful in rewriting the quadratic in vertex form. The idea is to use perfect square trinomial, and the properties of equality to rewrite the quadratic into the form where is the vertex of the quadratic.      Videos  Here are the videos for this part of the learning outcome. Feel free to watch these as many times as you need to, to understand the content. You can also pause and rewind as needed.   "
 },
 {
-  "id": "notes-bf2information",
+  "id": "course-notes-4",
   "level": "1",
-  "url": "notes-bf2information.html",
-  "type": "Section",
+  "url": "course-notes-4.html",
+  "type": "Worksheet",
   "number": "",
   "title": "BF-2 Linear Forms of Lines",
-  "body": " BF-2 Linear Forms of Lines   For this outcome we will be looking at relations in two variables. We will look at how to visualize points, lines, and other curves, and how to identify intercepts. We will look at linear equations in two variables and discuss the different forms that can be used to describe them. We will also look at slope (rate of change) and how that can be used to work with linear equations. Specifically, for this outcome, students should be able to:  For any line be able to write the equation in:  point-slope form.  slope-intercept form.  standard form.    Given a point and a slope:  Write the equation of the line.  Graph the equation of the line.  State the intercepts or other points on the line.    Given two points:  Find the slope of the line between the points.  Find the equation of the line between the points.    Given a line:  Find the equation that is parallel to the given line.  Find the equation that is perpendicular to the given line.         Slope  Slope (or the steepness) of a line can be thought of as rise over run. Give, two points on the line, and then slope can be written as:  No slope Zero slope Undefined slope.  These all represent different things.  Every line has a slope, so the term no slope does not make sense when referring to a line. Zero slope refers to horizontal lines where so . Undefined slope refers to vertical lines where so is undefined.  Positive slope means that the line increases as increases or that the line rises to the right. Negative slope means that the line decreases as increases or that the line falls to the right  If is the slope of line 1, and is the slope of line 2. Then:  line 1 and line 2 are parallel if .  line 1 and line 2 are perpendicular if .      Forms of Linear Equations  There are three main forms for the equation of a line. Standard form is where , and are integers and .  The point-slope form is useful when you know the slope and a point, , on the line. The point-slope form is given as  The slope-intercept form is most commonly used to graph a line. For this form, we need the slope and the y-intercept . The slope-intercept form is given by .  There are also two special cases for lines; horizontal and vertical lines, which correspond to our specific slopes. For a horizontal line so any form of the equation can be reduced to where is the y-intercept. For a vertical line, is undefined. So any form of the equation, can be reduced to where is the x-intercept.   "
-},
-{
-  "id": "notes-bf2information-3-3",
-  "level": "2",
-  "url": "notes-bf2information.html#notes-bf2information-3-3",
-  "type": "Note",
-  "number": "5",
-  "title": "",
-  "body": "No slope Zero slope Undefined slope.  These all represent different things. "
+  "body": " BF-2 Linear Forms of Lines   For this outcome we will be looking at relations in two variables. We will look at how to visualize points, lines, and other curves, and how to identify intercepts. We will look at linear equations in two variables and discuss the different forms that can be used to describe them. We will also look at slope (rate of change) and how that can be used to work with linear equations. Specifically, for this outcome, students should be able to:  For any line be able to write the equation in:  point-slope form.  slope-intercept form.  standard form.    Given a point and a slope:  Write the equation of the line.  Graph the equation of the line.  State the intercepts or other points on the line.    Given two points:  Find the slope of the line between the points.  Find the equation of the line between the points.    Given a line:  Find the equation that is parallel to the given line.  Find the equation that is perpendicular to the given line.        Slope  Slope (or the steepness) of a line can be thought of as rise over run. Give, two points on the line, and then slope can be written as:  Note: No slope Zero slope Undefined slope. These all represent different things.  Every line has a slope, so the term no slope does not make sense when referring to a line. Zero slope refers to horizontal lines where so . Undefined slope refers to vertical lines where so is undefined.  Positive slope means that the line increases as increases or that the line rises to the right. Negative slope means that the line decreases as increases or that the line falls to the right  If is the slope of line 1, and is the slope of line 2. Then:  line 1 and line 2 are parallel if .  line 1 and line 2 are perpendicular if .      Forms of Linear Equations  There are three main forms for the equation of a line. Standard form is where , and are integers and .  The point-slope form is useful when you know the slope and a point, , on the line. The point-slope form is given as  The slope-intercept form is most commonly used to graph a line. For this form, we need the slope and the y-intercept . The slope-intercept form is given by .  There are also two special cases for lines; horizontal and vertical lines, which correspond to our specific slopes. For a horizontal line so any form of the equation can be reduced to where is the y-intercept. For a vertical line, is undefined. So any form of the equation, can be reduced to where is the x-intercept.   "
 },
 {
   "id": "notes-bf3information",
   "level": "1",
   "url": "notes-bf3information.html",
-  "type": "Section",
+  "type": "Worksheet",
   "number": "",
   "title": "BF-3 Difference Quotients and Piecewise Functions",
-  "body": " BF-3 Difference Quotients and Piecewise Functions   For this outcome we will be looking at relations and functions. We will evaluate functions (specifically looking at average rate of change and the difference quotient). We will also look at graphs of basic functions and discuss properties of functions. We will look at how these can be broken up and combined to form piecewise functions. Specifically, for this outcome, students should be able to:  Use and understand function notation.  Find and interpret a function's average rate of change over an interval.  Set up an evaluate various types of difference quotients.  Given a piecewise function:  State the simplified domain in interval notation.  Find the intercepts.  Find and label the boundary points.  Graph the function with correct notation on the boundary points, correct slope, and general behavior of the graph.         Functions  A function is a set of ordered pairs that have the property that no input value has more than one corresponding output value. We denote a function using the name of the function, the domain variable, and the expression. is an example of a function named , with domain variable , defined by the expression  To evaluate a function we can replace the domain variable with the number or expression to be evaluated.    Difference Quotients  The difference quotient is another way to represent an average rate of change. Typically this average rate will be measured over an interval, so given an interval and a function we say that the average rate of change of on is given by . If we don't have the full interval but know the function and the change, , we can write this as .  The difference quotient can be written in various forms but will always be a change in the function value divided by the change in the domain values.    Piecewise Functions  A piecewise function (or piecewise defined function) is a function defined by multiple subfunctions, each applying to a subset of the overall domain.  How to Graph a Piecewise Function  Identify Intervals: Determine the -intervals for each piece.  Graph Each Piece: Sketch each individual formula (e.g., lines, parabolas) only within its specified interval.  Check Boundaries: Use a filled circle for or (included) and an open circle for or (excluded).  Verify Continuity: Note if the graph has breaks (discontinuities) or connects between intervals.     "
+  "body": " BF-3 Difference Quotients and Piecewise Functions   For this outcome we will be looking at relations and functions. We will evaluate functions (specifically looking at average rate of change and the difference quotient). We will also look at graphs of basic functions and discuss properties of functions. We will look at how these can be broken up and combined to form piecewise functions. Specifically, for this outcome, students should be able to:  Use and understand function notation.  Find and interpret a function's average rate of change over an interval.  Set up an evaluate various types of difference quotients.  Given a piecewise function:  State the simplified domain in interval notation.  Find the intercepts.  Find and label the boundary points.  Graph the function with correct notation on the boundary points, correct slope, and general behavior of the graph.        Functions  A function is a set of ordered pairs that have the property that no input value has more than one corresponding output value. We denote a function using the name of the function, the domain variable, and the expression. is an example of a function named , with domain variable , defined by the expression  To evaluate a function we can replace the domain variable with the number or expression to be evaluated.    Difference Quotients  The difference quotient is another way to represent an average rate of change. Typically this average rate will be measured over an interval, so given an interval and a function we say that the average rate of change of on is given by . If we don't have the full interval but know the function and the change, , we can write this as .  The difference quotient can be written in various forms but will always be a change in the function value divided by the change in the domain values.    Piecewise Functions  A piecewise function (or piecewise defined function) is a function defined by multiple subfunctions, each applying to a subset of the overall domain.  How to Graph a Piecewise Function  Identify Intervals: Determine the -intervals for each piece.  Graph Each Piece: Sketch each individual formula (e.g., lines, parabolas) only within its specified interval.  Check Boundaries: Use a filled circle for or (included) and an open circle for or (excluded).  Verify Continuity: Note if the graph has breaks (discontinuities) or connects between intervals.     "
 },
 {
   "id": "notes-bf4information",
   "level": "1",
   "url": "notes-bf4information.html",
-  "type": "Section",
+  "type": "Worksheet",
   "number": "",
   "title": "BF-4 Transformations and Combinations",
-  "body": " BF-4 Transformations and Combinations   For this outcome we will be looking at creating new functions by shifting, reflecting, stretching, or compressing a graph. We will also be combining two or more functions using algebraic operations and the evaluation of functions to create new functions. Specifically, for this outcome, students should be able to:  Given a transformed function, determine the basic function that was transformed.  Given two functions, identify the transformations that will change one function into the other.  Apply transformations in the correct order to move points on a graph.  Given a transformed graph and that of a basic function, determine the equation of the transformed graph.  Given two or more functions, be able to evaluate:  The sum or difference function.  The sum or difference function evaluated at a point.  The product or quotient function.  The product or quotient function evaluated at a point.  The composition function.  The composition function evaluated at a point.  The domain of any combination.         Transformations of Functions     Combinations of Functions     Compositions of Functions    "
+  "body": " BF-4 Transformations and Combinations   For this outcome we will be looking at creating new functions by shifting, reflecting, stretching, or compressing a graph. We will also be combining two or more functions using algebraic operations and the evaluation of functions to create new functions. Specifically, for this outcome, students should be able to:  Given a transformed function, determine the basic function that was transformed.  Given two functions, identify the transformations that will change one function into the other.  Apply transformations in the correct order to move points on a graph.  Given a transformed graph and that of a basic function, determine the equation of the transformed graph.  Given two or more functions, be able to evaluate:  The sum or difference function.  The sum or difference function evaluated at a point.  The product or quotient function.  The product or quotient function evaluated at a point.  The composition function.  The composition function evaluated at a point.  The domain of any combination.        Transformations of Functions     Combinations of Functions     Compositions of Functions    "
+},
+{
+  "id": "notes-gr1information",
+  "level": "1",
+  "url": "notes-gr1information.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Graphing Quadratics and Quadratic Models",
+  "body": " Graphing Quadratics and Quadratic Models   For this outcome Specifically, for this outcome, students should be able to:                 Quadratic Functions     Vertex Form of a Quadratic Function     Graphing Quadratics     Modeling Quadratic Functions    "
+},
+{
+  "id": "notes-gr2information",
+  "level": "1",
+  "url": "notes-gr2information.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Graphing Polynomial Functions",
+  "body": " Graphing Polynomial Functions   For this outcome Specifically, for this outcome, students should be able to:                 Polynomial Functions     End Behavior     Rational Roots Theorem and Synthetic Division     Graphing Polynomial Functions    "
+},
+{
+  "id": "notes-gr3information",
+  "level": "1",
+  "url": "notes-gr3information.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Graphing Rational Functions",
+  "body": " Graphing Rational Functions   For this outcome Specifically, for this outcome, students should be able to:                 Rational Functions     Asymptotes     Graphing Rational Functions    "
+},
+{
+  "id": "notes-gr4information",
+  "level": "1",
+  "url": "notes-gr4information.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Systems of Equations",
+  "body": " Systems of Equations   For this outcome Specifically, for this outcome, students should be able to:                 Systems of Linear Equations     Substitution Method     Elimination Method     Nonlinear Systems    "
+},
+{
+  "id": "notes-gr5information",
+  "level": "1",
+  "url": "notes-gr5information.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Linear Inequalities and Systems",
+  "body": " Linear Inequalities and Systems   For this outcome Specifically, for this outcome, students should be able to:                 Linear Inequalities     Systems of Linear Inequalities    "
 },
 {
   "id": "activity-01-intro-activity",
@@ -154,13 +190,22 @@ var ptx_lunr_docs = [
   "body": "  This is the first exercise.   "
 },
 {
-  "id": "slides-linear_equations",
+  "id": "slides",
   "level": "1",
-  "url": "slides-linear_equations.html",
-  "type": "Section",
+  "url": "slides.html",
+  "type": "Chapter",
   "number": "",
-  "title": "Linear Equations in One Variable",
-  "body": " Linear Equations in One Variable  Linear Equations in One Variable A linear equation in one variable is any equation of the form where and are real numbers, and is an unknown variable.  These types of equations are also called first-degree equations .  Solving Linear Equations To solve linear equations:  Simplify each side of the equation by removing grouping symbols and combining like terms.  Use the Addition Property of Equality to get the variable terms on one side and constants on the other.  Use the Multiplication Property of Equality to isolate the variable.  Check your answer.    The check is not part of the solution so should not be written, however you should always check your answer and make not if the answer does not work (is extraneous).  Solve the following.   Solve the following.   Things to Remember when solving Equations  There should be exactly one equal sign in your equations  Each step of your solution should follow from the previous step  Try to get in the habit of not writing intermediate calculations or things not actually part of the solution.  Steps of your solution should be written in a vertical format  It is okay for variables to cancel out:    "
+  "title": "Lecture Slides",
+  "body": " Lecture Slides   PreTeXt  "
+},
+{
+  "id": "sec-1-1-2-3",
+  "level": "2",
+  "url": "sec-1-1-2.html#sec-1-1-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": ">first-degree equations "
 },
 {
   "id": "homework",
