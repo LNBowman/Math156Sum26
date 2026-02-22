@@ -1,74 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="notes-bf3information">
+<worksheet xml:id="notes-bf3information">
   <title>BF-3 Difference Quotients and Piecewise Functions</title>
-
-  <introduction>
-    <p>
-      For this outcome we will be looking at relations and functions.  
-      We will evaluate functions (specifically looking at average rate 
-      of change and the difference quotient).  We will also look at graphs 
-      of basic functions and discuss properties of functions. We will 
-      look at how these can be broken up and combined to form piecewise 
-      functions. Specifically, for this outcome, students should be able to:
-      <ul>
-        <li><p>Use and understand function notation.</p></li>
-        <li><p>Find and interpret a function's average rate of change over an
-          interval.
-        </p></li>
-        <li><p>Set up an evaluate various types of difference quotients.</p></li>
-        <li><p>Given a piecewise function:
-          <ul>
-            <li><p>State the simplified domain in interval notation.</p></li>
-            <li><p>Find the intercepts.</p></li>
-            <li><p>Find and label the boundary points.</p></li>
-            <li><p>Graph the function with correct notation on the boundary points, 
-              correct slope, and general behavior of the graph. 
-            </p></li>
-          </ul>
-        </p></li>
-      </ul>
-    </p>
-  </introduction>
-
-    <!-- Can also be <handout> instead of <subsection> to get a printable version -->
-  <subsection>
-  <title>Functions</title>
-  <p>A function is a set of ordered pairs that have the property that no input value 
-    has more than one corresponding output value. We denote a function using the name 
-    of the function, the domain variable, and the expression. <m>f(x)=2x+3</m> is an
-    example of a function named <m>f</m>, with domain variable <m>x</m>, defined by the
-    expression <m>2x+3.</m></p>
-  <p>To evaluate a function we can replace the domain variable with the number or 
-    expression to be evaluated.</p>
-  </subsection>
-  <subsection>
-    <title>Difference Quotients</title>
-    <p>The difference quotient is another way to represent an average rate of change.
-      Typically this average rate will be measured over an interval, so given an 
-      interval <m>[a,b]</m> and a function <m>f(x)</m> we say that the average rate
-      of change of <m>f</m> on <m>[a,b]</m> is given by <m>ARC=\frac{f(b)-f(a)}{b-a}</m>.
-      If we don't have the full interval but know the function and the change, <m>h</m>,
-       we can write this as <m>ARC=\frac{f(x+h)-f(x)}{h}</m>.</p>
-    <p>The difference quotient can be written in various forms but will always be a change 
-      in the function value divided by the change in the domain values.
-    </p>
-  </subsection>
-  <subsection>
-    <title>Piecewise Functions</title>
-    <p>A piecewise function (or piecewise defined function) is a function defined by 
-      multiple subfunctions, each applying to a subset of the overall domain. </p>
-      <p>How to Graph a Piecewise Function
-        <ol>
-          <li><p>Identify Intervals: Determine the <m>x</m>-intervals for each piece.</p></li>
-          <li><p>Graph Each Piece: Sketch each individual formula (e.g., lines, 
-            parabolas) only within its specified interval.</p></li>
-          <li><p>Check Boundaries: Use a filled circle <m>\bullet</m> for <m>\le</m> or 
-            <m>\ge</m> (included) and an open circle <m>\circ</m> for <m>\lt</m> or
-            <m>\gt</m> (excluded).</p></li>
-          <li><p>Verify Continuity: Note if the graph has breaks (discontinuities) 
-            or connects between intervals.</p></li>
-        </ol>
+    <introduction>
+      <p>
+        For this outcome we will be looking at relations and functions.  
+        We will evaluate functions (specifically looking at average rate 
+        of change and the difference quotient).  We will also look at graphs 
+        of basic functions and discuss properties of functions. We will 
+        look at how these can be broken up and combined to form piecewise 
+        functions. Specifically, for this outcome, students should be able to:
+        <ul>
+          <li><p>Use and understand function notation.</p></li>
+          <li><p>Find and interpret a function's average rate of change over an
+            interval.
+          </p></li>
+          <li><p>Set up an evaluate various types of difference quotients.</p></li>
+          <li><p>Given a piecewise function:
+            <ul>
+              <li><p>State the simplified domain in interval notation.</p></li>
+              <li><p>Find the intercepts.</p></li>
+              <li><p>Find and label the boundary points.</p></li>
+              <li><p>Graph the function with correct notation on the boundary points, 
+                correct slope, and general behavior of the graph. 
+              </p></li>
+            </ul>
+          </p></li>
+        </ul>
       </p>
-  </subsection>
-</section>
+    </introduction>
+    <page>
+      <p><alert>Functions</alert></p>
+      <p>A function is a set of ordered pairs that have the property that no input value 
+        has more than one corresponding output value. We denote a function using the name 
+        of the function, the domain variable, and the expression. <m>f(x)=2x+3</m> is an
+        example of a function named <m>f</m>, with domain variable <m>x</m>, defined by the
+        expression <m>2x+3.</m></p>
+      <p>To evaluate a function we can replace the domain variable with the number or 
+        expression to be evaluated.</p>
+    </page>
+    <page>
+      <p><alert>Difference Quotients</alert></p>
+        <p>The difference quotient is another way to represent an average rate of change.
+        Typically this average rate will be measured over an interval, so given an 
+        interval <m>[a,b]</m> and a function <m>f(x)</m> we say that the average rate
+        of change of <m>f</m> on <m>[a,b]</m> is given by <m>ARC=\frac{f(b)-f(a)}{b-a}</m>.
+        If we don't have the full interval but know the function and the change, <m>h</m>,
+        we can write this as <m>ARC=\frac{f(x+h)-f(x)}{h}</m>.</p>
+        <p>The difference quotient can be written in various forms but will always be a change 
+          in the function value divided by the change in the domain values.
+        </p>
+    </page>
+    <page>
+      <p><alert>Piecewise Functions</alert></p>
+      <p>A piecewise function (or piecewise defined function) is a function defined by 
+        multiple subfunctions, each applying to a subset of the overall domain. </p>
+        <p>How to Graph a Piecewise Function
+          <ol>
+            <li><p>Identify Intervals: Determine the <m>x</m>-intervals for each piece.</p></li>
+            <li><p>Graph Each Piece: Sketch each individual formula (e.g., lines, 
+              parabolas) only within its specified interval.</p></li>
+            <li><p>Check Boundaries: Use a filled circle <m>\bullet</m> for <m>\le</m> or 
+              <m>\ge</m> (included) and an open circle <m>\circ</m> for <m>\lt</m> or
+              <m>\gt</m> (excluded).</p></li>
+            <li><p>Verify Continuity: Note if the graph has breaks (discontinuities) 
+              or connects between intervals.</p></li>
+          </ol>
+        </p>
+    </page>
+</worksheet>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="notes-bf1information">
+<worksheet>
   <title>BF-1 Linear and Quadratic Equations</title>
 
   <introduction>
@@ -33,9 +33,9 @@
     </p>
   </introduction>
 
-  <!-- Can also be <handout> instead of <subsection> to get a printable version -->
-  <subsection>
-    <title>Linear Equations </title>
+  <!-- Use <page> in a worksheet to create printable sections. -->
+  <page>
+    <p><alert>Linear Equations</alert></p>
     <p>An algebraic equation is a mathematical statement that relates two algebraic 
       expressions involving at lest one variable.</p>
     <p>The solution set for an equation is the set of elements in the domain of 
@@ -60,11 +60,18 @@
         </p>
         <p>Any equation that can be written in the form  is considered a linear, 
           first-degree equation in one variable.</p>
-  </subsection>
+          </page>
+        <page>
+    <p><alert>Videos</alert></p>
+      <p>Here are the videos for this part of the learning outcome.  Feel free to watch these 
+        as many times as you need to, to understand the content.  You can also 
+        pause and rewind as needed.
+      </p>
+    
+  </page>
 
-
-  <subsection>
-    <title>Absolute Value Equations</title>
+  <page>
+    <p><alert>Absolute Value Equations</alert></p>
     <p>The distance on the number line between zero and a number, <m>x</m> is 
       the absolute value of x, denoted <m>|x|</m>.</p><p> Note: Absolute value of a number
         is never negative, as it represents a distance.</p>
@@ -73,11 +80,17 @@
           <m>|ax+b|=c</m> we can rewrite this as two equations, by dropping the 
           absolute value and setting the expression equal to the positive and negative 
           distance. <me>ax+b=c \text{ and }ax+b=-c</me></p>
-  </subsection>
+  </page>
+ <page>
+    <p><alert>Videos</alert></p>
+      <p>Here are the videos for this part of the learning outcome.  Feel free to watch these 
+        as many times as you need to, to understand the content.  You can also 
+        pause and rewind as needed.
+      </p>
+  </page>
 
-
-  <subsection>
-    <title>Quadratic Equations</title>
+  <page>
+    <p><alert>Quadratic Equations</alert></p>
     <p>Quadratic equations can be written as <m>ax^2+bx+c=0</m> where <m>a, b,</m> 
       and <m>c</m> are constants and <m>a\ne0</m>. There are four different methods
       that can be used to solve a quadratic equation.
@@ -110,5 +123,13 @@
         </p></li>
       </ol>
     </p>
-  </subsection>
-</section>
+  </page>
+  <page>
+    <p><alert>Videos</alert></p>
+      <p>Here are the videos for this part of the learning outcome.  Feel free to watch these 
+        as many times as you need to, to understand the content.  You can also 
+        pause and rewind as needed.
+      </p>
+    
+  </page>
+</worksheet>
