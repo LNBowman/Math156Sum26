@@ -45,6 +45,11 @@
       <xi:include href="./notes/bf2information.ptx"/>
       <xi:include href="./notes/bf3information.ptx"/>
       <xi:include href="./notes/bf4information.ptx"/>
+      <xi:include href="./notes/gr1information.ptx"/>
+      <xi:include href="./notes/gr2information.ptx"/>
+      <xi:include href="./notes/gr3information.ptx"/>
+      <xi:include href="./notes/gr4information.ptx"/>
+      <xi:include href="./notes/gr5information.ptx"/>
       <!-- etc. -->
 
     </chapter>
