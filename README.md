@@ -83,6 +83,7 @@ We have tried to keep the codespace small (so it starts up quickly and doesn't e
     tlmgr install mypackage
     tlmgr path add
     ```
+
     b. If you don't know the name of the package, but know it should contain `mypackage.sty`, then you can search using
 
     ```bash
@@ -97,12 +98,13 @@ By far the largest space-hog in a PreTeXt authoring environment is SageMath, whi
 
 Open the file `.devcontainer/devcontainer.json` and edit the line that contains
 
-```
+``` image
   "image": "pretextbook/pretext:latest",
 ```
+
 (or perhaps instead of `latest`, you have a version number).  Change this to
 
-```
+``` image
   "image": "pretextbook/pretext-full:latest",
 ```
 

@@ -9,7 +9,7 @@
     <title>Precalculus</title>
 
     <subtitle>MATH F156X Summer 2026</subtitle>
-
+    
     <!-- Optional: include frontmatter with author info and date -->
     <xi:include href="./frontmatter.ptx" />
 
