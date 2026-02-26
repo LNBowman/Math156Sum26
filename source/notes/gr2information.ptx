@@ -6,35 +6,86 @@
       <p>
         For this outcome  Specifically, for this outcome, students should be able to:
         <ul>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p>
-            <ul>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-            </ul>
-          </p></li>
+          <li><p>Given a polynomial in standard form, identify the degree and leading 
+            coefficient.</p></li>
+          <li><p>Given a polynomial in factored form, identify the zeros and their 
+            multiplicities.</p></li>
+          <li><p>Given a polynomial, identify the y-intercept.</p></li>
+          <li><p>Given a polynomial in standard form, be able to factor the polynomial 
+            using synthetic division and the Rational Roots Theorem.</p></li>
+          <li><p>Given a polynomial, identify the end behavior.</p></li>
+          <li><p>Given a polynomial, identify the correct behavior of the function at 
+            each zero.</p></li>
+          <li><p>Given a polynomial, be able to sketch the graph of the function.</p></li>
         </ul>
       </p>
     </introduction>
     <page>
       <p><alert>Polynomial Functions</alert></p>
-      <p></p>
+      <p>A <term>polynomial Function</term> is a function of the form <m>f(x) = 
+        c_nx^n + c_{n-1}x^{n-1} + . . . + c_1x + c_0,</m>, where <m>c_i</m> are 
+        constants, <m>n</m> is a non-negative integer and <m>c_n</m> is not zero.</p>
+      <p>A number <m>r</m> is said to be a zero of the function <m>f</m> if <m>f(r) = 0</m>.</p>
+      <p>If a polynomial is given in it's factored form <m>f(x) = a(x - r_1)^{n_1}(x - r_2)^{n_2}
+        ...(x - r_n)^{n_n}</m>, then the zeros of the function are <m>r_1, r_2, ..., r_n</m> and 
+        the multiplicity of each zero is given by the corresponding exponent <m>n_i</m>.</p>
     </page>
     <page>
       <p><alert>End Behavior</alert></p>
-        <p></p>
+        <p>The end behavior of a polynomial function is determined by the leading term 
+          <m>c_nx^n</m>. If <m>n</m> is even, the ends of the graph go in the same 
+          direction (both up or both down). If <m>n</m> is odd, the ends go in opposite 
+          directions (one up and one down). The sign of <m>c_n</m> determines whether 
+          the end as <m>x \to \infty</m> goes up or down. We denote the end behavior of 
+          a polynomial function by writing the behavior of the function, dependent on the 
+          behavior of the domain variable. In other words, as <m>x \to \infty</m>, 
+          <m>f(x) \to \infty</m> and <m>x \to -\infty</m>, 
+          <m>f(x) \to -\infty</m>would describe the end behavior of a 
+          polynomial with a positive leading coefficient and odd degree.</p>
+    </page>
+    <page>
+      <p><alert>Synthetic Division</alert></p>
+      <p>Synthetic division is a method for dividing a polynomial by a linear factor of the form <m>x - r</m>. 
+        It is a shortcut method that allows us to find the quotient and remainder of the division without having to write out the long division process. 
+        The steps for synthetic division are as follows:
+        <ol>
+          <li><p>Write down the coefficients of the polynomial in descending order of degree. If any terms are missing, use a coefficient of zero.</p></li>
+          <li><p>Write down the zero <m>r</m> of the linear factor <m>x - r</m>.</p></li>
+          <li><p>Bring down the leading coefficient to start the synthetic division process.</p></li>
+          <li><p>Multiply the zero <m>r</m> by the value just brought down and write it under the next coefficient.</p></li>
+          <li><p>Add the column and write the result below.</p></li>
+          <li><p>Repeat steps 4 and 5 until you have processed all coefficients.</p></li>
+        </ol>
+        The final row of numbers will give you the coefficients of the quotient polynomial, and the last number will be the remainder. If the 
+        remainder is zero, then <m>x - r</m> is a factor of the original polynomial.
+      </p>
     </page>
     <page>
       <p><alert>Rational Roots Theorem and Synthetic Division</alert></p>
-      <p></p>
+      <p>The Rational Roots Theorem states that if a polynomial has integer 
+        coefficients, then any rational root of the polynomial must be of 
+        the form <m>\frac{p}{q}</m>, where <m>p</m> is a factor of the constant 
+        term and <m>q</m> is a factor of the leading coefficient. This theorem 
+        helps us to find all possible rational roots of a polynomial, which we 
+        can then test using synthetic division.</p>
+    </page>
+    <page>
+      <p><alert>Multiplicity of Zeros</alert></p>
+      <p>The multiplicity of a zero refers to the number of times that 
+        zero appears as a root of the polynomial. If a zero has multiplicity <m>k</m>, 
+        then the graph of the polynomial will touch the x-axis at that zero and 
+        will either bounce off the x-axis (if <m>k</m> is even) or cross the x-axis 
+        (if <m>k</m> is odd).</p>
     </page>
     <page>
       <p><alert>Graphing Polynomial Functions</alert></p>
-      <p></p>
+      <p>When graphing polynomial functions, it is important to consider the following:
+        <ul>
+          <li><p>The end behavior of the function</p></li>
+          <li><p>The zeros of the function and their multiplicities</p></li>
+          <li><p>The y-intercept of the function</p></li>
+        </ul>
+      </p>
     </page>
   
 </worksheet>

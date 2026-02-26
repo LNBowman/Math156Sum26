@@ -6,35 +6,63 @@
       <p>
         For this outcome  Specifically, for this outcome, students should be able to:
         <ul>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p>
-            <ul>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-            </ul>
-          </p></li>
+          <li><p>Find the intercepts of a quadratic function.</p></li>
+          <li><p>Find the vertex of a quadratic function.</p></li>
+          <li><p>Find the axis of symmetry of a quadratic function.</p></li>
+          <li>Rewrite a quadratic function in vertex form.</li>
+          <li><p>Use a quadratic function to model real-world situations.</p></li>
         </ul>
       </p>
     </introduction>
     <page>
       <p><alert>Quadratic Functions</alert></p>
-      <p></p>
-    </page>
-    <page>
+      <p>A <term>quadratic function</term> is a function of the 
+        form <m>f(x) = ax^2 + bx + c</m>, where <m>a</m>, <m>b</m>, 
+        and <m>c</m> are constants and <m>a \ne 0</m>.</p>
       <p><alert>Vertex Form of a Quadratic Function</alert></p>
-        <p></p>
+        <p>The vertex form of a quadratic function is given by 
+          <m>f(x) = a(x - h)^2 + k</m>, where <m>(h, k)</m> is the 
+          vertex of the parabola.</p>
+        <p>One can convert a quadratic function from standard form 
+          to vertex form by completing the square. To complete the square, we 
+          first need to factor out the coefficient of <m>x^2</m> from the first 
+          two terms of the function. We then take the coefficient of <m>x</m>, 
+          divide it by 2, and square it. We then add and subtract this value 
+          inside the function. The last step is to factor the perfect square trinomial.</p>  
+        <p>The vertex of a parabola can also be found using the formula 
+          <m>(h, k) = \left(-\frac{b}{2a}, f\left(-\frac{b}{2a}\right)\right)</m>.</p>
     </page>
     <page>
       <p><alert>Graphing Quadratics</alert></p>
-      <p></p>
+      <p>To graph a quadratic function, we can use the vertex form of the function. 
+        The vertex of the parabola is given by <m>(h, k)</m>. The axis of symmetry 
+        is the vertical line <m>x = h</m>. The direction of opening is determined 
+        by the sign of <m>a</m>. If <m>a \gt 0</m>, the parabola opens upward; if 
+        <m>a \lt 0</m>, it opens downward.</p>
     </page>
     <page>
       <p><alert>Modeling Quadratic Functions</alert></p>
-      <p></p>
+      <p>Modeling quadratic functions involves using quadratic equations to 
+        represent real-world situations. For example, the height of a projectile 
+        over time can be modeled by a quadratic function. The vertex of the parabola 
+        represents the maximum or minimum value of the function, depending on whether 
+        the parabola opens upward or downward.</p>
+        <p>To model a situation with a quadratic function, we need to identify 
+          the key features of the situation, such as the vertex, axis of symmetry, 
+          and direction of opening. We can then use these features to write the equation 
+          of the quadratic function that models the situation.</p>
+        <p>Strategy for solving word problems:
+            <ol>
+              <li><p>Read and re-read the problem carefully.</p></li>
+              <li><p>Identify what is being asked and what information is given.</p></li>
+              <li><p>Define variables to represent the unknown quantities.</p></li>
+              <li><p>Draw a diagram or use a table to organize the information.</p></li>
+              <li><p>Determine if there is a formula that relates the known and unknown quantities.</p></li>
+              <li><p>Form an equation based on the information and the formula.</p></li>
+              <li><p>Solve the equation.</p></li>
+              <li><p>Check the solution and interpret it in the context of the problem.</p></li>
+            </ol>
+          </p>
     </page>
   
 </worksheet>

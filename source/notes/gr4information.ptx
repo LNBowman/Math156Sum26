@@ -6,27 +6,31 @@
       <p>
         For this outcome  Specifically, for this outcome, students should be able to:
         <ul>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p>
-            <ul>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-            </ul>
-          </p></li>
+          <li><p>Solve a two-variable linear system using substitution and elimination methods.</p></li>
+          <li><p>Solve a three-variable linear system using elimination methods.</p></li>
+          <li><p>Identify when a system has no solution or infinitely many solutions.</p></li>
+          <li><p>Solve a nonlinear system of equations.</p></li>
+          <li><p>Model real-world problems using systems of equations.</p></li>
         </ul>
       </p>
     </introduction>
     <page>
       <p><alert>Systems of Linear Equations</alert></p>
-      <p></p>
+      <p>A system of linear equations is a set of two or more linear equations 
+        that are solved simultaneously.The solution to a system of linear equations
+         is the set of values that satisfy all equations in the system and are denoted 
+         by an ordered pair (x, y) for a two-variable system or an ordered triple 
+         (x, y, z) for a three-variable system.</p>
+         <p>A system of linear equations is consistent if it has at least one solution. 
+           It is inconsistent if it has no solutions. It is dependent if it has infinitely 
+           many solutions.</p>
     </page>
     <page>
       <p><alert>Substitution Method</alert></p>
-        <p></p>
+        <p>To solve a system of linear equations using substitution, solve one 
+          equation for one variable and substitute that expression into the 
+          other equation. Solve for the remaining variable and then back-substitute 
+          to find the value of the first variable.</p>
     </page>
     <page>
       <p><alert>Elimination Method</alert></p>

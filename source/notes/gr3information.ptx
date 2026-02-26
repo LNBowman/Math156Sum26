@@ -6,31 +6,62 @@
       <p>
         For this outcome  Specifically, for this outcome, students should be able to:
         <ul>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p>
-            <ul>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-            </ul>
-          </p></li>
+          <li><p>Identify the domain.</p></li>
+          <li><p>Identify the vertical asymptotes.</p></li>
+          <li><p>Identify the horizontal or oblique asymptotes.</p></li>
+          <li><p>Identify the x-intercepts and y-intercept.</p></li>
+          <li><p>Determine the behavior of the function near the asymptotes.</p></li>
+              <li><p>Determine the end behavior of the function.</p></li>
+              <li><p>Sketch the graph of a rational function.</p></li>
+              <li><p>Identify holes (deleted points) in the graph of a rational function.</p></li>
         </ul>
       </p>
     </introduction>
     <page>
       <p><alert>Rational Functions</alert></p>
-      <p></p>
+      <p>A <term>rational function</term> is a function of the form 
+        <m>f(x) = \frac{p(x)}{q(x)}</m>, where <m>p(x)</m> and <m>q(x)</m> 
+        are polynomials and <m>q(x) \ne 0</m>.</p>
     </page>
     <page>
       <p><alert>Asymptotes</alert></p>
-        <p></p>
+        <p>For rational functions, there are three types of asymptotes: Vertical, 
+          Horizontal, and Oblique.</p>
+        <p>
+        <ul>
+            <li><p><term>Vertical asymptotes</term>: These occur at values of <m>x</m> 
+              where the denominator is zero and the numerator is non-zero. The function 
+              cannot cross a vertical asymptote since this is where the function is undefined.</p></li>
+            <li><p><term>Horizontal asymptotes</term>: These occur when the degree of 
+              the numerator is less than or equal to the degree of the denominator. A 
+              function can cross a horizontal asymptote and this tells us the end behavior 
+              of the function. Meaning that as <m>x \to \pm\infty</m>, the function 
+              approaches the horizontal asymptote (the function value approaches <m>y=</m> a number).</p></li>
+            <li><p><term>Oblique asymptotes</term>: These occur when the degree of the 
+              numerator is larger than the degree of the denominator. To find an oblique 
+              asymptote, perform polynomial long division and the quotient (excluding the 
+              remainder) is the oblique asymptote. Like horizontal asymptotes, a function 
+              can cross an oblique asymptote and this tells us the end behavior of the function 
+              (whether the function value approaches <m>\pm\infty</m>).</p></li>
+          </ul>
+        </p>
     </page>
     <page>
       <p><alert>Graphing Rational Functions</alert></p>
-      <p></p>
+      <p>When graphing a rational function, follow these steps:
+        <ol>
+          <li><p>Identify the domain of the function.</p></li>
+          <li><p>Factor the numerator and denominator to identify
+             any holes in the graph (values of <m>x</m> where both 
+             the numerator and denominator are zero).</p></li>
+          <li><p>Find and plot any vertical asymptotes.</p></li>
+          <li><p>Find and plot any horizontal or oblique asymptotes.</p></li>
+          <li><p>Determine the x-intercepts (where the numerator is zero) and y-intercept (where x=0).</p></li>
+          <li><p>Determine the behavior of the function near each vertical asymptote.</p></li>
+          <li><p>Determine the end behavior of the function (as <m>x \to \pm\infty</m>).</p></li>
+          <li><p>Sketch a smooth curve that reflects all of these features.</p></li>
+        </ol>
+      </p>
     </page>
   
 </worksheet>

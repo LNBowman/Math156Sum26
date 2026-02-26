@@ -40,16 +40,37 @@
           
         </p>
       </introduction>
+      <section xml:id="basics-of-functions">
+        <title>Basics of Functions</title>
+        <xi:include href="./notes/basics_of_functions/bf1information.ptx"/>
+        <xi:include href="./notes/basics_of_functions/bf2information.ptx"/>
+        <xi:include href="./notes/basics_of_functions/bf3information.ptx"/>
+        <xi:include href="./notes/basics_of_functions/bf4information.ptx"/>
+      </section>
 
-      <xi:include href="./notes/bf1information.ptx"/>
-      <xi:include href="./notes/bf2information.ptx"/>
-      <xi:include href="./notes/bf3information.ptx"/>
-      <xi:include href="./notes/bf4information.ptx"/>
-      <xi:include href="./notes/gr1information.ptx"/>
-      <xi:include href="./notes/gr2information.ptx"/>
-      <xi:include href="./notes/gr3information.ptx"/>
-      <xi:include href="./notes/gr4information.ptx"/>
-      <xi:include href="./notes/gr5information.ptx"/>
+      <section xml:id="graphing-of-functions">
+        <title>Graphing of Functions</title>
+        <xi:include href="./notes/gr1information.ptx"/>
+        <xi:include href="./notes/gr2information.ptx"/>
+        <xi:include href="./notes/gr3information.ptx"/>
+        <xi:include href="./notes/gr4information.ptx"/>
+        <xi:include href="./notes/gr5information.ptx"/>
+      </section>
+
+      <section xml:id="exponential-and-logarithmic-functions">
+        <title>Exponential and Logarithmic Functions</title>
+        <xi:include href="./notes/el1information.ptx"/>
+        <xi:include href="./notes/el2information.ptx"/>
+        <xi:include href="./notes/el3information.ptx"/>
+      </section>
+
+      <section xml:id="trigonometric-functions">
+        <title>Trigonometric Functions</title>
+        <xi:include href="./notes/tf1information.ptx"/>
+        <xi:include href="./notes/tf2information.ptx"/>
+        <xi:include href="./notes/tf3information.ptx"/>
+        <xi:include href="./notes/tf4information.ptx"/>
+      </section>
       <!-- etc. -->
 
     </chapter>

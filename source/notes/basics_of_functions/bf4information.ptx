@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="notes-bf4information">
+  <title>BF-4 Transformations and Combinations</title>
+      <introduction>
+        <p>
+          For this outcome we will be looking at creating new functions 
+          by shifting, reflecting, stretching, or compressing a graph.  
+          We will also be combining two or more functions using algebraic 
+          operations and the evaluation of functions to create new functions. 
+          Specifically, for this outcome, students should be able to:
+          <ul>
+            <li><p>Given a transformed function, determine the basic function
+              that was transformed.
+            </p></li>
+            <li><p>Given two functions, identify the transformations that will
+              change one function into the other.
+            </p></li>
+            <li><p>Apply transformations in the correct order to move points on
+              a graph.
+            </p></li>
+            <li><p>Given a transformed graph and that of a basic function, determine 
+              the equation of the transformed graph.
+            </p></li>
+            <li><p>Given two or more functions, be able to evaluate:
+              <ul>
+                <li><p>The sum or difference function.</p></li>
+                <li><p>The sum or difference function evaluated at a point.</p></li>
+                <li><p>The product or quotient function.</p></li>
+                <li><p>The product or quotient function evaluated at a point.</p></li>
+                <li><p>The composition function.</p></li>
+                <li><p>The composition function evaluated at a point.</p></li>
+                <li><p>The domain of any combination.</p></li>
+              </ul>
+            </p></li>
+          </ul>
+        </p>
+      </introduction>
+    <page>
+      <p><alert>Transformations of Functions</alert></p>
+      <p>There are several transformations that can be applied to a function 
+        to create a new function. These include shifting the graph up or down, 
+        left or right, reflecting the graph across an axis, and stretching or 
+        compressing the graph.</p>
+        <p>Translations will shift a graph up or down or left or right.  
+          Reflections reflect a graph over one of the axes or the origin.  
+          Some transformations can shrink or stretch a graph either vertically or 
+          horizontally.  In each of the following let <m>c \gt 0</m>.
+        </p>
+        <p><em>Note:</em> The order of transformations is important. When 
+          applying multiple transformations, the order in which they are applied 
+          can affect the final result. Generally, it is recommended to apply 
+          transformations in the following order: reflections, stretches/compressions, 
+          and then translations (applying to the horizontal axis first, then the 
+          vertical axis).</p>
+          <p><em>Note:</em> When applying transformations to a graph, it is often helpful 
+            to start with key points on the graph (such as intercepts, vertices, or other 
+            easily identifiable points) and apply the transformations to those points to 
+            understand how the graph changes.</p>
+        <p><ul>
+          <li><p> <m>y = f(x) + c</m>		Shifts the graph up c units</p></li>
+          <li><p> <m>y = f(x) - c</m>		Shifts the graph down c units</p></li>
+          <li><p> <m>y = f(x + c)</m>		Shifts the graph left c units</p></li>
+          <li><p> <m>y = f(x - c)</m>		Shifts the graph right c units</p></li>
+          <li><p> <m>y = -f(x)</m>		Reflects the graph about the x-axis</p></li>
+          <li><p> <m>y = f(-x)</m>		Reflects the graph about the y-axis</p></li>
+          <li><p> <m>y = cf(x), c \gt 1</m>		Stretches the graph vertically by a 
+            factor of c</p></li>
+          <li><p> <m>y = cf(x), c \lt 1</m>		Shrinks the graph vertically by a 
+            factor of c</p></li>
+        </ul></p>
+    </page>
+    <page>
+      <p><alert>Combinations of Functions</alert></p>
+      <p>Given two functions <m>f(x)</m> and <m>g(x)</m>, we can create new functions 
+        by combining them algebraically:</p>
+      <p><ul>
+        <li><p>Sum: <m>(f + g)(x) = f(x) + g(x)</m></p></li>
+        <li><p>Difference: <m>(f - g)(x) = f(x) - g(x)</m></p></li>
+        <li><p>Product: <m>(fg)(x) = f(x) \cdot g(x)</m></p></li>
+        <li><p>Quotient: <m>\left(\frac{f}{g}\right)(x) = \frac{f(x)}{g(x)}</m>, 
+          where <m>g(x) \ne 0</m></p></li>
+      </ul></p>
+      <p>The domain of the sum, difference, and product functions is the intersection 
+        of the domains of <m>f</m> and <m>g</m>. The domain of the quotient function 
+        is the intersection of the domains of <m>f</m> and <m>g</m>, excluding any 
+        values where <m>g(x) = 0</m>.</p>
+    </page>
+    <page>
+      <p><alert>Compositions of Functions</alert></p>
+      <p>Given two functions <m>f(x)</m> and <m>g(x)</m>, we can create a 
+        new function by composing them:</p>
+      <p><m>(f \circ g)(x) = f(g(x))</m></p>
+      <p>This means that we first evaluate <m>g(x)</m>, and then evaluate 
+        <m>f</m> at the result of <m>g(x)</m>.</p>
+      <p>The domain of the composition function <m>f \circ g</m> is the set of all 
+        values of <m>x</m> such that <m>g(x)</m> is in the domain of <m>f</m>.</p>
+    </page>
+</worksheet>
