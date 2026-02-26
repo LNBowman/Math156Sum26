@@ -40,7 +40,7 @@
           
         </p>
       </introduction>
-      <section xml:id="basics-of-functions">
+      <section xml:id="basics_of_functions">
         <title>Basics of Functions</title>
         <xi:include href="./notes/basics_of_functions/bf1information.ptx"/>
         <xi:include href="./notes/basics_of_functions/bf2information.ptx"/>
@@ -48,28 +48,28 @@
         <xi:include href="./notes/basics_of_functions/bf4information.ptx"/>
       </section>
 
-      <section xml:id="graphing-of-functions">
+      <section xml:id="graphing_of_functions">
         <title>Graphing of Functions</title>
-        <xi:include href="./notes/gr1information.ptx"/>
-        <xi:include href="./notes/gr2information.ptx"/>
-        <xi:include href="./notes/gr3information.ptx"/>
-        <xi:include href="./notes/gr4information.ptx"/>
-        <xi:include href="./notes/gr5information.ptx"/>
+        <xi:include href="./notes/graphs_of_functions/gr1information.ptx"/>
+        <xi:include href="./notes/graphs_of_functions/gr2information.ptx"/>
+        <xi:include href="./notes/graphs_of_functions/gr3information.ptx"/>
+        <xi:include href="./notes/graphs_of_functions/gr4information.ptx"/>
+        <xi:include href="./notes/graphs_of_functions/gr5information.ptx"/>
       </section>
 
-      <section xml:id="exponential-and-logarithmic-functions">
+      <section xml:id="exponential_and_logarithmic_functions">
         <title>Exponential and Logarithmic Functions</title>
-        <xi:include href="./notes/el1information.ptx"/>
-        <xi:include href="./notes/el2information.ptx"/>
-        <xi:include href="./notes/el3information.ptx"/>
+        <xi:include href="./notes/exponential_and_logarithmic_functions/el1information.ptx"/>
+        <xi:include href="./notes/exponential_and_logarithmic_functions/el2information.ptx"/>
+        <xi:include href="./notes/exponential_and_logarithmic_functions/el3information.ptx"/>
       </section>
 
-      <section xml:id="trigonometric-functions">
+      <section xml:id="trigonometric_functions">
         <title>Trigonometric Functions</title>
-        <xi:include href="./notes/tf1information.ptx"/>
-        <xi:include href="./notes/tf2information.ptx"/>
-        <xi:include href="./notes/tf3information.ptx"/>
-        <xi:include href="./notes/tf4information.ptx"/>
+        <xi:include href="./notes/trigonometric_functions/tf1information.ptx"/>
+        <xi:include href="./notes/trigonometric_functions/tf2information.ptx"/>
+        <xi:include href="./notes/trigonometric_functions/tf3information.ptx"/>
+        <xi:include href="./notes/trigonometric_functions/tf4information.ptx"/>
       </section>
       <!-- etc. -->
 
