@@ -6,27 +6,38 @@
       <p>
         For this outcome  Specifically, for this outcome, students should be able to:
         <ul>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p>
-            <ul>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-            </ul>
-          </p></li>
+          <li><p>Solve linear inequalities in one variable and graph their solutions.</p></li>
+          <li><p>Solve systems of linear inequalities in two variables and graph their 
+            solutions.</p></li>
+          <li><p>Model real-world problems using linear inequalities and systems of 
+            linear inequalities.</p></li>
+          <li><p>Identify the feasible region in a system of linear inequalities and determine 
+            whether a given point is a solution to the system.</p></li>
         </ul>
       </p>
     </introduction>
     <page>
       <p><alert>Linear Inequalities</alert></p>
-      <p></p>
+      <p>A linear inequality in one variable is an inequality that can 
+        be written in the form $ax + b \lt c$, where $a$, $b$, and $c$ are 
+        real numbers and $a \neq 0$. The solution to a linear inequality is 
+        a set of values that satisfy the inequality. To solve a linear inequality, 
+        isolate the variable on one side of the inequality sign. When multiplying 
+        or dividing both sides of an inequality by a negative number, reverse the 
+        direction of the inequality sign.</p>
     </page>
     <page>
       <p><alert>Systems of Linear Inequalities</alert></p>
-        <p></p>
+        <p>A system of linear inequalities in two variables is a set of two or 
+          more linear inequalities in two variables that are solved simultaneously. 
+          The solution to a system of linear inequalities is the set of all points 
+          that satisfy all inequalities in the system. The solution set is often 
+          represented graphically as a region in the coordinate plane and the corner 
+          points of that region are the vertices of the feasible region.</p>
+          <p>To solve a system of linear inequalities, graph each inequality on 
+            the same coordinate plane. The solution is the intersection of the 
+            regions defined by each inequality. The vertices of the feasible region 
+            are found by solving systems of equations formed by pairs of boundary lines.</p>
     </page>
   
 </worksheet>

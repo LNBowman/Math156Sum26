@@ -6,22 +6,75 @@
       <p>
         For this outcome  Specifically, for this outcome, students should be able to:
         <ul>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p>
-            <ul>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-            </ul>
-          </p></li>
+          <li><p>Given an exponential function, identify its domain, range, and asymptotes.</p></li>
+          <li><p>Given a logarithmic function, identify its domain, range, and asymptotes.</p></li>
+          <li><p>Graph exponential and logarithmic functions.</p></li>
+          <li><p>Use properties of logarithms to simplify expressions.</p></li>
+          <li><p>Given the graph of an exponential function, write the equation of the 
+            function.</p></li>
+          <li><p>Given the graph of a logarithmic function, write the equation of the 
+            function.</p></li>
         </ul>
       </p>
     </introduction>
     <page>
-      <p><alert>Linear Inequalities</alert></p>
+      <p><alert>Exponential Functions</alert></p>
+      <p>An exponential function is a function of the form <m>f(x) = a^x</m>, 
+        where <m>a \gt 0</m> and <m>a \neq 1</m>. The base <m>a</m> is a constant, and the 
+        exponent is the variable <m>x</m>. Exponential functions are used to model 
+        growth and decay.</p>
     </page>
-  
+    <page>
+      <p><alert>Logarithmic Functions</alert></p>
+      <p>A logarithmic function is the inverse of an exponential function. 
+        It is written as <m>f(x) = \log_a(x)</m>, where <m>a \gt 0</m>, <m>a \neq 1</m>, 
+        and <m>x \gt 0</m>. Logarithmic functions are used to solve exponential 
+        equations and model phenomena that grow or decay exponentially.</p>
+    </page>
+    <page>
+      <p><alert>Properties of Exponential and Logarithmic Functions</alert></p>
+      <p>Logarithmic functions are the inverse of exponential functions. 
+        The following properties are important to remember:
+        <ul>
+          <li><p><m>\log_a(a^x) = x</m></p></li>
+          <li><p><m>a^{\log_a(x)} = x</m></p></li>
+          <li><p><m>\log_a(xy) = \log_a(x) + \log_a(y)</m></p></li>
+          <li><p><m>\log_a(\frac{x}{y}) = \log_a(x) - \log_a(y)</m></p></li>
+          <li><p><m>\log_a(x^n) = n \cdot \log_a(x)</m></p></li>
+          <li><p><m>\log_a(1) = 0</m></p></li>
+          <li><p><m>\log_a(a) = 1</m></p></li>
+          <li><p><m>\log x</m> can be written as <m>\log_{10} x</m> and is called the 
+            common logarithm.</p></li>
+          <li><p><m>\ln x</m> can be written as <m>\log_e x</m> and is called the natural 
+            logarithm.</p></li>
+          <li><p>The change of base formula allows you to compute logarithms 
+            with any base using a calculator: <m>\log_a(x) = \frac{\log_b(x)}{\log_b(a)}</m> 
+            for any positive <m>b \neq 1</m>.</p></li>
+        </ul>
+      </p>
+    </page>
+    <page>
+      <p><alert>Graphs of Exponential and Logarithmic Functions</alert></p>
+      <p>To graph an exponential function:
+        <ul>
+          <li><p>The domain is all real numbers.</p></li>
+          <li><p>The range is all real numbers greater than 0.</p></li>
+          <li><p>The x-axis is a horizontal asymptote.</p></li>
+          <li><p>If <m>a \gt 1</m>, the graph rises from left to right and approaches 
+            the x-axis as <m>x</m> approaches negative infinity.</p></li>
+          <li><p>If <m>0 \lt a \lt 1</m>, the graph falls from left to right and approaches 
+            the x-axis as <m>x</m> approaches positive infinity.</p></li>
+          <li><p>The y-intercept is at (0, 1) and there are no x-intercepts.</p></li>
+          <li><p>The graph is continuous and one-to-one.</p></li>   
+        </ul>
+        To graph a logarithmic function:
+        <ul>
+          <li><p>The domain is all real numbers greater than 0.</p></li>
+          <li><p>The range is all real numbers.</p></li>
+          <li><p>The y-axis is a vertical asymptote.</p></li>
+          <li><p>If <m>a \gt 1</m>, the graph rises from left to right and approaches 
+            the y-axis as <m>x</m> approaches 0 from the right.</p></li>
+        </ul>
+      </p>
+    </page>
 </worksheet>

@@ -6,22 +6,45 @@
       <p>
         For this outcome  Specifically, for this outcome, students should be able to:
         <ul>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p>
-            <ul>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-            </ul>
-          </p></li>
+          <li><p>Use given information to setup and solve a compound interest problem.</p></li>
+          <li><p>Use given information to setup and solve a continuous compound interest problem.</p></li>
+          <li><p>Use given information to setup and solve an exponential growth or decay problem.</p></li>
         </ul>
       </p>
     </introduction>
     <page>
-      <p><alert>Linear Inequalities</alert></p>
+      <p><alert>Compound Interest</alert></p>
+      <p>Compound interest is calculated using the formula <m>A = P(1 + r)^t</m>, 
+        where <m>A</m> is the amount of money accumulated after <m>t</m> years, 
+        including interest, <m>P</m> is the principal amount (the initial amount of 
+        money), <m>r</m> is the annual interest rate (in decimal form), and <m>t</m> 
+        is the time the money is invested for in years.</p>
+        <p>On quizzes and assessments, you will be expected to solve these problems 
+          without a calculator, so you should be able to setup and simplify the 
+          expressions to get simplified answers.</p>
+    </page>
+    <page>
+      <p><alert>Continuous Compound Interest</alert></p>
+      <p>Continuous compound interest is calculated using the formula <m>A = Pe^{rt}</m>, 
+        where <m>A</m> is the amount of money accumulated after <m>t</m> years, 
+        including interest, <m>P</m> is the principal amount (the initial amount of 
+        money), <m>r</m> is the annual interest rate (in decimal form), and <m>t</m> 
+        is the time the money is invested for in years.</p>
+        <p>On quizzes and assessments, you will be expected to solve these problems 
+          without a calculator, so you should be able to setup and simplify the 
+          expressions to get simplified answers.</p>
+    </page>
+    <page>
+      <p><alert>Exponential Growth and Decay</alert></p>
+      <p>Exponential growth and decay are modeled by the formula <m>A = A_0 a^{t}</m>, 
+        where <m>A_0</m> is the initial amount, <m>a</m> is the growth or decay 
+        constant, and <m>t</m> is time. If <m>a \gt 1</m>, the function represents 
+        exponential growth; if <m>0 \lt a \lt 1</m>, it represents exponential decay.</p>
+      <p>For any growth or decay model, you should be able to set up the model, solve 
+        for the unknown variable (such as time, rate, or initial amount), and 
+        interpret the results. You will not be allowed to use a calculator on 
+        the quizzes or the assessments,so you should be comfortable with solving 
+        these problems without a calculator, to get simplified expressions.</p>
     </page>
   
 </worksheet>

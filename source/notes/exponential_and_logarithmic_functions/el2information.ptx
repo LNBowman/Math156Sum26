@@ -6,22 +6,49 @@
       <p>
         For this outcome  Specifically, for this outcome, students should be able to:
         <ul>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p>
-            <ul>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-            </ul>
-          </p></li>
+          <li><p>Given an exponential equation where the terms have the same base, 
+            solve for the variable using exponential properties.</p></li>
+          <li><p>Given an exponential equation where the terms do not have the same 
+            base, solve for the variable using logarithms.</p></li>
+          <li><p>Given a logarithmic equation in which all terms are logarithms, 
+            solve for the variable using properties of logarithms.</p></li>
+          <li><p>Given a logarithmic equation in which terms are not all logarithms, 
+            solve for the variable using the exponential-logarithmic equivalence.</p></li>
+          <li><p>Use algebraic techniques to solve other types of exponential and 
+            logarithmic equations.</p></li>
+          <li><p>Check solutions to ensure they are valid within the domain of the original equation.</p></li>
+          <li><p>Recognize and solve equations that are quadratic in form.</p></li>
         </ul>
       </p>
     </introduction>
     <page>
-      <p><alert>Linear Inequalities</alert></p>
+      <p><alert>Exponential Equations where the terms have the same base</alert></p>
+      <p>When solving exponential equations where all terms have the same base, or can 
+        be rewritten to have the same base, we can set the exponents equal to each other. 
+        For example, if we have <m>2^x = 2^3</m>, then <m>x = 3</m>.</p>
+      <p>we can set the exponents equal to each other. For example, if we have 
+        <m>a^x = a^y</m>, then <m>x = y</m>.</p>
     </page>
-  
+    <page>
+      <p><alert>Exponential Equations where the terms have different bases</alert></p>
+      <p>When solving exponential equations where all terms do not have the same base,
+         we can take the logarithm of both sides of the equation. For example, if we 
+         have <m>2^x = 3</m>, we can take the natural logarithm of both sides to get 
+         <m>x \ln(2) = \ln(3)</m>, and then solve for <m>x</m>.</p>
+    </page>
+    <page>
+      <p><alert>Logarithmic Equations with all terms containing logarithms</alert></p>
+      <p>When solving logarithmic equations where all terms contain logarithms, we can
+         use properties of logarithms to combine the logarithmic terms into a single
+         logarithm, and then solve for the variable. For example, if we have
+         <m>\log_a(x) + \log_a(y) = \log_a(z)</m>, we can combine the left-hand side 
+         to get <m>\log_a(xy) = \log_a(z)</m>, and then solve for <m>x</m> by setting 
+         <m>xy = z</m>.</p>
+    </page>
+    <page>
+      <p><alert>Logarithmic Equations where terms are not all logarithms</alert></p>
+      <p>When solving logarithmic equations where terms are not all logarithms, we 
+        can use the exponential-logarithmic equivalence. For example, if we have 
+        <m>\log_a(x) = y</m>, we can rewrite this as <m>x = a^y</m>.</p>
+    </page>
 </worksheet>

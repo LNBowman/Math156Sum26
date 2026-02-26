@@ -30,15 +30,27 @@
         <p>To solve a system of linear equations using substitution, solve one 
           equation for one variable and substitute that expression into the 
           other equation. Solve for the remaining variable and then back-substitute 
-          to find the value of the first variable.</p>
+          to find the value of the first variable. If the system is inconsistent, 
+          no solution exists. If the system is dependent, there are infinitely many 
+          solutions. If there are infinitely many solutions, the solutions are expressed 
+          in terms of a parameter but still written as an ordered pair.</p>
     </page>
     <page>
       <p><alert>Elimination Method</alert></p>
-      <p></p>
+      <p>To solve a system of linear equations using elimination, add or subtract 
+        equations to eliminate one variable. This is done by multiplying one or 
+        both equations by constants so that the coefficients of one variable are 
+        opposites. Then add or subtract the equations to eliminate that variable. 
+        Solve for the remaining variable and back-substitute to find the value of 
+        the eliminated variable.</p>
     </page>
     <page>
       <p><alert>Nonlinear Systems</alert></p>
-      <p></p>
+      <p>A nonlinear system of equations is a system in which at least one equation 
+        is not linear. These systems can be solved using substitution or elimination 
+        methods, but may require more advanced techniques such as factoring or using 
+        the quadratic formula.In nonlinear systems, the number of solutions can vary 
+        depending on the specific equations involved.</p>
     </page>
   
 </worksheet>
