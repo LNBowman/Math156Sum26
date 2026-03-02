@@ -6,22 +6,94 @@
       <p>
         For this outcome  Specifically, for this outcome, students should be able to:
         <ul>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p>
-            <ul>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-            </ul>
-          </p></li>
+          <li><p>Convert between degrees and radians</p></li>
+          <li><p>Evaluate trigonometric functions of special angles (multiples of 30° and 45°)</p></li>
+          <li><p>Evaluate reference angles and coterminal angles.</p></li>
+          <li><p>Evaluate the six trigonometric functions of an angle in a right triangle</p></li>
+          <li><p>Use the triangle and unit circle definitions of the six trigonometric 
+            functions</p></li>
+          <li><p>Given a point in the plane, find the six trigonometric functions of the 
+            angle in standard position.</p></li>
+          <li><p>Given the value of a trigonometric function of an angle, find the other 
+            five trigonometric functions of that angle.</p></li>
+          <li><p>Set up and solve right triangle applications.</p></li>
         </ul>
       </p>
     </introduction>
     <page>
-      <p><alert>Linear Inequalities</alert></p>
+      <p><alert>Angles and their Measures</alert></p>
+      <p>An angle is formed by rotating a ray about its endpoint. The initial side of 
+        an angle is the starting position of the ray, and the terminal side is the 
+        final position of the ray. An angle in standard position has its vertex at the 
+        origin and its initial side along the positive x-axis.</p>
+        <p>There are two common units for measuring angles: degrees and radians. Degrees are 
+          based on dividing a circle into 360 equal parts, while radians are based on the 
+          radius of a circle. One radian is the angle that intercepts an arc equal in length 
+          to the radius of the circle.</p>
+          <p>To convert between degrees and radians, we can use the following formulas:</p>
+          <p>Degrees to Radians: <m>radians = degrees \cdot \frac{\pi}{180}</m></p>
+          <p>Radians to Degrees: <m>degrees = radians \cdot \frac{180}{\pi}</m></p>
+    </page>
+    <page>
+      <p><alert>Right Triangle Trigonometry</alert></p>
+      <p>A right triangle is a triangle with one angle measuring 90 degrees. The side 
+        opposite the right angle is called the hypotenuse, and the other two sides are 
+        called legs. The hypotenuse is always the longest side of a right triangle. The 
+        other angles in a right triangle are acute angles (less than 90 degrees).</p>
+      <p>Right triangle trigonometry involves the relationships between the sides and angles 
+        of a right triangle. The six trigonometric functions are defined in terms of the 
+        sides of a right triangle:</p>
+      <p><ul>
+        <li><m>\sin \theta = \frac{\text{opposite}}{\text{hypotenuse}}</m></li>
+        <li><m>\cos \theta = \frac{\text{adjacent}}{\text{hypotenuse}}</m></li>
+        <li><m>\tan \theta = \frac{\text{opposite}}{\text{adjacent}}</m></li>
+        <li><m>\csc \theta = \frac{\text{hypotenuse}}{\text{opposite}}</m></li>
+        <li><m>\sec \theta = \frac{\text{hypotenuse}}{\text{adjacent}}</m></li>
+        <li><m>\cot \theta = \frac{\text{adjacent}}{\text{opposite}}</m></li>
+      </ul></p>
+      <p>These functions can be used to find missing sides or angles in a right triangle, 
+        as well as to solve real-world problems involving right triangles.</p>
+    </page>
+    <page>
+      <p><alert>Trigonometric Functions of Acute Angles</alert></p>
+      <p>The trigonometric functions of acute angles are defined in terms of the sides 
+        of a right triangle. For an acute angle <m>\theta</m>, the trigonometric 
+        functions are:</p>
+      <p><ul>
+        <li><m>\sin \theta = \frac{\text{opposite}}{\text{hypotenuse}}</m></li>
+        <li><m>\cos \theta = \frac{\text{adjacent}}{\text{hypotenuse}}</m></li>
+        <li><m>\tan \theta = \frac{\text{opposite}}{\text{adjacent}}</m></li>
+        <li><m>\csc \theta = \frac{\text{hypotenuse}}{\text{opposite}}</m></li>
+        <li><m>\sec \theta = \frac{\text{hypotenuse}}{\text{adjacent}}</m></li>
+        <li><m>\cot \theta = \frac{\text{adjacent}}{\text{opposite}}</m></li>
+      </ul></p>
+      <p>For any acute angle <m>\theta</m>, the trigonometric functions are positive. 
+        The signs of the trigonometric functions depend on the quadrant in which the 
+        angle lies. The pythagorean theorem states that for a right triangle with 
+        legs of length <m>a</m> and <m>b</m>, and hypotenuse of length <m>c</m>, 
+        we have <m>a^2 + b^2 = c^2</m>. We can use this theorem to find missing sides 
+        of right triangles. This correlates to our first trigonometric identity which is 
+        <m>\sin^2 \theta + \cos^2 \theta = 1</m>. This will be made more clear in the 
+        next section.</p>
+    </page>
+    <page>
+      <p><alert>Trigonometric Functions of Any Angle</alert></p>
+      <p>For any angle in standard position, we can define the trigonometric functions 
+        using the unit circle. The unit circle is a circle with center at the origin 
+        and radius 1. The point on the unit circle corresponding to an angle <m>\theta</m> 
+        has coordinates <m>(\cos \theta, \sin \theta)</m>. This allows us to define 
+        trigonometric functions for any angle in terms of the coordinates of the point 
+        on the unit circle. The signs of the trigonometric functions depend on the quadrant 
+        in which the angle lies. The circular functions are:
+      <ul>
+        <li><p><m>\sin \theta = y\text{-coordinate of the point on the unit circle}</m></p></li>
+        <li><p><m>\cos \theta = x\text{-coordinate of the point on the unit circle}</m></p></li>
+        <li><p><m>\tan \theta = \frac{y\text{-coordinate}}{x\text{-coordinate}}</m></p></li>
+        <li><p><m>\csc \theta = \frac{1}{y\text{-coordinate}} = \frac{1}{\sin \theta}</m></p></li>
+        <li><p><m>\sec \theta = \frac{1}{x\text{-coordinate}} = \frac{1}{\cos \theta}</m></p></li>
+        <li><p><m>\cot \theta = \frac{1}{\tan \theta} = \frac{x\text{-coordinate}}{y\text{-coordinate}}</m></p></li>
+      </ul>
+    </p>
     </page>
   
 </worksheet>
