@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>BF-4 Transformations and Combinations of Functions</title>
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Once you open the quiz, your timer begins.  I would recommend having an additional timer
+        that goes off about 5 minutes prior, so that you know when to start uploading your work.
+    </p>
+    <p> Write out complete solutions to the following problems.</p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          Given the function <m>f(x)</m>, shown below:
+        </p>
+        <figure>
+          <caption>basic graph</caption>
+          <image source="graphtrans.png"/>
+        </figure>
+        <p>
+          <ol>
+            <li>State the transformations applied to the basic function.</li>
+            <li>Sketch the graph of <m>g(x)=2f(3-x)-4</m>.</li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Given <m>f(x)=2x-3</m> and <m>g(x)=4-x^2</m>, find and simplify the following:
+        <ol>
+          <li><m>(f+g)(3)</m></li>
+          <li><m>(fg)(x)</m></li>
+          <li><m>\left(\frac{g}{f}\right)(-2)</m></li>
+          <li><m>(f\circ g)(x)</m></li>
+        </ol>
+        </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

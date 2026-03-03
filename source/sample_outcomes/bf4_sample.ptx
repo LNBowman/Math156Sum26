@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>BF-4 Transformations and Combinations of Functions</title>
+  <introduction>
+    <p>
+      This outcome covers transformations and combinations of functions. You will be asked to identify basic 
+      functions, and the transformations applied to them. You will be asked to use transformations in the 
+      correct order to find new points or graphs. Given two functions, you will be asked to evaluate the 
+      combinations or the combination at a point. Given two functions, you should be able to evaluate their 
+      composition or the composition at a point. You should be able to write out complete steps to solve these 
+      types of problems by hand, without the use of a calculator.
+    </p>
+    <p>For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples 
+      of the types of problems you will encounter:</p>
+  </introduction>
+  <objectives>
+    <ul>
+      <li><p>Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the 
+        distributive property. Answers should be completely simplified.</p></li>
+      <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
+        that follow progressively from one to the next.</p></li>
+      <li><p>Mathematical Communication: Solutions should be presented in a clear and logical manner, with 
+        appropriate use of mathematical notation and terminology. Equations should have at most one equal 
+        sign and expressions on both sides.</p></li>
+      <li><p>Transformations: Given a function <m>f(x)</m>, identify and apply various transformations to 
+        translate points or a graph.</p></li>
+      <li><p>Combinations: Given two functions <m>f(x)</m> and <m>g(x)</m>, evaluate their sum, difference, 
+        product, and quotient at values or expressions.</p></li>
+    </ul>
+    </objectives>
+
+  
+  <page>
+    <exercise workspace="3cm">
+      <statement>
+        <p>
+          Given the function <m>f(x)=\frac{2}{x+4}-1</m>.
+          <ol>
+            <li>State the basic function.</li>
+            <li>State the transformations applied to the basic function.</li>
+            <li>Determine where the point <m>(2,\frac{1}{2})</m> would be translated to 
+              on <m>f</m> under the transformations.</li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise workspace="3cm">
+      <statement>
+        <p>Given <m>f(x)=\frac{x}{x+1}</m> and <m>g(x)=3x^2+3</m>, find and simplify the following:
+        <ol>
+          <li><m>(f+g)(-4)</m></li>
+          <li><m>(f-g)(x)</m></li>
+          <li><m>\left(\frac{f}{g}\right)(3)</m></li>
+          <li><m>(f\circ g)(x)</m></li>
+        </ol>
+        </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet> 

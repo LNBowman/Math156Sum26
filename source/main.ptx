@@ -92,6 +92,7 @@
       <xi:include href="./sample_outcomes/bf1_sample.ptx"/>
       <xi:include href="./sample_outcomes/bf2_sample.ptx"/>
       <xi:include href="./sample_outcomes/bf3_sample.ptx"/>
+      <xi:include href="./sample_outcomes/bf4_sample.ptx"/>
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
