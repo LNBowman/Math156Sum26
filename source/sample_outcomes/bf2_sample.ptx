@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>BF-2 Forms of Linear Equations</title>
+  <introduction>
+    <p>
+      This outcome covers slope and forms of linear equations.  You will be given 2 problems in this 
+      outcome. Given information about a line, should be able to write the equation in one of the three 
+      forms: slope-intercept, point-slope, or standard form. You should be able to graph the line and 
+      find the intercepts. Given a line and a point, you should be able to find the equation of the 
+      line parallel or perpendicular to it, and write the equation in the appropriate form. You should be able 
+      to write out complete steps to solve these types of problems by hand, without the use of a calculator.
+    </p>
+    <p>For the quiz on this outcome you would be given 20 minutes to complete 2 problems. Here are samples 
+      of the types of problems you will encounter:</p>
+  </introduction>
+  <objectives>
+    <ul>
+      <li><p>Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the 
+        distributive property. Answers should be completely simplified.</p></li>
+        <li><p>Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the 
+          correct intercepts and general behavior.</p></li>
+      <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
+        that follow progressively from one to the next.</p></li>
+      <li><p>Mathematical Communication: Solutions should be presented in a clear and logical manner, with 
+        appropriate use of mathematical notation and terminology. Equations should have at most one equal 
+        sign and expressions on both sides.</p></li>
+      <li><p>Slope: Find the slope of a line given two points or an equation.</p></li>
+      <li><p>Forms of Linear Equations: Write the equation of a line in slope-intercept, point-slope, or 
+        standard form.</p></li>
+      <li><p>Parallel and Perpendicular Lines: Find the correct parallel or perpendicular slope and 
+        use it to write the equation in the appropriate form.</p></li>
+    </ul>
+    </objectives>
+
+  
+  <page>
+    <exercise workspace="3cm">
+      <statement>
+        <p>
+          Find the equation of the line, in slope-intercept form that passes through 
+          the point <m>(5, -3)</m> with slope <m>=\frac{2}{3}</m>. Give a sketch of the 
+          line with labeled intercepts.
+        </p>
+      </statement>
+    </exercise>
+    <exercise workspace="3cm">
+      <statement>
+        <p>Consider the line <m>8x-3y=15</m>. Find the equation of the line 
+          perpendicular to the given line that passes through the point <m>(2, 1)</m>.</p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

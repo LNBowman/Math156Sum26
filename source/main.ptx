@@ -75,22 +75,28 @@
 
     </chapter>
 
-
-    <chapter xml:id="activities">
-      <title>In-Class Activities</title>
+    <chapter xml:id="sample_outcomes">
+      <title>Sample Outcomes</title>
 
       <introduction>
         <p>
-          These are copies of the in-class activities distributed during the semester.
+          Here are samples of the outcomes that you will see on quizzes and 
+          assessments.  These are not meant to be comprehensive, but they 
+          should give you an idea of the types of problems you will encounter 
+          on quizzes and assessments.  You should be able to solve these types 
+          of problems by hand, without the use of a calculator.
         </p>
       </introduction>
 
       <!-- Remove the example and replace with your own activities -->
-      <xi:include href="./activities/01-intro-activity.ptx"/>
+      <xi:include href="./sample_outcomes/bf1_sample.ptx"/>
+      <xi:include href="./sample_outcomes/bf2_sample.ptx"/>
+      <xi:include href="./sample_outcomes/bf3_sample.ptx"/>
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
+    
     <chapter xml:id="slides">
       <title>Lecture Slides</title>
       <!-- Include handouts -->
