@@ -217,22 +217,157 @@ var ptx_lunr_docs = [
   "body": " Trigonometric Functions   Right Triangle Trigonometry   For this outcome Specifically, for this outcome, students should be able to:  Convert between degrees and radians  Evaluate trigonometric functions of special angles (multiples of 30° and 45°)  Evaluate reference angles and coterminal angles.  Evaluate the six trigonometric functions of an angle in a right triangle  Use the triangle and unit circle definitions of the six trigonometric functions  Given a point in the plane, find the six trigonometric functions of the angle in standard position.  Given the value of a trigonometric function of an angle, find the other five trigonometric functions of that angle.  Set up and solve right triangle applications.      Angles and their Measures  An angle is formed by rotating a ray about its endpoint. The initial side of an angle is the starting position of the ray, and the terminal side is the final position of the ray. An angle in standard position has its vertex at the origin and its initial side along the positive x-axis.  There are two common units for measuring angles: degrees and radians. Degrees are based on dividing a circle into 360 equal parts, while radians are based on the radius of a circle. One radian is the angle that intercepts an arc equal in length to the radius of the circle.  To convert between degrees and radians, we can use the following formulas:  Degrees to Radians:  Radians to Degrees:    Right Triangle Trigonometry  A right triangle is a triangle with one angle measuring 90 degrees. The side opposite the right angle is called the hypotenuse, and the other two sides are called legs. The hypotenuse is always the longest side of a right triangle. The other angles in a right triangle are acute angles (less than 90 degrees).  Right triangle trigonometry involves the relationships between the sides and angles of a right triangle. The six trigonometric functions are defined in terms of the sides of a right triangle:          These functions can be used to find missing sides or angles in a right triangle, as well as to solve real-world problems involving right triangles.    Trigonometric Functions of Acute Angles  The trigonometric functions of acute angles are defined in terms of the sides of a right triangle. For an acute angle , the trigonometric functions are:          For any acute angle , the trigonometric functions are positive. The signs of the trigonometric functions depend on the quadrant in which the angle lies. The pythagorean theorem states that for a right triangle with legs of length and , and hypotenuse of length , we have . We can use this theorem to find missing sides of right triangles. This correlates to our first trigonometric identity which is . This will be made more clear in the next section.    Trigonometric Functions of Any Angle  For any angle in standard position, we can define the trigonometric functions using the unit circle. The unit circle is a circle with center at the origin and radius 1. The point on the unit circle corresponding to an angle has coordinates . This allows us to define trigonometric functions for any angle in terms of the coordinates of the point on the unit circle. The signs of the trigonometric functions depend on the quadrant in which the angle lies. The circular functions are:             Graphing Trigonometric Functions   For this outcome Specifically, for this outcome, students should be able to:  Given a trigonometric function, identify its period, domain, amplitude, phase shift, vertical shift, and reflection properties.  Given a trigonometric function, graph it accurately using its period, domain, symmetry properties, and other attributes.  Given a trigonometric function find the key points or asymptotes on the principal period.      Periods, Domains, and Symmetry  Trigonometric functions have specific periods, domains, and symmetry properties that are essential for graphing and analyzing them. We say that a graph is periodic if it repeats itself at regular intervals. The period of a trigonometric function is the length of one complete cycle of the function. Sine and cosine functions have a period of . Secant and cosecant functions have a period of . Tangent and cotangent functions have a period of .  The domain of a trigonometric function is the set of all possible input values (x-values) for which the function is defined. Sine and cosine functions have a domain of all real numbers. Secant and cosecant functions have a domain of all real numbers except where the function is undefined (i.e., where the denominator is zero). Tangent and cotangent functions have a domain of all real numbers except where the function is undefined (i.e., where the denominator is zero).    Graphs of Sine and Cosine  The general form of a sine or cosine function is or , where:  is the amplitude, which determines the height of the wave.  if is negative, the graph is reflected across the x-axis.  affects the period of the function. The period is .  is the phase shift, which moves the graph horizontally.  is the vertical shift, which moves the graph vertically.  The key points of the sine and cosine functions can be found by evaluating the function at specific x-values, such as , , , , and for one period.  Sine is an odd function, meaning it is symmetric about the origin, while Cosine is an even function, meaning it is symmetric about the y-axis.      Graphs of Secant and Cosecant  The general form of a secant or cosecant function is or , where:  is the amplitude, which determines the height of the wave.  if is negative, the graph is reflected across the x-axis.  affects the period of the function. The period is .  is the phase shift, which moves the graph horizontally.  is the vertical shift, which moves the graph vertically.  Secant and cosecant functions have vertical asymptotes where the function is undefined (i.e., where the Sine or Cosine function is zero).  The key points\/asymptotes of the secant and cosecant functions can be found by evaluating the function at specific x-values, such as , , , , and for one period.      Graphs of Tangent and Cotangent  The general form of a tangent or cotangent function is or , where:  is the amplitude, which determines the height of the first and third quartiles of the wave.  if is negative, the graph is reflected across the x-axis.  affects the period of the function. The period is .  is the phase shift, which moves the graph horizontally.  is the vertical shift, which moves the graph vertically.  Tangent and cotangent functions have vertical asymptotes where the function is undefined.  The key points\/asymptotes of the tangent and cotangent functions can be found by evaluating the function at specific x-values, such as , , , , and for one period.      Inverse Trigonometric Functions  For a function to have an inverse, it must be one-to-one. The inverse trigonometric functions are defined by restricting the domains of the original trigonometric functions to make them one-to-one.  The inverse sine function, denoted as or , is the inverse of the sine function restricted to the domain .  The inverse cosine function, denoted as or , is the inverse of the cosine function restricted to the domain .  The inverse tangent function, denoted as or , is the inverse of the tangent function restricted to the domain .    While the original trigonometric functions are periodic, their inverses are not periodic and are defined only on specific intervals. We will use trigonometric inverse functions to solve trigonometric equations and find angles in right triangles.     Solving Trigonometric Equations   For this outcome Specifically, for this outcome, students should be able to:  Solve trigonometric equations using inverse trigonometric functions.  Solve trigonometric equations in a given interval.  Recognize and be able to use Sum and Difference Identities.  Recognize and be able to use Product-to-Sum and Sum-to-Product Identities.  Recognize and be able to use Half-Angle and Double Angle Identities.  Solve trigonometric equations using algebraic techniques.  Solve trigonometric equations using trigonometric identities.      Fundamental Trigonometric Identities  These identities are essential for solving trigonometric equations and simplifying expressions:   Pythagorean Identities: , ,  Reciprocal Identities: , ,  Quotient Identities: ,     Basic Trigonometric equations  Basic trigonometric equations involve solving for an unknown angle in a trigonometric function. For example, solving involves finding all angles where the sine function equals . To do this we first find the principal value using the inverse sine function, then we consider all coterminal angles. If we are solving in a given interval, we only consider the angles within that interval.    Sum and Difference Identities  Sum and Difference Identities allow us to express the sine, cosine, and tangent of a sum or difference of angles in terms of the sine, cosine, and tangent of the individual angles. These identities are useful for solving equations that involve sums or differences of angles. For example, the identity for sine is . By applying these identities, we can rewrite trigonometric equations in a form that is easier to solve.  The sum and difference identities are:          Product-to-Sum and Sum-to-Product Identities  Product-to-Sum and Sum-to-Product Identities allow us to convert products of sine and cosine functions into sums or differences, and vice versa. These identities are useful for solving equations that involve products of trigonometric functions. For example, the product-to-sum identity for sine is . By applying these identities, we can rewrite trigonometric equations in a form that is easier to solve.  The product-to-sum identities are:         Half-Angle and Double Angle Identities  Half-Angle and Double Angle Identities allow us to express the sine, cosine, and tangent of half or double an angle in terms of the sine, cosine, and tangent of the original angle. These identities are useful for solving equations that involve half or double angles. For example, the double angle identity for sine is . By applying these identities, we can rewrite trigonometric equations in a form that is easier to solve.  The half-angle and double angle identities are:            Using Identities to Solve Trigonometric Equations  Trigonometric identities can be used to simplify equations and make them easier to solve. For example, if we have an equation like , we can use the Pythagorean identity to rewrite it as , which is always true. This means that the original equation is satisfied for all values of . In other cases, we may need to use identities to rewrite the equation in a form that allows us to apply inverse trigonometric functions or algebraic techniques, like factoring or substitution.     Law of Sines and Cosines   For this outcome Specifically, for this outcome, students should be able to:  Set up and solve problems involving the Law of Sines and Cosines.  Use the Law of Sines to find missing sides or angles in a triangle.  Use the Law of Cosines to find missing sides or angles in a triangle.  Recognize when to use the Law of Sines versus the Law of Cosines.  Draw and label triangles appropriately for solving problems involving the Law of Sines and Cosines.  Solve triangles using the Law of Sines and Cosines.      Bearings and Navigation  Bearings are a way of describing direction using angles measured clockwise from the north. For example, a bearing of 90 degrees means that the direction is due east, while a bearing of 180 degrees means that the direction is due south. Bearings are commonly used in navigation and can be applied to solve problems involving the Law of Sines and Cosines. In Navigation, we often find the direction of an angle using nautical bearings, which are measured from the north or south. For example, a bearing of means that the direction is 45 degrees east of north, while a bearing of degrees means that the direction is 45 degrees west of south. Bearings can be used to solve problems involving the Law of Sines and Cosines by converting the bearings into angles that can be used in the formulas.    Law of Sines  The Law of Sines states that in any triangle, the ratio of the length of a side to the sine of its opposite angle is constant. Mathematically, it can be expressed as , where , , and are the lengths of the sides of the triangle, and , , and are the measures of the opposite angles. The Law of Sines is particularly useful for solving triangles when we have two angles and one side (AAS or ASA) or two sides and a non-included angle (SSA).  We can also use the Law of Sines to find the area of a triangle using the formula , where and are two sides and is the included angle.    Law of Cosines  The Law of Cosines states that in any triangle, the square of the length of a side is equal to the sum of the squares of the lengths of the other two sides minus twice the product of those sides and the cosine of the included angle. Mathematically, it can be expressed as , where , , and are the lengths of the sides of the triangle, and is the measure of the included angle. The Law of Cosines is particularly useful for solving triangles when we have two sides and the included angle (SAS) or three sides (SSS).  Heron's formula is a method for finding the area of a triangle given the lengths of all three sides. It is expressed as , where is the semi-perimeter of the triangle, and , , and are the lengths of the sides.    "
 },
 {
-  "id": "activity-01-intro-activity",
+  "id": "sample_outcomes-3",
   "level": "1",
-  "url": "activity-01-intro-activity.html",
+  "url": "sample_outcomes-3.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Introduction Activity",
-  "body": " Introduction Activity    This is the introduction to the activity.      This is the first exercise.    "
+  "title": "BF-1 Linear and Quadratic Equations",
+  "body": " BF-1 Linear and Quadratic Equations   This outcome covers solving linear and quadratic equations. You will be given 2-3 problems in this outcome; a linear equation and two quadratic equations. The linear equation will be solved using the standard algebraic techniques, while the quadratic equations will be solved using factoring, the extraction of roots method, completing the square or the quadratic formula. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 30 minutes to complete 3 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Linear Equations: Solve linear equations using algebraic techniques.  Quadratic Equations: Solve quadratic equations using factoring, the extraction of roots method, completing the square or the quadratic formula.       Solve the following equation:       Solve using the extraction of roots method.      Solve using the quadratic formula.     "
 },
 {
-  "id": "activity-01-intro-activity-3",
+  "id": "sample_outcomes-3-3",
   "level": "2",
-  "url": "activity-01-intro-activity.html#activity-01-intro-activity-3",
+  "url": "sample_outcomes-3.html#sample_outcomes-3-3",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Linear Equations: Solve linear equations using algebraic techniques.  Quadratic Equations: Solve quadratic equations using factoring, the extraction of roots method, completing the square or the quadratic formula.   "
+},
+{
+  "id": "sample_outcomes-3-4-1",
+  "level": "2",
+  "url": "sample_outcomes-3.html#sample_outcomes-3-4-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  This is the first exercise.   "
+  "body": "  Solve the following equation:    "
+},
+{
+  "id": "sample_outcomes-3-4-2",
+  "level": "2",
+  "url": "sample_outcomes-3.html#sample_outcomes-3-4-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Solve using the extraction of roots method.   "
+},
+{
+  "id": "sample_outcomes-3-4-3",
+  "level": "2",
+  "url": "sample_outcomes-3.html#sample_outcomes-3-4-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Solve using the quadratic formula.   "
+},
+{
+  "id": "sample_outcomes-4",
+  "level": "1",
+  "url": "sample_outcomes-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "BF-2 Forms of Linear Equations",
+  "body": " BF-2 Forms of Linear Equations   This outcome covers slope and forms of linear equations. You will be given 2 problems in this outcome. Given information about a line, should be able to write the equation in one of the three forms: slope-intercept, point-slope, or standard form. You should be able to graph the line and find the intercepts. Given a line and a point, you should be able to find the equation of the line parallel or perpendicular to it, and write the equation in the appropriate form. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 20 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Slope: Find the slope of a line given two points or an equation.  Forms of Linear Equations: Write the equation of a line in slope-intercept, point-slope, or standard form.  Parallel and Perpendicular Lines: Find the correct parallel or perpendicular slope and use it to write the equation in the appropriate form.       Find the equation of the line, in slope-intercept form that passes through the point with slope . Give a sketch of the line with labeled intercepts.      Consider the line . Find the equation of the line perpendicular to the given line that passes through the point .     "
+},
+{
+  "id": "sample_outcomes-4-3",
+  "level": "2",
+  "url": "sample_outcomes-4.html#sample_outcomes-4-3",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Slope: Find the slope of a line given two points or an equation.  Forms of Linear Equations: Write the equation of a line in slope-intercept, point-slope, or standard form.  Parallel and Perpendicular Lines: Find the correct parallel or perpendicular slope and use it to write the equation in the appropriate form.   "
+},
+{
+  "id": "sample_outcomes-4-4-1",
+  "level": "2",
+  "url": "sample_outcomes-4.html#sample_outcomes-4-4-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Find the equation of the line, in slope-intercept form that passes through the point with slope . Give a sketch of the line with labeled intercepts.   "
+},
+{
+  "id": "sample_outcomes-4-4-2",
+  "level": "2",
+  "url": "sample_outcomes-4.html#sample_outcomes-4-4-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Consider the line . Find the equation of the line perpendicular to the given line that passes through the point .   "
+},
+{
+  "id": "sample_outcomes-5",
+  "level": "1",
+  "url": "sample_outcomes-5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "BF-3 Difference Quotients and Piecewise Functions",
+  "body": " BF-3 Difference Quotients and Piecewise Functions   This outcome covers difference quotients and piecewise functions. Given a function , you should be able to compute a difference quotient, such as: and simplify it. Given a piecewise function, you should be able to find the domain, the boundary points, the intercepts, and sketch the graph. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The curves should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Difference Quotients: Evaluate the functions and simplify difference quotients for various functions.  Piecewise Functions: Evaluate piecewise functions at specific points and graph them. be able to give a simplified domain and state specific points on the graph.       Given the function . Find and simplify the difference quotient .      Graph the function Also state the domain, boundary points and intercepts.     "
+},
+{
+  "id": "sample_outcomes-5-3",
+  "level": "2",
+  "url": "sample_outcomes-5.html#sample_outcomes-5-3",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The curves should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Difference Quotients: Evaluate the functions and simplify difference quotients for various functions.  Piecewise Functions: Evaluate piecewise functions at specific points and graph them. be able to give a simplified domain and state specific points on the graph.   "
+},
+{
+  "id": "sample_outcomes-5-4-1",
+  "level": "2",
+  "url": "sample_outcomes-5.html#sample_outcomes-5-4-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Given the function . Find and simplify the difference quotient .   "
+},
+{
+  "id": "sample_outcomes-5-4-2",
+  "level": "2",
+  "url": "sample_outcomes-5.html#sample_outcomes-5-4-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Graph the function Also state the domain, boundary points and intercepts.   "
+},
+{
+  "id": "sample_outcomes-6",
+  "level": "1",
+  "url": "sample_outcomes-6.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "BF-4 Transformations and Combinations of Functions",
+  "body": " BF-4 Transformations and Combinations of Functions   This outcome covers transformations and combinations of functions. You will be asked to identify basic functions, and the transformations applied to them. You will be asked to use transformations in the correct order to find new points or graphs. Given two functions, you will be asked to evaluate the combinations or the combination at a point. Given two functions, you should be able to evaluate their composition or the composition at a point. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Transformations: Given a function , identify and apply various transformations to translate points or a graph.  Combinations: Given two functions and , evaluate their sum, difference, product, and quotient at values or expressions.       Given the function .  State the basic function.  State the transformations applied to the basic function.  Determine where the point would be translated to on under the transformations.        Given and , find and simplify the following:           "
+},
+{
+  "id": "sample_outcomes-6-3",
+  "level": "2",
+  "url": "sample_outcomes-6.html#sample_outcomes-6-3",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Transformations: Given a function , identify and apply various transformations to translate points or a graph.  Combinations: Given two functions and , evaluate their sum, difference, product, and quotient at values or expressions.   "
+},
+{
+  "id": "sample_outcomes-6-4-1",
+  "level": "2",
+  "url": "sample_outcomes-6.html#sample_outcomes-6-4-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Given the function .  State the basic function.  State the transformations applied to the basic function.  Determine where the point would be translated to on under the transformations.     "
+},
+{
+  "id": "sample_outcomes-6-4-2",
+  "level": "2",
+  "url": "sample_outcomes-6.html#sample_outcomes-6-4-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Given and , find and simplify the following:         "
 },
 {
   "id": "slides",
