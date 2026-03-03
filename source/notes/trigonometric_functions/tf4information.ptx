@@ -6,24 +6,51 @@
       <p>
         For this outcome  Specifically, for this outcome, students should be able to:
         <ul>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p>
-            <ul>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-            </ul>
-          </p></li>
+          <li><p>Set up and solve problems involving the Law of Sines and Cosines.</p></li>
+          <li><p>Use the Law of Sines to find missing sides or angles in a triangle.</p></li>
+          <li><p>Use the Law of Cosines to find missing sides or angles in a triangle.</p></li>
+          <li><p>Recognize when to use the Law of Sines versus the Law of Cosines.</p></li>
+          <li><p>Draw and label triangles appropriately for solving problems involving the Law of Sines 
+            and Cosines.</p></li>
+          <li><p>Solve triangles using the Law of Sines and Cosines.</p></li>
         </ul>
       </p>
     </introduction>
     <page>
+      <p><alert>Bearings and Navigation</alert></p>
+      <p>Bearings are a way of describing direction using angles measured clockwise from the north. 
+        For example, a bearing of 90 degrees means that the direction is due east, while a bearing 
+        of 180 degrees means that the direction is due south. Bearings are commonly used in navigation 
+        and can be applied to solve problems involving the Law of Sines and Cosines. In Navigation, we often
+        find the direction of an angle using nautical bearings, which are measured from the north or south. For 
+        example, a bearing of <m>N45^{\circ}E</m> means that the direction is 45 degrees east of north, while a 
+        bearing of <m>S45^{\circ}W</m> degrees means that the direction is 45 degrees west of south. Bearings 
+        can be used to solve problems involving the Law of Sines and Cosines by converting the bearings into 
+        angles that can be used in the formulas.</p>
+    </page>
+    <page>
       <p><alert>Law of Sines</alert></p>
+      <p>The Law of Sines states that in any triangle, the ratio of the length of a side to the sine of 
+        its opposite angle is constant. 
+        Mathematically, it can be expressed as <m>\frac{a}{\sin(A)} = \frac{b}{\sin(B)} = \frac{c}{\sin(C)}</m>, 
+        where <m>a</m>, <m>b</m>, and <m>c</m> are the lengths of the sides of the triangle, and <m>A</m>, 
+        <m>B</m>, and <m>C</m> are the measures of the opposite angles. 
+        The Law of Sines is particularly useful for solving triangles when we have two angles and one side 
+        (AAS or ASA) or two sides and a non-included angle (SSA).</p>
+        <p>We can also use the Law of Sines to find the area of a triangle using the formula <m>A = \frac{1}{2}ab\sin(C)</m>, 
+          where <m>a</m> and <m>b</m> are two sides and <m>C</m> is the included angle.</p>
     </page>
   <page>
       <p><alert>Law of Cosines</alert></p>
+      <p>The Law of Cosines states that in any triangle, the square of the length of a side is equal to the sum of 
+        the squares of the lengths of the other two sides minus twice the product of those sides and the cosine of 
+        the included angle. 
+        Mathematically, it can be expressed as <m>c^2 = a^2 + b^2 - 2ab\cos(C)</m>, where <m>a</m>, <m>b</m>, and 
+        <m>c</m> are the lengths of the sides of the triangle, and <m>C</m> is the measure of the included angle. 
+        The Law of Cosines is particularly useful for solving triangles when we have two sides and the included 
+        angle (SAS) or three sides (SSS).</p>
+        <p>Heron's formula is a method for finding the area of a triangle given the lengths of all three sides. 
+          It is expressed as <m>A = \sqrt{s(s-a)(s-b)(s-c)}</m>, where <m>s</m> is the semi-perimeter of the triangle, 
+          and <m>a</m>, <m>b</m>, and <m>c</m> are the lengths of the sides.</p>
   </page>
 </worksheet>

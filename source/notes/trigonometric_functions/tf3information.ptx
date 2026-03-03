@@ -6,22 +6,90 @@
       <p>
         For this outcome  Specifically, for this outcome, students should be able to:
         <ul>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p>
-            <ul>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-            </ul>
-          </p></li>
+          <li><p>Solve trigonometric equations using inverse trigonometric functions.</p></li>
+          <li><p>Solve trigonometric equations in a given interval.</p></li>
+          <li><p>Recognize and be able to use Sum and Difference Identities.</p></li>
+          <li><p>Recognize and be able to use Product-to-Sum and Sum-to-Product Identities.</p></li>
+          <li><p>Recognize and be able to use Half-Angle and Double Angle Identities.</p></li>
+          <li><p>Solve trigonometric equations using algebraic techniques.</p></li>
+          <li><p>Solve trigonometric equations using trigonometric identities.</p></li>
         </ul>
       </p>
     </introduction>
     <page>
-      <p><alert>Linear Inequalities</alert></p>
+      <p><alert>Fundamental Trigonometric Identities</alert></p>
+      <p>These identities are essential for solving trigonometric equations and simplifying expressions:</p>
+      <p><ul>
+        <li><p>Pythagorean Identities: <m>\sin^2(x) + \cos^2(x) = 1</m>, <m>\tan^2(x) + 1 = \sec^2(x)</m>, <m>1 + \cot^2(x) = \csc^2(x)</m></p></li>
+        <li><p>Reciprocal Identities: <m>\csc(x) = \frac{1}{\sin(x)}</m>, <m>\sec(x) = \frac{1}{\cos(x)}</m>, <m>\cot(x) = \frac{1}{\tan(x)}</m></p></li>
+        <li><p>Quotient Identities: <m>\tan(x) = \frac{\sin(x)}{\cos(x)}</m>, <m>\cot(x) = \frac{\cos(x)}{\sin(x)}</m></p></li>
+      </ul></p>
     </page>
-  
+    <page>
+      <p><alert>Basic Trigonometric equations</alert></p>
+      <p>Basic trigonometric equations involve solving for an unknown angle in a trigonometric 
+        function. For example, solving <m>\sin(x) = \frac{1}{2}</m> involves finding all angles 
+        <m>x</m> where the sine function equals <m>\frac{1}{2}</m>. To do this we first find the 
+        principal value using the inverse sine function, then we consider all coterminal angles. If 
+        we are solving in a given interval, we only consider the angles within that interval.</p>
+    </page>
+    <page>
+      <p><alert>Sum and Difference Identities</alert></p>
+      <p>Sum and Difference Identities allow us to express the sine, cosine, and tangent of 
+        a sum or difference of angles in terms of the sine, cosine, and tangent of the individual 
+        angles. These identities are useful for solving equations that involve sums or differences 
+        of angles. For example, the identity for sine is <m>\sin(a \pm b) = \sin(a)\cos(b) \pm \cos(a)\sin(b)</m>. 
+        By applying these identities, we can rewrite trigonometric equations in a form that is easier to solve.</p>
+        <p>The sum and difference identities are:
+        <ul>
+          <li><p><m>\sin(a + b) = \sin(a)\cos(b) + \cos(a)\sin(b)</m></p></li>
+          <li><p><m>\sin(a - b) = \sin(a)\cos(b) - \cos(a)\sin(b)</m></p></li>
+          <li><p><m>\cos(a + b) = \cos(a)\cos(b) - \sin(a)\sin(b)</m></p></li>
+          <li><p><m>\cos(a - b) = \cos(a)\cos(b) + \sin(a)\sin(b)</m></p></li>
+        </ul>
+        </p>
+    </page>
+    <page>
+      <p><alert>Product-to-Sum and Sum-to-Product Identities</alert></p>
+      <p>Product-to-Sum and Sum-to-Product Identities allow us to convert products of sine 
+        and cosine functions into sums or differences, and vice versa. These identities are useful for 
+        solving equations that involve products of trigonometric functions. For example, the product-to-sum 
+        identity for sine is <m>\sin(a)\sin(b) = \frac{1}{2}[\cos(a - b) - \cos(a + b)]</m>. By applying these 
+        identities, we can rewrite trigonometric equations in a form that is easier to solve.</p>
+        <p>The product-to-sum identities are:
+        <ul>
+          <li><p><m>\sin(a)\sin(b) = \frac{1}{2}[\cos(a - b) - \cos(a + b)]</m></p></li>
+          <li><p><m>\cos(a)\cos(b) = \frac{1}{2}[\cos(a + b) + \cos(a - b)]</m></p></li>
+          <li><p><m>\sin(a)\cos(b) = \frac{1}{2}[\sin(a + b) + \sin(a - b)]</m></p></li>
+        </ul>
+        </p>
+    </page>
+    <page>
+      <p><alert>Half-Angle and Double Angle Identities</alert></p>
+      <p>Half-Angle and Double Angle Identities allow us to express the sine, cosine, and tangent of 
+        half or double an angle in terms of the sine, cosine, and tangent of the original angle. These identities 
+        are useful for solving equations that involve half or double angles. For example, the double angle identity for 
+        sine is <m>\sin(2a) = 2\sin(a)\cos(a)</m>. By applying these identities, we can rewrite trigonometric 
+        equations in a form that is easier to solve.</p>
+        <p>The half-angle and double angle identities are:
+        <ul>
+          <li><p><m>\sin(2a) = 2\sin(a)\cos(a)</m></p></li>
+          <li><p><m>\cos(2a) = \cos^2(a) - \sin^2(a) = 2\cos^2(a) - 1 = 1 - 2\sin^2(a)</m></p></li>
+          <li><p><m>\tan(2a) = \frac{2\tan(a)}{1 - \tan^2(a)}</m></p></li>
+          <li><p><m>\sin\left(\frac{a}{2}\right) = \pm\sqrt{\frac{1 - \cos(a)}{2}}</m></p></li>
+          <li><p><m>\cos\left(\frac{a}{2}\right) = \pm\sqrt{\frac{1 + \cos(a)}{2}}</m></p></li>
+          <li><p><m>\tan\left(\frac{a}{2}\right) = \pm\sqrt{\frac{1 - \cos(a)}{1 + \cos(a)}} = 
+            \frac{\sin(a)}{1 + \cos(a)} = \frac{1 - \cos(a)}{\sin(a)}</m></p></li>
+        </ul>
+        </p>
+    </page>
+    <page>
+    <p><alert>Using Identities to Solve Trigonometric Equations</alert></p>
+    <p>Trigonometric identities can be used to simplify equations and make them easier to solve. For example, 
+      if we have an equation like <m>\sin^2(x) + \cos^2(x) = 1</m>, we can use the Pythagorean identity to 
+      rewrite it as <m>1 = 1</m>, which is always true. This means that the original equation is satisfied 
+      for all values of <m>x</m>. In other cases, we may need to use identities to rewrite the equation in a 
+      form that allows us to apply inverse trigonometric functions or algebraic techniques, like factoring or 
+      substitution.</p>
+    </page>
 </worksheet>

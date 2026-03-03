@@ -6,22 +6,96 @@
       <p>
         For this outcome  Specifically, for this outcome, students should be able to:
         <ul>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p></p></li>
-          <li><p>
-            <ul>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-              <li><p></p></li>
-            </ul>
-          </p></li>
+          <li><p>Given a trigonometric function, identify its period, domain, amplitude, 
+            phase shift, vertical shift, and reflection properties.</p></li>
+          <li><p>Given a trigonometric function, graph it accurately using its period, 
+            domain, symmetry properties, and other attributes.</p></li>
+          <li><p>Given a trigonometric function find the key points or asymptotes on the principal period.</p></li>
         </ul>
       </p>
     </introduction>
     <page>
-      <p><alert>Linear Inequalities</alert></p>
+      <p><alert>Periods, Domains, and Symmetry</alert></p>
+      <p>Trigonometric functions have specific periods, domains, and symmetry properties 
+        that are essential for graphing and analyzing them. We say that a graph is periodic 
+        if it repeats itself at regular intervals. The period of a trigonometric function is 
+        the length of one complete cycle of the function. Sine and cosine functions have a 
+        period of <m>2\pi</m>. Secant and cosecant functions have a period of <m>2\pi</m>. Tangent 
+        and cotangent functions have a period of <m>\pi</m>.</p>
+        <p>The domain of a trigonometric function is the set of all possible input values 
+          (x-values) for which the function is defined.  Sine and cosine functions have a 
+          domain of all real numbers. Secant and cosecant functions have a domain of all real 
+          numbers except where the function is undefined (i.e., where the denominator is zero). 
+          Tangent and cotangent functions have a domain of all real numbers except where the 
+          function is undefined (i.e., where the denominator is zero).</p>
     </page>
-  
+     <page>
+      <p><alert>Graphs of Sine and Cosine</alert></p>
+      <p>The general form of a sine or cosine function is <m>y = A \sin(B(x - C)) + D</m> or 
+        <m>y = A \cos(B(x - C)) + D</m>, where:
+        <ul>
+          <li><m>A</m> is the amplitude, which determines the height of the wave.</li>
+          <li>if <m>A</m> is negative, the graph is reflected across the x-axis.</li>
+          <li><m>B</m> affects the period of the function. The period is <m>\frac{2\pi}{|B|}</m>.</li>
+          <li><m>C</m> is the phase shift, which moves the graph horizontally.</li>
+          <li><m>D</m> is the vertical shift, which moves the graph vertically.</li>
+          <li>The key points of the sine and cosine functions can be found by evaluating the function 
+            at specific x-values, such as <m>0</m>, <m>\frac{\pi}{2}</m>, <m>\pi</m>, <m>\frac{3\pi}{2}</m>, 
+            and <m>2\pi</m> for one period.</li>
+            <li>Sine is an odd function, meaning it is symmetric about the origin, while Cosine is an even function, 
+              meaning it is symmetric about the y-axis.</li>
+        </ul>
+      </p>
+    </page>
+     <page>
+      <p><alert>Graphs of Secant and Cosecant</alert></p>
+      <p>The general form of a secant or cosecant function is <m>y = A \sec(B(x - C)) + D</m> or <m>y = A \csc(B(x - C)) + D</m>, where:
+        <ul>
+          <li><m>A</m> is the amplitude, which determines the height of the wave.</li>
+          <li>if <m>A</m> is negative, the graph is reflected across the x-axis.</li>
+          <li><m>B</m> affects the period of the function. The period is <m>\frac{2\pi}{|B|}</m>.</li>
+          <li><m>C</m> is the phase shift, which moves the graph horizontally.</li>
+          <li><m>D</m> is the vertical shift, which moves the graph vertically.</li>
+          <li>Secant and cosecant functions have vertical asymptotes where the function is 
+            undefined (i.e., where the Sine or Cosine function is zero).</li>
+          <li>The key points/asymptotes of the secant and cosecant functions can be found by evaluating the function 
+            at specific x-values, such as <m>0</m>, <m>\frac{\pi}{2}</m>, <m>\pi</m>, <m>\frac{3\pi}{2}</m>, 
+            and <m>2\pi</m> for one period.</li>
+        </ul>
+      </p>
+    </page>
+     <page>
+      <p><alert>Graphs of Tangent and Cotangent</alert></p>
+      <p>The general form of a tangent or cotangent function is <m>y = A \tan(B(x - C)) + D</m> or <m>y = A \cot(B(x - C)) + D</m>, where:
+        <ul>
+          <li><m>A</m> is the amplitude, which determines the height of the first and third quartiles of the wave.</li>
+          <li>if <m>A</m> is negative, the graph is reflected across the x-axis.</li>
+          <li><m>B</m> affects the period of the function. The period is <m>\frac{\pi}{|B|}</m>.</li>
+          <li><m>C</m> is the phase shift, which moves the graph horizontally.</li>
+          <li><m>D</m> is the vertical shift, which moves the graph vertically.</li>
+          <li>Tangent and cotangent functions have vertical asymptotes where the function is 
+            undefined.</li>
+          <li>The key points/asymptotes of the tangent and cotangent functions can be found by evaluating the function 
+            at specific x-values, such as <m>0</m>, <m>\frac{\pi}{4}</m>, <m>\frac{\pi}{2}</m>, <m>\frac{3\pi}{4}</m>, 
+            and <m>\pi</m> for one period.</li>
+        </ul>
+      </p>
+    </page>
+    <page>
+      <p><alert>Inverse Trigonometric Functions</alert></p>
+      <p>For a function to have an inverse, it must be one-to-one. The inverse trigonometric functions are defined 
+        by restricting the domains of the original trigonometric functions to make them one-to-one.
+        <ul>
+          <li>The inverse sine function, denoted as <m>\sin^{-1}(x)</m> or <m>\arcsin(x)</m>, is the inverse of 
+            the sine function restricted to the domain <m>\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]</m>.</li>
+          <li>The inverse cosine function, denoted as <m>\cos^{-1}(x)</m> or <m>\arccos(x)</m>, is the inverse of 
+            the cosine function restricted to the domain <m>[0, \pi]</m>.</li>
+          <li>The inverse tangent function, denoted as <m>\tan^{-1}(x)</m> or <m>\arctan(x)</m>, is the inverse of 
+            the tangent function restricted to the domain <m>\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)</m>.</li>
+        </ul>
+      </p>
+      <p>While the original trigonometric functions are periodic, their inverses are not periodic and are defined 
+        only on specific intervals. We will use trigonometric inverse functions to solve trigonometric equations and find 
+        angles in right triangles.</p>
+    </page>
 </worksheet>
