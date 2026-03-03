@@ -370,6 +370,78 @@ var ptx_lunr_docs = [
   "body": "  Given and , find and simplify the following:         "
 },
 {
+  "id": "sample_outcomes-7",
+  "level": "1",
+  "url": "sample_outcomes-7.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "GR-1 Quadratic Functions and Models",
+  "body": " GR-1 Quadratic Functions and Models   This outcome covers quadratic functions and models. You should be able to rewrite quadratic functions in vertex form. Be able to find the domain, range, and intercepts of the function. You should also be able to graph quadratic functions. Here you will also be asked to setup and solve real-world problems using quadratic models. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Vertex Form: Rewrite quadratic functions in vertex form using the method of completing the square.  Intercepts: Find the x-intercepts and y-intercept of a quadratic function.  Range: Find the range of a quadratic function.  Graphing: Graph quadratic functions with appropriate scales and labels, showing the correct intercepts and general behavior.  Quadratic Models: Set up and solve real-world problems using quadratic models, including defining variables, writing the model, finding the practical domain, and solving for the desired quantity.       Given the function .  Write the function in vertex form.  State the intercepts.  State the range.  Graph f(x).        A local theatre group is selling tickets for a play to raise money for new equipment. They find that if they charge $10 per ticket, they will sell 200 tickets. For every $1 increase in price, they will sell 10 fewer tickets. What price should they charge and how many tickets should they sell to maximize their revenue?  Define the variable for your function.  Set up the quadratic model.  State the practical domain.  Find the price and number of tickets that maximize the revenue.       "
+},
+{
+  "id": "sample_outcomes-7-3",
+  "level": "2",
+  "url": "sample_outcomes-7.html#sample_outcomes-7-3",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Vertex Form: Rewrite quadratic functions in vertex form using the method of completing the square.  Intercepts: Find the x-intercepts and y-intercept of a quadratic function.  Range: Find the range of a quadratic function.  Graphing: Graph quadratic functions with appropriate scales and labels, showing the correct intercepts and general behavior.  Quadratic Models: Set up and solve real-world problems using quadratic models, including defining variables, writing the model, finding the practical domain, and solving for the desired quantity.   "
+},
+{
+  "id": "sample_outcomes-7-4-1",
+  "level": "2",
+  "url": "sample_outcomes-7.html#sample_outcomes-7-4-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Given the function .  Write the function in vertex form.  State the intercepts.  State the range.  Graph f(x).     "
+},
+{
+  "id": "sample_outcomes-7-4-2",
+  "level": "2",
+  "url": "sample_outcomes-7.html#sample_outcomes-7-4-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  A local theatre group is selling tickets for a play to raise money for new equipment. They find that if they charge $10 per ticket, they will sell 200 tickets. For every $1 increase in price, they will sell 10 fewer tickets. What price should they charge and how many tickets should they sell to maximize their revenue?  Define the variable for your function.  Set up the quadratic model.  State the practical domain.  Find the price and number of tickets that maximize the revenue.     "
+},
+{
+  "id": "sample_outcomes-8",
+  "level": "1",
+  "url": "sample_outcomes-8.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "GR-2 Polynomial Functions",
+  "body": " GR-2 Polynomial Functions   This outcome covers polynomial functions. You should be able to identify the degree and leading coefficient of a polynomial function. Be able to determine the end behavior of a polynomial function. You should also be able to find the x-intercepts and y-intercept of a polynomial function. You should also be able to graph polynomial functions. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  End Behavior: Determine the end behavior of a polynomial function and write this using correct notation.  Write in Factored Form: Use the Possible Rational Root Theorem and division to write a polynomial function in factored form.  Intercepts and Zeros: Find the zeros and multiplicities and the y-intercept of a polynomial function.  Graphing: Graph the function with appropriate scales and labels, showing the correct intercepts and general behavior.       Given the function .  State the degree and leading coefficient of .  State the end behavior of , using correct notation.  State the x-intercepts and y-intercept of .        Given the function .  State the end behavior of , using correct notation.  Write in factored form.  Sketch the graph of , showing the correct intercepts and general behavior.       "
+},
+{
+  "id": "sample_outcomes-8-3",
+  "level": "2",
+  "url": "sample_outcomes-8.html#sample_outcomes-8-3",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "  Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  End Behavior: Determine the end behavior of a polynomial function and write this using correct notation.  Write in Factored Form: Use the Possible Rational Root Theorem and division to write a polynomial function in factored form.  Intercepts and Zeros: Find the zeros and multiplicities and the y-intercept of a polynomial function.  Graphing: Graph the function with appropriate scales and labels, showing the correct intercepts and general behavior.   "
+},
+{
+  "id": "sample_outcomes-8-4-1",
+  "level": "2",
+  "url": "sample_outcomes-8.html#sample_outcomes-8-4-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Given the function .  State the degree and leading coefficient of .  State the end behavior of , using correct notation.  State the x-intercepts and y-intercept of .     "
+},
+{
+  "id": "sample_outcomes-8-4-2",
+  "level": "2",
+  "url": "sample_outcomes-8.html#sample_outcomes-8-4-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Given the function .  State the end behavior of , using correct notation.  Write in factored form.  Sketch the graph of , showing the correct intercepts and general behavior.     "
+},
+{
   "id": "slides",
   "level": "1",
   "url": "slides.html",
