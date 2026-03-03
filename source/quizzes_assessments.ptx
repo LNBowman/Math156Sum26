@@ -20,13 +20,18 @@
 
     <chapter xml:id="course-quizzes_retakes">
       <title>Quizzes and Retakes</title>
-      <xi:include href="./quizzes_retakes/sample.ptx"/>
       <xi:include href="./quizzes_retakes/bf1quiz.ptx"/>
       <xi:include href="./quizzes_retakes/bf1retake.ptx"/>
       <xi:include href="./quizzes_retakes/bf2quiz.ptx"/>
       <xi:include href="./quizzes_retakes/bf2retake.ptx"/>
       <xi:include href="./quizzes_retakes/bf3quiz.ptx"/>
       <xi:include href="./quizzes_retakes/bf3retake.ptx"/>
+      <xi:include href="./quizzes_retakes/bf4quiz.ptx"/>
+      <xi:include href="./quizzes_retakes/bf4retake.ptx"/>
+      <xi:include href="./quizzes_retakes/gr1quiz.ptx"/>
+      <xi:include href="./quizzes_retakes/gr1retake.ptx"/>
+      <xi:include href="./quizzes_retakes/gr2quiz.ptx"/>
+      <xi:include href="./quizzes_retakes/gr2retake.ptx"/>
     </chapter>
     <!-- Include additional chapters for other categories -->
 

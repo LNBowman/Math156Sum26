@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>GR-2 Polynomial Functions</title>
+  <introduction>
+    <p>
+      This outcome covers polynomial functions. You should be able to identify the degree and leading 
+      coefficient of a polynomial function. Be able to determine the end behavior of a polynomial 
+      function. You should also be able to find the x-intercepts and y-intercept of a polynomial function.  
+      You should also be able to graph polynomial functions.  You should be able to write out complete 
+      steps to solve these types of problems by hand, without the use of a calculator.
+    </p>
+    <p>For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples 
+      of the types of problems you will encounter:</p>
+  </introduction>
+  <objectives>
+    <ul>
+      <li><p>Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the 
+        distributive property. Answers should be completely simplified.</p></li>
+        <li><p>Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the 
+          correct intercepts and general behavior.</p></li>
+      <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
+        that follow progressively from one to the next.</p></li>
+      <li><p>Mathematical Communication: Solutions should be presented in a clear and logical manner, with 
+        appropriate use of mathematical notation and terminology. Equations should have at most one equal 
+        sign and expressions on both sides.</p></li>
+      <li><p>End Behavior: Determine the end behavior of a polynomial function and write this using 
+        correct notation.</p></li>
+      <li><p>Write in Factored Form: Use the Possible Rational Root Theorem and division to write a polynomial 
+        function in factored form.</p></li>
+      <li><p>Intercepts and Zeros: Find the zeros and multiplicities and the y-intercept of a polynomial function.</p></li>
+      <li><p>Graphing: Graph the function with appropriate scales and labels, showing the correct 
+        intercepts and general behavior.</p></li>
+    </ul>
+    </objectives>
+
+  
+  <page>
+    <exercise workspace="3cm">
+      <statement>
+        <p>
+           Given the function <m>f(x)=-3(x-1)^3(x+2)(x+1)^2</m>.
+          <ol>
+            <li>State the degree and leading coefficient of <m>f(x)</m>.</li>
+            <li>State the end behavior of <m>f(x)</m>, using correct notation.</li>
+            <li>State the x-intercepts and y-intercept of <m>f(x)</m>.</li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise workspace="3cm">
+      <statement>
+        <p>Given the function <m>p(x)=-x^4-2x^3+3x^2+4x-4</m>.
+        <ol>
+          <li>State the end behavior of <m>p(x)</m>, using correct notation.</li>
+          <li>Write <m>p(x)</m> in factored form.</li>
+          <li>Sketch the graph of <m>p(x)</m>, showing the correct intercepts 
+            and general behavior.</li>
+        </ol>
+        </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet> 

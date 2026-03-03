@@ -81,10 +81,10 @@
       <introduction>
         <p>
           Here are samples of the outcomes that you will see on quizzes and 
-          assessments.  These are not meant to be comprehensive, but they 
-          should give you an idea of the types of problems you will encounter 
-          on quizzes and assessments.  You should be able to solve these types 
-          of problems by hand, without the use of a calculator.
+          assessments.  These are meant to be examples (not comprehensive), but they 
+          should give you an idea of the types of problems and level of difficulty 
+          you will encounter on quizzes and assessments.  You should be able to 
+          solve these types of problems by hand, without the use of a calculator.
         </p>
       </introduction>
 
@@ -93,6 +93,8 @@
       <xi:include href="./sample_outcomes/bf2_sample.ptx"/>
       <xi:include href="./sample_outcomes/bf3_sample.ptx"/>
       <xi:include href="./sample_outcomes/bf4_sample.ptx"/>
+      <xi:include href="./sample_outcomes/gr1_sample.ptx"/>
+      <xi:include href="./sample_outcomes/gr2_sample.ptx"/>
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>

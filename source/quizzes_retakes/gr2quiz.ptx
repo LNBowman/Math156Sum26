@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>GR-2 Polynomial Functions</title>
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Once you open the quiz, your timer begins.  I would recommend having an additional timer
+        that goes off about 5 minutes prior, so that you know when to start uploading your work.
+    </p>
+    <p> Write out complete solutions to the following problems.</p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          Given the function <m>f(x)=2(x-1)^2(x+1)^3(x-3)</m>.
+          <ol>
+            <li>State the degree and leading coefficient of <m>f(x)</m>.</li>
+            <li>State the end behavior of <m>f(x)</m>, using correct notation.</li>
+            <li>State the x-intercepts and y-intercept of <m>f(x)</m>.</li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Given the function <m>p(x)=-x^5-6x^4-8x^3+6x^2+9x</m>.
+          <ol>
+            <li>State the end behavior of <m>p(x)</m>, using correct notation.</li>
+            <li>Write <m>p(x)</m> in factored form.</li>
+            <li>Sketch the graph of <m>p(x)</m>, showing the correct intercepts 
+              and general behavior.</li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

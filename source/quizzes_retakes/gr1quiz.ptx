@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>GR-1 Quadratic Functions and Models</title>
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Once you open the quiz, your timer begins.  I would recommend having an additional timer
+        that goes off about 5 minutes prior, so that you know when to start uploading your work.
+    </p>
+    <p> Write out complete solutions to the following problems.</p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          Given the function <m>f(x)=\frac{3}{2}x^2+9x-\frac{23}{2}</m>.
+          <ol>
+            <li>Write the function in vertex form.</li>
+            <li>State the intercepts.</li>
+            <li>State the range.</li>
+            <li>Graph f(x).</li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>Two numbers are such that twice the first number plus the second 
+          number is forty-eight.  Find the two numbers if the product of 
+          the two numbers is a maximum.
+        <ol>
+          <li>Define the variable for your function.</li>
+          <li>Set up the quadratic model.</li>
+          <li>State the practical domain.</li>
+          <li>Find the two numbers that maximize the product.</li>
+        </ol>
+        </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

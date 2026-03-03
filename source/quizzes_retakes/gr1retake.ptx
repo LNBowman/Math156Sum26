@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>GR-1 Quadratic Functions and Models</title>
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Once you open the quiz, your timer begins.  I would recommend having an additional timer
+        that goes off about 5 minutes prior, so that you know when to start uploading your work.
+    </p>
+    <p> Write out complete solutions to the following problems.</p>
+  </introduction>
+
+  <page>
+    <exercise>
+      <statement>
+        <p>
+          Given the function <m>f(x)=-3x^2+12x-9</m>.
+          <ol>
+            <li>Write the function in vertex form.</li>
+            <li>State the intercepts.</li>
+            <li>State the range.</li>
+            <li>Graph f(x).</li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>A gardener has 340ft of fencing to fence a garden alongside 
+          the house (the side against the house will not be fenced).  The 
+          gardener wants to use some of the fencing running perpendicular 
+          to the house to create two equal sized plots. What dimensions 
+          are needed to create the largest plots.
+        <ol>
+          <li>Define the variable for your function.</li>
+          <li>Set up the quadratic model.</li>
+          <li>State the practical domain.</li>
+          <li>Find the dimensions that maximize the area.</li>
+        </ol>
+        </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>
