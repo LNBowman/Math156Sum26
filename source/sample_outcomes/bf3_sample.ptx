@@ -34,20 +34,56 @@
   
   <page>
     <exercise workspace="3cm">
-      <statement>
-        <p>
+      <statement><p>
           Given the function <m>f(x)=\frac{x}{x-3}</m>. Find and simplify the 
           difference quotient <m>\frac{f(x+h)-f(x)}{h}</m>.
-        </p>
-      </statement>
+      </p></statement>
+      <hint><p>Start by evaluating both <m>f(x+h)</m> and <m>f(x)</m> separately. 
+        Then simplify the resulting expression.</p></hint>
+      <answer><p><m>\frac{f(x+h)-f(x)}{h}=\frac{3}{(x+h-3)(x-3)}</m></p></answer>
+      <solution><p>To begin we will start by evaluating each function: 
+        <m>f(x+h)=\frac{x+h}{x+h-3}</m> and <m>f(x)=\frac{x}{x-3}</m>. Putting 
+        these together and simplify the expression. 
+        <m>\begin{aligned}\frac{f(x+h)-f(x)}{h} \amp =\frac{\frac{x+h}{x+h-3}-\frac{x}{x-3}}{h}\\
+          \amp =\frac{\frac{(x+h)(x-3)-x(x+h-3)}{(x+h-3)(x-3)}}{h}\\
+          \amp =\frac{\frac{3h}{(x+h-3)(x-3)}}{h}\\
+          \amp =\frac{3}{(x+h-3)(x-3)}\end{aligned}</m></p></solution>
     </exercise>
     <exercise workspace="3cm">
-      <statement>
-        <p>Graph the function <me>f(x)=\begin{cases}5-3x \text{ }&amp; 
+      <statement><p>
+          Given the function <m>f(x)=4x^2-5x</m>. Find and simplify the 
+          difference quotient <m>\frac{f(a)-f(3)}{a-3}</m>.
+      </p></statement>
+      <hint><p>Start by evaluating both <m>f(a)</m> and <m>f(3)</m> separately. 
+        Then simplify the resulting expression.</p></hint>
+      <answer><p><m>\frac{f(a)-f(3)}{a-3}=4a+7</m></p></answer>
+      <solution><p>To begin we will start by evaluating each function: 
+        <m>f(a)=4a^2-5a</m> and <m>f(3)=4(3)^2-5(3)=36-15=21</m>. Putting 
+        these together and simplify the expression. 
+        <m>\begin{aligned}\frac{f(a)-f(3)}{a-3} \amp =\frac{4a^2-5a-21}{a-3}\\
+          \amp =\frac{(4a+7)(a-3)}{a-3}\\
+          \amp =4a+7\end{aligned}</m></p></solution>
+    </exercise>
+    <exercise workspace="3cm">
+      <statement><p>
+        Graph the function <me>f(x)=\begin{cases}5-3x \text{ }&amp; 
           \text{ }x\le -1\\x^2+1 \text{ }&amp; \text{ } -1 \lt x\lt 2\\ 
           3x+2 \text{ }&amp; \text{ } x\ge 2\end{cases}</me>
-Also state the domain, boundary points and intercepts.</p>
-      </statement>
+        Also state the domain, boundary points and intercepts.
+      </p></statement>
+      <hint><p>Start by finding the boundary points and the domain, then graph and find the intercepts.</p></hint>
+      <answer><p>Domain: <m>(-\infty, \infty)</m>, Boundary points: <m>(-1, 8), (-1,2), (2,5)</m> and <m>(2, 8)</m>, 
+        Intercepts: <m>(0, 1)</m></p></answer>
+      <solution><p>To graph the function, we will consider each piece separately:
+        <ul>
+          <li>For <m>x \le -1</m>, the function is <m>f(x) = 5 - 3x</m>. This is a linear function 
+            with a slope of <m>-3</m> and a point at <m>(-1,8)</m>.</li>
+          <li>For <m>-1 \lt x \lt 2</m>, the function is <m>f(x) = x^2 + 1</m>. This is a parabola 
+            opening upwards with a vertex at <m>(0, 1)</m> and points at <m>(-1, 2)</m> and <m>(2, 5)</m>.</li>
+          <li>For <m>x \ge 2</m>, the function is <m>f(x) = 3x + 2</m>. This is a linear 
+            function with a slope of <m>3</m> and a point at <m>(2, 8)</m>.</li>
+        </ul>
+        </p></solution>
     </exercise>
   </page>
 </worksheet> 

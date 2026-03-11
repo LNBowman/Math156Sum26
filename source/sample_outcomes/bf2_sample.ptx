@@ -36,19 +36,60 @@
   
   <page>
     <exercise workspace="3cm">
-      <statement>
-        <p>
+      <statement><p>
           Find the equation of the line, in slope-intercept form that passes through 
           the point <m>(5, -3)</m> with slope <m>=\frac{2}{3}</m>. Give a sketch of the 
           line with labeled intercepts.
-        </p>
-      </statement>
+        </p></statement>
+        <hint><p>Slope intercept form is <m>y=mx+b</m></p></hint>
+        <answer><p><m>y=\frac{2}{3}x-\frac{19}{3}</m></p></answer>
+        <solution><p>Since the slope is <m>m=\frac{2}{3}</m> and the given point is <m>(5, -3)</m> 
+          we can plug these into the point-slope equation <m>y-y_1=m(x-x_1)</m> to get <m>y+3=\frac{2}{3}(x-5)</m>. 
+          Simplifying this equation gives us <m>y=\frac{2}{3}x-\frac{19}{3}</m>.</p></solution>
+    </exercise><exercise workspace="3cm">
+      <statement><p>
+          Find the equation of the line, in standard form that passes through 
+          the points <m>(-2, 5)</m> and <m>(8, 1)</m>. Give a sketch of the 
+          line with labeled intercepts.
+        </p></statement>
+        <hint><p>Find the slope using the two points, then use point-slope form. Use the point-slope 
+          form to write the equation, then rearrange to standard form.
+        </p></hint>
+        <answer><p><m>2x+5y=21</m></p></answer>
+        <solution><p> Using the slope formula, we find the slope to be 
+          <m>m=\frac{1-5}{8-(-2)}=\frac{-4}{10}=-\frac{2}{5}</m>. Using the point-slope form with 
+          the point <m>(-2, 5)</m>, we get <m>y-5=-\frac{2}{5}(x-(-2))</m>. Simplifying and rearranging 
+          to standard form gives us <m>2x+5y=21</m>.</p></solution>
     </exercise>
     <exercise workspace="3cm">
-      <statement>
-        <p>Consider the line <m>8x-3y=15</m>. Find the equation of the line 
-          perpendicular to the given line that passes through the point <m>(2, 1)</m>.</p>
-      </statement>
+      <statement><p>
+        Consider the line <m>4x-3y=8</m>. Find the equation of the line (in standard form) that is
+        parallel to the given line that passes through the point <m>(-3,8)</m>.
+      </p></statement>
+        <hint><p>Find the slope of the given line, then the parallel line has the same slope. 
+          Use the point-slope form with the given point.
+        </p></hint>
+        <answer><p><m>4x-3y=36</m></p></answer>
+        <solution><p> The given line <m>4x-3y=8</m> can be rewritten in slope-intercept form as 
+          <m>y=\frac{4}{3}x-\frac{8}{3}</m>. The slope of this line is <m>m_1=\frac{4}{3}</m>. The slope of 
+          a line parallel to this one is <m>m_2=\frac{4}{3}</m>. Using the point-slope form 
+          with the point <m>(-3, 8)</m>, we get <m>y-8=\frac{4}{3}(x-(-3))</m>. Simplifying and 
+          rearranging to standard form gives us <m>4x-3y=36</m>.</p></solution>
+    </exercise>
+    <exercise workspace="3cm">
+      <statement><p>
+        Consider the line <m>8x-3y=15</m>. Find the equation of the line (in slope-intercept form) that is
+        perpendicular to the given line that passes through the point <m>(2, 1)</m>.
+      </p></statement>
+        <hint><p>Find the slope of the given line, then find the negative reciprocal to get 
+          the slope of the perpendicular line. Use the point-slope form with the given point.
+        </p></hint>
+        <answer><p><m>y=-\frac{3}{8}x+\frac{7}{4}</m></p></answer>
+        <solution><p> The given line <m>8x-3y=15</m> can be rewritten in slope-intercept form as 
+          <m>y=\frac{8}{3}x-5</m>. The slope of this line is <m>m_1=\frac{8}{3}</m>. The slope of 
+          a line perpendicular to this one is <m>m_2=-\frac{3}{8}</m>. Using the point-slope form 
+          with the point <m>(2, 1)</m>, we get <m>y-1=-\frac{3}{8}(x-2)</m>. Simplifying and 
+          rearranging to slope-intercept form gives us <m>y=-\frac{3}{8}x+\frac{7}{4}</m>.</p></solution>
     </exercise>
   </page>
 </worksheet>
