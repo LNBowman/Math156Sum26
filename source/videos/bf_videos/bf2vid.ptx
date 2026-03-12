@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>BF-2 Forms of Linear Equations</title>
+
+    <page>
+        <p><alert>Slopes and Forms</alert></p>
+        <video vimeo="1173085885"/>
+        <p><alert>Point-Slope Form</alert></p>
+        <video vimeo="1173078625"/>
+        <p><alert>Slope-Intercept Form</alert></p>
+        <video vimeo="1173078530"/>
+        <p><alert>Standard Form</alert></p>
+        <video vimeo="1173078444"/>
+        <p><alert>Vertical and Horizontal Lines</alert></p>
+        <video vimeo="1173078778"/>
+        <p><alert>Parallel Lines</alert></p>
+        <video vimeo="1173078236"/>
+        <p><alert>Perpendicular Lines</alert></p>
+        <video vimeo="1173078037"/>
+    </page>
+  </worksheet>  

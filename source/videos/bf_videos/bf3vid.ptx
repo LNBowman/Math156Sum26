@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>BF-3 Difference Quotients and Piecewise Functions</title>
+
+    <page>
+        <p><alert>Slopes and Average Rates</alert></p>
+        <video vimeo="1173087381"/>
+        <p><alert>Average Rates of Change</alert></p>
+        <video vimeo="1173089448"/>
+        <p><alert>Basic Graphs of Functions</alert></p>
+        <video vimeo="1173087586"/>
+        <p><alert>Piecewise Functions</alert></p>
+        <video vimeo="1173089702"/>
+    </page>
+  </worksheet>  

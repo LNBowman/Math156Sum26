@@ -74,6 +74,32 @@
       <!-- etc. -->
 
     </chapter>
+    <chapter xml:id="videos">
+b      <title>Outcome Videos</title>
+      <introduction><p> Here are videos on the outcomes for this course. These videos
+      supplement the reading but will give you worked out examples of the types of 
+      problems you will see in this course.</p></introduction>
+        <section xml:id="bf_videos">
+          <title>Basics of Functions</title>
+          <xi:include href="./videos/bf_videos/bf1vid.ptx"/>
+          <xi:include href="./videos/bf_videos/bf2vid.ptx"/>
+          <xi:include href="./videos/bf_videos/bf3vid.ptx"/>
+        </section>
+        <section xml:id="gr_videos">
+          <title>Graphing of Functions</title>
+          <!--<xi:include href="./videos/gr_videos/gr1vid.ptx"/>-->
+        </section>
+        <section xml:id="el_videos">
+          <title>Exponential and Logarithmic Functions</title>
+          <!--<xi:include href="./videos/el_videos/el1vid.ptx"/>-->
+        </section>
+        <section xml:id="tf_videos">
+          <title>Trigonometric Functions</title>
+          <!--<xi:include href="./videos/tf_videos/tf1vid.ptx"/>-->
+        </section>
+         <!-- etc. -->
+      </chapter>
+
 
     <chapter xml:id="sample_outcomes">
       <title>Sample Outcomes</title>
