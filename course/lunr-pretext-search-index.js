@@ -178,7 +178,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Graphing of Functions",
-  "body": " Graphing of Functions   GR-1 Quadratic Functions and Models   Quadratic Functions   Quadratic Models      GR-2 Polynomial Functions   End Behavior   Roots and Multiplicities   Division of Polynomials   Graphs of Polynomial Functions      GR-3 Rational Functions   Asymptotes   Rational Functions      GR-4 Systems of Linear Equations   Solving Systems by Substitution   Solving Systems by Elimination   Solving Three Variable Systems   Solving Nonlinear Systems     "
+  "body": " Graphing of Functions   GR-1 Quadratic Functions and Models   Quadratic Functions   Quadratic Models      GR-2 Polynomial Functions   End Behavior   Roots and Multiplicities   Long Division of Polynomials   Synthetic Division of Polynomials   The Division Algorithm   Graphs of Polynomial Functions      GR-3 Rational Functions   Asymptotes   Rational Functions      GR-4 Systems of Linear Equations   Solving Systems by Substitution   Solving Systems by Elimination   Solving Three Variable Systems   Solving Nonlinear Systems     "
 },
 {
   "id": "el_videos",
