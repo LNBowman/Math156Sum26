@@ -169,7 +169,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Basics of Functions",
-  "body": " Basics of Functions   BF-1 Linear and Quadratic Equations   Linear Equations in One-Variable   Absolute Value Equations   Radical Equations   Rational Equations     Solving Quadratic Equations by Factoring   Solving Quadratic Equations by Extraction of Roots   Solving Quadratic Equations using the Quadratic Formula   Solving Quadratic Equations by Completing the Square      BF-2 Forms of Linear Equations   Slopes and Forms   Point-Slope Form   Slope-Intercept Form   Standard Form   Vertical and Horizontal Lines   Parallel Lines   Perpendicular Lines      BF-3 Difference Quotients and Piecewise Functions   Slopes and Average Rates   Average Rates of Change   Basic Graphs of Functions   Piecewise Functions     "
+  "body": " Basics of Functions   BF-1 Linear and Quadratic Equations   Linear Equations in One-Variable   Absolute Value Equations   Radical Equations   Rational Equations     Solving Quadratic Equations by Factoring   Solving Quadratic Equations by Extraction of Roots   Solving Quadratic Equations using the Quadratic Formula   Solving Quadratic Equations by Completing the Square      BF-2 Forms of Linear Equations   Slopes and Forms   Point-Slope Form   Slope-Intercept Form   Standard Form   Vertical and Horizontal Lines   Parallel Lines   Perpendicular Lines      BF-3 Difference Quotients and Piecewise Functions   Slopes and Average Rates   Average Rates of Change   Basic Graphs of Functions   Piecewise Functions      BF-4 Transformations and Combinations of Functions   Transformations   Combinations of Functions   Compositions of Functions     "
 },
 {
   "id": "gr_videos",
@@ -178,7 +178,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Graphing of Functions",
-  "body": " Graphing of Functions   "
+  "body": " Graphing of Functions   GR-1 Quadratic Functions and Models   Quadratic Functions   Quadratic Models      GR-2 Polynomial Functions   End Behavior   Roots and Multiplicities   Division of Polynomials   Graphs of Polynomial Functions      GR-3 Rational Functions   Asymptotes   Rational Functions      GR-4 Systems of Linear Equations   Solving Systems by Substitution   Solving Systems by Elimination   Solving Three Variable Systems   Solving Nonlinear Systems     "
 },
 {
   "id": "el_videos",
@@ -199,283 +199,265 @@ var ptx_lunr_docs = [
   "body": " Trigonometric Functions   "
 },
 {
-  "id": "sample_outcomes-3",
+  "id": "bf_outcomes",
   "level": "1",
-  "url": "sample_outcomes-3.html",
-  "type": "Worksheet",
+  "url": "bf_outcomes.html",
+  "type": "Section",
   "number": "",
-  "title": "BF-1 Linear and Quadratic Equations",
-  "body": " BF-1 Linear and Quadratic Equations   This outcome covers solving linear and quadratic equations. You will be given 2-3 problems in this outcome; a linear equation and two quadratic equations. The linear equation will be solved using the standard algebraic techniques, while the quadratic equations will be solved using factoring, the extraction of roots method, completing the square or the quadratic formula. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 30 minutes to complete 3 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Linear Equations: Solve linear equations using algebraic techniques.  Quadratic Equations: Solve quadratic equations using factoring, the extraction of roots method, completing the square or the quadratic formula.       Solve the following equation:    Start by using the LCD to clear the fractions. Then combine like terms and solve.    Start by using the LCD of 18 to clear the fractions: . Then combine like terms: . Next, simplify to get the solution: .      Solve the following equation:    Start by distributing over the parentheses and then combining like terms.    Start by distributing over the parentheses: . Then combine like terms: . Next, move all terms to one side: . Finally, simplify to get the solution: .      Solve by factoring.   Look for two numbers that multiply to give the product of the coefficient of x^2 and the constant term, and add up to give the coefficient of x.  and  Start by multiplying the leading coefficient and the constant: . Find the two factors of 72 that add up to -18: -12 and -6. Rewrite the middle term using these factors: . Factor by grouping: . Factor out the common binomial: . Set each factor equal to zero and solve for x: and .     Solve using the extraction of roots method.   Take the square root of both sides and solve the resulting linear equations.  and  Start by taking the square root of both sides of the equation: . Then solve the resulting linear equations: and . This gives and .     Solve using the quadratic formula.   First, move all terms to one side to get the equation in standard form, then apply the quadratic formula.   Start by setting the equation equal to zero and finding the terms: , , and . Then apply the quadratic formula by plugging these values into . . Simplify inside the root . . Now we can simplify the root . Then simplify the resulting expression: .     Solve by completing the square.   First, divide by factor out the coefficient of x^2, then move the constant term to the other side, and complete the square.   Since the leading coefficient isn't one, start by factoring out the coefficient from the x-terms and move the constant term to the other side. . Next, complete the square by adding the square of half the coefficient of x to both sides: . This gives us . Now we can divide by 3 and take the square root of both sides: . Finally, solve for x to get the solution: .    "
+  "title": "Basics of Functions",
+  "body": " Basics of Functions   BF-1 Linear and Quadratic Equations   This outcome covers solving linear and quadratic equations. You will be given 2-3 problems in this outcome; a linear equation and two quadratic equations. The linear equation will be solved using the standard algebraic techniques, while the quadratic equations will be solved using factoring, the extraction of roots method, completing the square or the quadratic formula. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 30 minutes to complete 3 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Linear Equations: Solve linear equations using algebraic techniques.  Quadratic Equations: Solve quadratic equations using factoring, the extraction of roots method, completing the square or the quadratic formula.       Solve the following equation:    Start by using the LCD to clear the fractions. Then combine like terms and solve.    Start by using the LCD of 18 to clear the fractions: . Then combine like terms: . Next, simplify to get the solution: .      Solve the following equation:    Start by distributing over the parentheses and then combining like terms.    Start by distributing over the parentheses: . Then combine like terms: . Next, move all terms to one side: . Finally, simplify to get the solution: .      Solve by factoring.   Look for two numbers that multiply to give the product of the coefficient of x^2 and the constant term, and add up to give the coefficient of x.  and  Start by multiplying the leading coefficient and the constant: . Find the two factors of 72 that add up to -18: -12 and -6. Rewrite the middle term using these factors: . Factor by grouping: . Factor out the common binomial: . Set each factor equal to zero and solve for x: and .     Solve using the extraction of roots method.   Take the square root of both sides and solve the resulting linear equations.  and  Start by taking the square root of both sides of the equation: . Then solve the resulting linear equations: and . This gives and .     Solve using the quadratic formula.   First, move all terms to one side to get the equation in standard form, then apply the quadratic formula.   Start by setting the equation equal to zero and finding the terms: , , and . Then apply the quadratic formula by plugging these values into . . Simplify inside the root . . Now we can simplify the root . Then simplify the resulting expression: .     Solve by completing the square.   First, divide by factor out the coefficient of x^2, then move the constant term to the other side, and complete the square.   Since the leading coefficient isn't one, start by factoring out the coefficient from the x-terms and move the constant term to the other side. . Next, complete the square by adding the square of half the coefficient of x to both sides: . This gives us . Now we can divide by 3 and take the square root of both sides: . Finally, solve for x to get the solution: .      BF-2 Forms of Linear Equations   This outcome covers slope and forms of linear equations. You will be given 2 problems in this outcome. Given information about a line, should be able to write the equation in one of the three forms: slope-intercept, point-slope, or standard form. You should be able to graph the line and find the intercepts. Given a line and a point, you should be able to find the equation of the line parallel or perpendicular to it, and write the equation in the appropriate form. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 20 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Slope: Find the slope of a line given two points or an equation.  Forms of Linear Equations: Write the equation of a line in slope-intercept, point-slope, or standard form.  Parallel and Perpendicular Lines: Find the correct parallel or perpendicular slope and use it to write the equation in the appropriate form.      Find the equation of the line, in slope-intercept form that passes through the point with slope . Give a sketch of the line with labeled intercepts.  Slope intercept form is   Since the slope is and the given point is we can plug these into the point-slope equation to get . Simplifying this equation gives us .   Find the equation of the line, in standard form that passes through the points and . Give a sketch of the line with labeled intercepts.  Find the slope using the two points, then use point-slope form. Use the point-slope form to write the equation, then rearrange to standard form.   Using the slope formula, we find the slope to be . Using the point-slope form with the point , we get . Simplifying and rearranging to standard form gives us .    Consider the line . Find the equation of the line (in standard form) that is parallel to the given line that passes through the point .  Find the slope of the given line, then the parallel line has the same slope. Use the point-slope form with the given point.   The given line can be rewritten in slope-intercept form as . The slope of this line is . The slope of a line parallel to this one is . Using the point-slope form with the point , we get . Simplifying and rearranging to standard form gives us .    Consider the line . Find the equation of the line (in slope-intercept form) that is perpendicular to the given line that passes through the point .  Find the slope of the given line, then find the negative reciprocal to get the slope of the perpendicular line. Use the point-slope form with the given point.   The given line can be rewritten in slope-intercept form as . The slope of this line is . The slope of a line perpendicular to this one is . Using the point-slope form with the point , we get . Simplifying and rearranging to slope-intercept form gives us .      BF-3 Difference Quotients and Piecewise Functions   This outcome covers difference quotients and piecewise functions. Given a function , you should be able to compute a difference quotient, such as: and simplify it. Given a piecewise function, you should be able to find the domain, the boundary points, the intercepts, and sketch the graph. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The curves should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Difference Quotients: Evaluate the functions and simplify difference quotients for various functions.  Piecewise Functions: Evaluate piecewise functions at specific points and graph them. be able to give a simplified domain and state specific points on the graph.      Given the function . Find and simplify the difference quotient .  Start by evaluating both and separately. Then simplify the resulting expression.   To begin we will start by evaluating each function: and . Putting these together and simplify the expression.    Given the function . Find and simplify the difference quotient .  Start by evaluating both and separately. Then simplify the resulting expression.   To begin we will start by evaluating each function: and . Putting these together and simplify the expression.    Graph the function Also state the domain, boundary points and intercepts.  Start by finding the boundary points and the domain, then graph and find the intercepts.  Domain: , Boundary points: and , Intercepts:  To graph the function, we will consider each piece separately:  For , the function is . This is a linear function with a slope of and a point at .  For , the function is . This is a parabola opening upwards with a vertex at and points at and .  For , the function is . This is a linear function with a slope of and a point at .        BF-4 Transformations and Combinations of Functions   This outcome covers transformations and combinations of functions. You will be asked to identify basic functions, and the transformations applied to them. You will be asked to use transformations in the correct order to find new points or graphs. Given two functions, you will be asked to evaluate the combinations or the combination at a point. Given two functions, you should be able to evaluate their composition or the composition at a point. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Transformations: Given a function , identify and apply various transformations to translate points or a graph.  Combinations: Given two functions and , evaluate their sum, difference, product, and quotient at values or expressions.      Given the function .  State the basic function.  State the transformations applied to the basic function.  Determine where the point would be translated to on under the transformations.         Given and , find and simplify the following:    Recall that       Recall that       Recall that       Recall that        "
 },
 {
-  "id": "sample_outcomes-3-3",
+  "id": "bf_outcomes-2-3",
   "level": "2",
-  "url": "sample_outcomes-3.html#sample_outcomes-3-3",
+  "url": "bf_outcomes.html#bf_outcomes-2-3",
   "type": "Objectives",
   "number": "",
   "title": "",
   "body": "  Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Linear Equations: Solve linear equations using algebraic techniques.  Quadratic Equations: Solve quadratic equations using factoring, the extraction of roots method, completing the square or the quadratic formula.   "
 },
 {
-  "id": "sample_outcomes-3-4-1",
+  "id": "bf_outcomes-2-4-1",
   "level": "2",
-  "url": "sample_outcomes-3.html#sample_outcomes-3-4-1",
+  "url": "bf_outcomes.html#bf_outcomes-2-4-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
   "body": "  Solve the following equation:    Start by using the LCD to clear the fractions. Then combine like terms and solve.    Start by using the LCD of 18 to clear the fractions: . Then combine like terms: . Next, simplify to get the solution: .   "
 },
 {
-  "id": "sample_outcomes-3-4-2",
+  "id": "bf_outcomes-2-4-2",
   "level": "2",
-  "url": "sample_outcomes-3.html#sample_outcomes-3-4-2",
+  "url": "bf_outcomes.html#bf_outcomes-2-4-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
   "body": "  Solve the following equation:    Start by distributing over the parentheses and then combining like terms.    Start by distributing over the parentheses: . Then combine like terms: . Next, move all terms to one side: . Finally, simplify to get the solution: .   "
 },
 {
-  "id": "sample_outcomes-3-4-3",
+  "id": "bf_outcomes-2-4-3",
   "level": "2",
-  "url": "sample_outcomes-3.html#sample_outcomes-3-4-3",
+  "url": "bf_outcomes.html#bf_outcomes-2-4-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
   "body": "  Solve by factoring.   Look for two numbers that multiply to give the product of the coefficient of x^2 and the constant term, and add up to give the coefficient of x.  and  Start by multiplying the leading coefficient and the constant: . Find the two factors of 72 that add up to -18: -12 and -6. Rewrite the middle term using these factors: . Factor by grouping: . Factor out the common binomial: . Set each factor equal to zero and solve for x: and .  "
 },
 {
-  "id": "sample_outcomes-3-4-4",
+  "id": "bf_outcomes-2-4-4",
   "level": "2",
-  "url": "sample_outcomes-3.html#sample_outcomes-3-4-4",
+  "url": "bf_outcomes.html#bf_outcomes-2-4-4",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
   "body": "  Solve using the extraction of roots method.   Take the square root of both sides and solve the resulting linear equations.  and  Start by taking the square root of both sides of the equation: . Then solve the resulting linear equations: and . This gives and .  "
 },
 {
-  "id": "sample_outcomes-3-4-5",
+  "id": "bf_outcomes-2-4-5",
   "level": "2",
-  "url": "sample_outcomes-3.html#sample_outcomes-3-4-5",
+  "url": "bf_outcomes.html#bf_outcomes-2-4-5",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
   "body": "  Solve using the quadratic formula.   First, move all terms to one side to get the equation in standard form, then apply the quadratic formula.   Start by setting the equation equal to zero and finding the terms: , , and . Then apply the quadratic formula by plugging these values into . . Simplify inside the root . . Now we can simplify the root . Then simplify the resulting expression: .  "
 },
 {
-  "id": "sample_outcomes-3-4-6",
+  "id": "bf_outcomes-2-4-6",
   "level": "2",
-  "url": "sample_outcomes-3.html#sample_outcomes-3-4-6",
+  "url": "bf_outcomes.html#bf_outcomes-2-4-6",
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "",
   "body": "  Solve by completing the square.   First, divide by factor out the coefficient of x^2, then move the constant term to the other side, and complete the square.   Since the leading coefficient isn't one, start by factoring out the coefficient from the x-terms and move the constant term to the other side. . Next, complete the square by adding the square of half the coefficient of x to both sides: . This gives us . Now we can divide by 3 and take the square root of both sides: . Finally, solve for x to get the solution: .  "
 },
 {
-  "id": "sample_outcomes-4",
-  "level": "1",
-  "url": "sample_outcomes-4.html",
-  "type": "Worksheet",
-  "number": "",
-  "title": "BF-2 Forms of Linear Equations",
-  "body": " BF-2 Forms of Linear Equations   This outcome covers slope and forms of linear equations. You will be given 2 problems in this outcome. Given information about a line, should be able to write the equation in one of the three forms: slope-intercept, point-slope, or standard form. You should be able to graph the line and find the intercepts. Given a line and a point, you should be able to find the equation of the line parallel or perpendicular to it, and write the equation in the appropriate form. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 20 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Slope: Find the slope of a line given two points or an equation.  Forms of Linear Equations: Write the equation of a line in slope-intercept, point-slope, or standard form.  Parallel and Perpendicular Lines: Find the correct parallel or perpendicular slope and use it to write the equation in the appropriate form.      Find the equation of the line, in slope-intercept form that passes through the point with slope . Give a sketch of the line with labeled intercepts.  Slope intercept form is   Since the slope is and the given point is we can plug these into the point-slope equation to get . Simplifying this equation gives us .   Find the equation of the line, in standard form that passes through the points and . Give a sketch of the line with labeled intercepts.  Find the slope using the two points, then use point-slope form. Use the point-slope form to write the equation, then rearrange to standard form.   Using the slope formula, we find the slope to be . Using the point-slope form with the point , we get . Simplifying and rearranging to standard form gives us .    Consider the line . Find the equation of the line (in standard form) that is parallel to the given line that passes through the point .  Find the slope of the given line, then the parallel line has the same slope. Use the point-slope form with the given point.   The given line can be rewritten in slope-intercept form as . The slope of this line is . The slope of a line parallel to this one is . Using the point-slope form with the point , we get . Simplifying and rearranging to standard form gives us .    Consider the line . Find the equation of the line (in slope-intercept form) that is perpendicular to the given line that passes through the point .  Find the slope of the given line, then find the negative reciprocal to get the slope of the perpendicular line. Use the point-slope form with the given point.   The given line can be rewritten in slope-intercept form as . The slope of this line is . The slope of a line perpendicular to this one is . Using the point-slope form with the point , we get . Simplifying and rearranging to slope-intercept form gives us .    "
-},
-{
-  "id": "sample_outcomes-4-3",
+  "id": "bf_outcomes-3-3",
   "level": "2",
-  "url": "sample_outcomes-4.html#sample_outcomes-4-3",
+  "url": "bf_outcomes.html#bf_outcomes-3-3",
   "type": "Objectives",
   "number": "",
   "title": "",
   "body": "  Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Slope: Find the slope of a line given two points or an equation.  Forms of Linear Equations: Write the equation of a line in slope-intercept, point-slope, or standard form.  Parallel and Perpendicular Lines: Find the correct parallel or perpendicular slope and use it to write the equation in the appropriate form.   "
 },
 {
-  "id": "sample_outcomes-4-4-1",
+  "id": "bf_outcomes-3-4-1",
   "level": "2",
-  "url": "sample_outcomes-4.html#sample_outcomes-4-4-1",
+  "url": "bf_outcomes.html#bf_outcomes-3-4-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
   "body": " Find the equation of the line, in slope-intercept form that passes through the point with slope . Give a sketch of the line with labeled intercepts.  Slope intercept form is   Since the slope is and the given point is we can plug these into the point-slope equation to get . Simplifying this equation gives us .  "
 },
 {
-  "id": "sample_outcomes-4-4-2",
+  "id": "bf_outcomes-3-4-2",
   "level": "2",
-  "url": "sample_outcomes-4.html#sample_outcomes-4-4-2",
+  "url": "bf_outcomes.html#bf_outcomes-3-4-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
   "body": " Find the equation of the line, in standard form that passes through the points and . Give a sketch of the line with labeled intercepts.  Find the slope using the two points, then use point-slope form. Use the point-slope form to write the equation, then rearrange to standard form.   Using the slope formula, we find the slope to be . Using the point-slope form with the point , we get . Simplifying and rearranging to standard form gives us .  "
 },
 {
-  "id": "sample_outcomes-4-4-3",
+  "id": "bf_outcomes-3-4-3",
   "level": "2",
-  "url": "sample_outcomes-4.html#sample_outcomes-4-4-3",
+  "url": "bf_outcomes.html#bf_outcomes-3-4-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
   "body": " Consider the line . Find the equation of the line (in standard form) that is parallel to the given line that passes through the point .  Find the slope of the given line, then the parallel line has the same slope. Use the point-slope form with the given point.   The given line can be rewritten in slope-intercept form as . The slope of this line is . The slope of a line parallel to this one is . Using the point-slope form with the point , we get . Simplifying and rearranging to standard form gives us .  "
 },
 {
-  "id": "sample_outcomes-4-4-4",
+  "id": "bf_outcomes-3-4-4",
   "level": "2",
-  "url": "sample_outcomes-4.html#sample_outcomes-4-4-4",
+  "url": "bf_outcomes.html#bf_outcomes-3-4-4",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
   "body": " Consider the line . Find the equation of the line (in slope-intercept form) that is perpendicular to the given line that passes through the point .  Find the slope of the given line, then find the negative reciprocal to get the slope of the perpendicular line. Use the point-slope form with the given point.   The given line can be rewritten in slope-intercept form as . The slope of this line is . The slope of a line perpendicular to this one is . Using the point-slope form with the point , we get . Simplifying and rearranging to slope-intercept form gives us .  "
 },
 {
-  "id": "sample_outcomes-5",
-  "level": "1",
-  "url": "sample_outcomes-5.html",
-  "type": "Worksheet",
-  "number": "",
-  "title": "BF-3 Difference Quotients and Piecewise Functions",
-  "body": " BF-3 Difference Quotients and Piecewise Functions   This outcome covers difference quotients and piecewise functions. Given a function , you should be able to compute a difference quotient, such as: and simplify it. Given a piecewise function, you should be able to find the domain, the boundary points, the intercepts, and sketch the graph. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The curves should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Difference Quotients: Evaluate the functions and simplify difference quotients for various functions.  Piecewise Functions: Evaluate piecewise functions at specific points and graph them. be able to give a simplified domain and state specific points on the graph.      Given the function . Find and simplify the difference quotient .  Start by evaluating both and separately. Then simplify the resulting expression.   To begin we will start by evaluating each function: and . Putting these together and simplify the expression.    Given the function . Find and simplify the difference quotient .  Start by evaluating both and separately. Then simplify the resulting expression.   To begin we will start by evaluating each function: and . Putting these together and simplify the expression.    Graph the function Also state the domain, boundary points and intercepts.  Start by finding the boundary points and the domain, then graph and find the intercepts.  Domain: , Boundary points: and , Intercepts:  To graph the function, we will consider each piece separately:  For , the function is . This is a linear function with a slope of and a point at .  For , the function is . This is a parabola opening upwards with a vertex at and points at and .  For , the function is . This is a linear function with a slope of and a point at .      "
-},
-{
-  "id": "sample_outcomes-5-3",
+  "id": "bf_outcomes-4-3",
   "level": "2",
-  "url": "sample_outcomes-5.html#sample_outcomes-5-3",
+  "url": "bf_outcomes.html#bf_outcomes-4-3",
   "type": "Objectives",
   "number": "",
   "title": "",
   "body": "  Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The curves should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Difference Quotients: Evaluate the functions and simplify difference quotients for various functions.  Piecewise Functions: Evaluate piecewise functions at specific points and graph them. be able to give a simplified domain and state specific points on the graph.   "
 },
 {
-  "id": "sample_outcomes-5-4-1",
+  "id": "bf_outcomes-4-4-1",
   "level": "2",
-  "url": "sample_outcomes-5.html#sample_outcomes-5-4-1",
+  "url": "bf_outcomes.html#bf_outcomes-4-4-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
   "body": " Given the function . Find and simplify the difference quotient .  Start by evaluating both and separately. Then simplify the resulting expression.   To begin we will start by evaluating each function: and . Putting these together and simplify the expression.  "
 },
 {
-  "id": "sample_outcomes-5-4-2",
+  "id": "bf_outcomes-4-4-2",
   "level": "2",
-  "url": "sample_outcomes-5.html#sample_outcomes-5-4-2",
+  "url": "bf_outcomes.html#bf_outcomes-4-4-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
   "body": " Given the function . Find and simplify the difference quotient .  Start by evaluating both and separately. Then simplify the resulting expression.   To begin we will start by evaluating each function: and . Putting these together and simplify the expression.  "
 },
 {
-  "id": "sample_outcomes-5-4-3",
+  "id": "bf_outcomes-4-4-3",
   "level": "2",
-  "url": "sample_outcomes-5.html#sample_outcomes-5-4-3",
+  "url": "bf_outcomes.html#bf_outcomes-4-4-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
   "body": " Graph the function Also state the domain, boundary points and intercepts.  Start by finding the boundary points and the domain, then graph and find the intercepts.  Domain: , Boundary points: and , Intercepts:  To graph the function, we will consider each piece separately:  For , the function is . This is a linear function with a slope of and a point at .  For , the function is . This is a parabola opening upwards with a vertex at and points at and .  For , the function is . This is a linear function with a slope of and a point at .    "
 },
 {
-  "id": "sample_outcomes-6",
-  "level": "1",
-  "url": "sample_outcomes-6.html",
-  "type": "Worksheet",
-  "number": "",
-  "title": "BF-4 Transformations and Combinations of Functions",
-  "body": " BF-4 Transformations and Combinations of Functions   This outcome covers transformations and combinations of functions. You will be asked to identify basic functions, and the transformations applied to them. You will be asked to use transformations in the correct order to find new points or graphs. Given two functions, you will be asked to evaluate the combinations or the combination at a point. Given two functions, you should be able to evaluate their composition or the composition at a point. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Transformations: Given a function , identify and apply various transformations to translate points or a graph.  Combinations: Given two functions and , evaluate their sum, difference, product, and quotient at values or expressions.      Given the function .  State the basic function.  State the transformations applied to the basic function.  Determine where the point would be translated to on under the transformations.         Given and , find and simplify the following:    Recall that       Recall that       Recall that       Recall that       "
-},
-{
-  "id": "sample_outcomes-6-3",
+  "id": "bf_outcomes-5-3",
   "level": "2",
-  "url": "sample_outcomes-6.html#sample_outcomes-6-3",
+  "url": "bf_outcomes.html#bf_outcomes-5-3",
   "type": "Objectives",
   "number": "",
   "title": "",
   "body": "  Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Transformations: Given a function , identify and apply various transformations to translate points or a graph.  Combinations: Given two functions and , evaluate their sum, difference, product, and quotient at values or expressions.   "
 },
 {
-  "id": "sample_outcomes-6-4-1",
+  "id": "bf_outcomes-5-4-1",
   "level": "2",
-  "url": "sample_outcomes-6.html#sample_outcomes-6-4-1",
+  "url": "bf_outcomes.html#bf_outcomes-5-4-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
   "body": " Given the function .  State the basic function.  State the transformations applied to the basic function.  Determine where the point would be translated to on under the transformations.       "
 },
 {
-  "id": "sample_outcomes-6-4-2",
+  "id": "bf_outcomes-5-4-2",
   "level": "2",
-  "url": "sample_outcomes-6.html#sample_outcomes-6-4-2",
+  "url": "bf_outcomes.html#bf_outcomes-5-4-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
   "body": " Given and , find and simplify the following:    Recall that       Recall that       Recall that       Recall that     "
 },
 {
-  "id": "sample_outcomes-7",
+  "id": "gr_outcomes",
   "level": "1",
-  "url": "sample_outcomes-7.html",
-  "type": "Worksheet",
+  "url": "gr_outcomes.html",
+  "type": "Section",
   "number": "",
-  "title": "GR-1 Quadratic Functions and Models",
-  "body": " GR-1 Quadratic Functions and Models   This outcome covers quadratic functions and models. You should be able to rewrite quadratic functions in vertex form. Be able to find the domain, range, and intercepts of the function. You should also be able to graph quadratic functions. Here you will also be asked to setup and solve real-world problems using quadratic models. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Vertex Form: Rewrite quadratic functions in vertex form using the method of completing the square.  Intercepts: Find the x-intercepts and y-intercept of a quadratic function.  Range: Find the range of a quadratic function.  Graphing: Graph quadratic functions with appropriate scales and labels, showing the correct intercepts and general behavior.  Quadratic Models: Set up and solve real-world problems using quadratic models, including defining variables, writing the model, finding the practical domain, and solving for the desired quantity.       Given the function .  Write the function in vertex form.  State the intercepts.  State the range.  Graph f(x).        A local theatre group is selling tickets for a play to raise money for new equipment. They find that if they charge $10 per ticket, they will sell 200 tickets. For every $1 increase in price, they will sell 10 fewer tickets. What price should they charge and how many tickets should they sell to maximize their revenue?  Define the variable for your function.  Set up the quadratic model.  State the practical domain.  Find the price and number of tickets that maximize the revenue.       "
+  "title": "Graphing of Functions",
+  "body": " Graphing of Functions   GR-1 Quadratic Functions and Models   This outcome covers quadratic functions and models. You should be able to rewrite quadratic functions in vertex form. Be able to find the domain, range, and intercepts of the function. You should also be able to graph quadratic functions. Here you will also be asked to setup and solve real-world problems using quadratic models. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Vertex Form: Rewrite quadratic functions in vertex form using the method of completing the square.  Intercepts: Find the x-intercepts and y-intercept of a quadratic function.  Range: Find the range of a quadratic function.  Graphing: Graph quadratic functions with appropriate scales and labels, showing the correct intercepts and general behavior.  Quadratic Models: Set up and solve real-world problems using quadratic models, including defining variables, writing the model, finding the practical domain, and solving for the desired quantity.       Given the function .  Write the function in vertex form.  State the intercepts.  State the range.  Graph f(x).        A local theatre group is selling tickets for a play to raise money for new equipment. They find that if they charge $10 per ticket, they will sell 200 tickets. For every $1 increase in price, they will sell 10 fewer tickets. What price should they charge and how many tickets should they sell to maximize their revenue?  Define the variable for your function.  Set up the quadratic model.  State the practical domain.  Find the price and number of tickets that maximize the revenue.         GR-2 Polynomial Functions   This outcome covers polynomial functions. You should be able to identify the degree and leading coefficient of a polynomial function. Be able to determine the end behavior of a polynomial function. You should also be able to find the x-intercepts and y-intercept of a polynomial function. You should also be able to graph polynomial functions. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  End Behavior: Determine the end behavior of a polynomial function and write this using correct notation.  Write in Factored Form: Use the Possible Rational Root Theorem and division to write a polynomial function in factored form.  Intercepts and Zeros: Find the zeros and multiplicities and the y-intercept of a polynomial function.  Graphing: Graph the function with appropriate scales and labels, showing the correct intercepts and general behavior.       Given the function .  State the degree and leading coefficient of .  State the end behavior of , using correct notation.  State the x-intercepts and y-intercept of .        Given the function .  State the end behavior of , using correct notation.  Write in factored form.  Sketch the graph of , showing the correct intercepts and general behavior.        "
 },
 {
-  "id": "sample_outcomes-7-3",
+  "id": "gr_outcomes-2-3",
   "level": "2",
-  "url": "sample_outcomes-7.html#sample_outcomes-7-3",
+  "url": "gr_outcomes.html#gr_outcomes-2-3",
   "type": "Objectives",
   "number": "",
   "title": "",
   "body": "  Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  Vertex Form: Rewrite quadratic functions in vertex form using the method of completing the square.  Intercepts: Find the x-intercepts and y-intercept of a quadratic function.  Range: Find the range of a quadratic function.  Graphing: Graph quadratic functions with appropriate scales and labels, showing the correct intercepts and general behavior.  Quadratic Models: Set up and solve real-world problems using quadratic models, including defining variables, writing the model, finding the practical domain, and solving for the desired quantity.   "
 },
 {
-  "id": "sample_outcomes-7-4-1",
+  "id": "gr_outcomes-2-4-1",
   "level": "2",
-  "url": "sample_outcomes-7.html#sample_outcomes-7-4-1",
+  "url": "gr_outcomes.html#gr_outcomes-2-4-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
   "body": "  Given the function .  Write the function in vertex form.  State the intercepts.  State the range.  Graph f(x).     "
 },
 {
-  "id": "sample_outcomes-7-4-2",
+  "id": "gr_outcomes-2-4-2",
   "level": "2",
-  "url": "sample_outcomes-7.html#sample_outcomes-7-4-2",
+  "url": "gr_outcomes.html#gr_outcomes-2-4-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
   "body": "  A local theatre group is selling tickets for a play to raise money for new equipment. They find that if they charge $10 per ticket, they will sell 200 tickets. For every $1 increase in price, they will sell 10 fewer tickets. What price should they charge and how many tickets should they sell to maximize their revenue?  Define the variable for your function.  Set up the quadratic model.  State the practical domain.  Find the price and number of tickets that maximize the revenue.     "
 },
 {
-  "id": "sample_outcomes-8",
-  "level": "1",
-  "url": "sample_outcomes-8.html",
-  "type": "Worksheet",
-  "number": "",
-  "title": "GR-2 Polynomial Functions",
-  "body": " GR-2 Polynomial Functions   This outcome covers polynomial functions. You should be able to identify the degree and leading coefficient of a polynomial function. Be able to determine the end behavior of a polynomial function. You should also be able to find the x-intercepts and y-intercept of a polynomial function. You should also be able to graph polynomial functions. You should be able to write out complete steps to solve these types of problems by hand, without the use of a calculator.  For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples of the types of problems you will encounter:     Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  End Behavior: Determine the end behavior of a polynomial function and write this using correct notation.  Write in Factored Form: Use the Possible Rational Root Theorem and division to write a polynomial function in factored form.  Intercepts and Zeros: Find the zeros and multiplicities and the y-intercept of a polynomial function.  Graphing: Graph the function with appropriate scales and labels, showing the correct intercepts and general behavior.       Given the function .  State the degree and leading coefficient of .  State the end behavior of , using correct notation.  State the x-intercepts and y-intercept of .        Given the function .  State the end behavior of , using correct notation.  Write in factored form.  Sketch the graph of , showing the correct intercepts and general behavior.       "
-},
-{
-  "id": "sample_outcomes-8-3",
+  "id": "gr_outcomes-3-3",
   "level": "2",
-  "url": "sample_outcomes-8.html#sample_outcomes-8-3",
+  "url": "gr_outcomes.html#gr_outcomes-3-3",
   "type": "Objectives",
   "number": "",
   "title": "",
   "body": "  Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the distributive property. Answers should be completely simplified.  Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the correct intercepts and general behavior.  Problem structure: Solution should be organized and easy to follow, with clear, complete steps that follow progressively from one to the next.  Mathematical Communication: Solutions should be presented in a clear and logical manner, with appropriate use of mathematical notation and terminology. Equations should have at most one equal sign and expressions on both sides.  End Behavior: Determine the end behavior of a polynomial function and write this using correct notation.  Write in Factored Form: Use the Possible Rational Root Theorem and division to write a polynomial function in factored form.  Intercepts and Zeros: Find the zeros and multiplicities and the y-intercept of a polynomial function.  Graphing: Graph the function with appropriate scales and labels, showing the correct intercepts and general behavior.   "
 },
 {
-  "id": "sample_outcomes-8-4-1",
+  "id": "gr_outcomes-3-4-1",
   "level": "2",
-  "url": "sample_outcomes-8.html#sample_outcomes-8-4-1",
+  "url": "gr_outcomes.html#gr_outcomes-3-4-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
   "body": "  Given the function .  State the degree and leading coefficient of .  State the end behavior of , using correct notation.  State the x-intercepts and y-intercept of .     "
 },
 {
-  "id": "sample_outcomes-8-4-2",
+  "id": "gr_outcomes-3-4-2",
   "level": "2",
-  "url": "sample_outcomes-8.html#sample_outcomes-8-4-2",
+  "url": "gr_outcomes.html#gr_outcomes-3-4-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
   "body": "  Given the function .  State the end behavior of , using correct notation.  Write in factored form.  Sketch the graph of , showing the correct intercepts and general behavior.     "
+},
+{
+  "id": "el_outcomes",
+  "level": "1",
+  "url": "el_outcomes.html",
+  "type": "Section",
+  "number": "",
+  "title": "Exponential and Logarithmic Functions",
+  "body": " Exponential and Logarithmic Functions    "
+},
+{
+  "id": "tf_outcomes",
+  "level": "1",
+  "url": "tf_outcomes.html",
+  "type": "Section",
+  "number": "",
+  "title": "Trigonometric Functions",
+  "body": " Trigonometric Functions   "
 },
 {
   "id": "slides",
