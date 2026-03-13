@@ -84,10 +84,15 @@ b      <title>Outcome Videos</title>
           <xi:include href="./videos/bf_videos/bf1vid.ptx"/>
           <xi:include href="./videos/bf_videos/bf2vid.ptx"/>
           <xi:include href="./videos/bf_videos/bf3vid.ptx"/>
+          <xi:include href="./videos/bf_videos/bf4vid.ptx"/>
         </section>
+
         <section xml:id="gr_videos">
           <title>Graphing of Functions</title>
-          <!--<xi:include href="./videos/gr_videos/gr1vid.ptx"/>-->
+          <xi:include href="./videos/gr_videos/gr1vid.ptx"/>
+          <xi:include href="./videos/gr_videos/gr2vid.ptx"/>
+          <xi:include href="./videos/gr_videos/gr3vid.ptx"/>
+          <xi:include href="./videos/gr_videos/gr4vid.ptx"/>
         </section>
         <section xml:id="el_videos">
           <title>Exponential and Logarithmic Functions</title>
@@ -115,13 +120,27 @@ b      <title>Outcome Videos</title>
       </introduction>
 
       <!-- Remove the example and replace with your own activities -->
-      <xi:include href="./sample_outcomes/bf1_sample.ptx"/>
-      <xi:include href="./sample_outcomes/bf2_sample.ptx"/>
-      <xi:include href="./sample_outcomes/bf3_sample.ptx"/>
-      <xi:include href="./sample_outcomes/bf4_sample.ptx"/>
-      <xi:include href="./sample_outcomes/gr1_sample.ptx"/>
-      <xi:include href="./sample_outcomes/gr2_sample.ptx"/>
-
+       <section xml:id="bf_outcomes">
+        <title>Basics of Functions</title>
+          <xi:include href="./sample_outcomes/bf_outcomes/bf1_sample.ptx"/>
+          <xi:include href="./sample_outcomes/bf_outcomes/bf2_sample.ptx"/>
+          <xi:include href="./sample_outcomes/bf_outcomes/bf3_sample.ptx"/>
+          <xi:include href="./sample_outcomes/bf_outcomes/bf4_sample.ptx"/>
+      </section>
+      <section xml:id="gr_outcomes">
+        <title>Graphing of Functions</title>
+          <xi:include href="./sample_outcomes/gr_outcomes/gr1_sample.ptx"/>
+          <xi:include href="./sample_outcomes/gr_outcomes/gr2_sample.ptx"/>
+      </section>
+      <section xml:id="el_outcomes">
+        <title>Exponential and Logarithmic Functions</title>
+          <!--<xi:include href="./sample_outcomes/el_outcomes/el1_sample.ptx"/>-->
+          <!--<xi:include href="./sample_outcomes/el_outcomes/el2_sample.ptx"/>-->
+      </section>
+      <section xml:id="tf_outcomes">
+        <title>Trigonometric Functions</title>
+          <!--<xi:include href="./sample_outcomes/tf_outcomes/tf1_sample.ptx"/>-->
+      </section>
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
