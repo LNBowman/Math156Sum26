@@ -5,12 +5,16 @@
 
     <page>
         <p><alert>End Behavior</alert></p>
-        <video vimeo=""/>
+        <video vimeo="1173384661"/>
         <p><alert>Roots and Multiplicities</alert></p>
-        <video vimeo=""/>
-        <p><alert>Division of Polynomials</alert></p>
-        <video vimeo=""/>
+        <video vimeo="1173435522"/>
+        <p><alert>Long Division of Polynomials</alert></p>
+        <video vimeo="1173385103"/>
+        <p><alert>Synthetic Division of Polynomials</alert></p>
+        <video vimeo="1173384944"/>
+        <p><alert>The Division Algorithm</alert></p>
+        <video vimeo="1173385337"/>
         <p><alert>Graphs of Polynomial Functions</alert></p>
-        <video vimeo=""/>
+        <video vimeo="1173384383"/>
     </page>
   </worksheet>  
