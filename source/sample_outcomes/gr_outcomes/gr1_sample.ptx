@@ -37,33 +37,209 @@
   
   <page>
     <exercise workspace="3cm">
-      <statement>
-        <p>
+      <introduction><p>
            Given the function <m>f(x)=\frac{1}{2}x^2+5x+8</m>.
-          <ol>
-            <li>Write the function in vertex form.</li>
-            <li>State the intercepts.</li>
-            <li>State the range.</li>
-            <li>Graph f(x).</li>
-          </ol>
-        </p>
-      </statement>
+        </p></introduction>
+        <task>
+            <statement><p>Write the function in vertex form.</p></statement>
+            <hint><p>Use the method of completing the square to rewrite the 
+              function in vertex form.</p></hint>
+            <answer><p><m>f(x)=\frac{1}{2}(x+5)^2-\frac{9}{2}</m></p></answer>
+            <solution><p>Starting with <m>f(x)=\frac{1}{2}x^2+5x+8</m>, we factor 
+              out the coefficient of <m>x^2</m> from the first two terms:</p>
+            <p><m>f(x)=\frac{1}{2}(x^2+10x)+8</m></p>
+            <p>To complete the square, we take half of the coefficient of <m>x</m> 
+              and square it: <m>\left(\frac{10}{2}\right)^2 = 5^2 = 25</m>.</p>
+            <p>We add this value inside the parentheses and subtract this value 
+              multiplied by the coefficient to the outside of the parentheses:</p>
+            <p><m>f(x)=\frac{1}{2}(x^2+10x+25)-\frac{1}{2}(25)+8</m></p>
+            <p>We can now simplify the perfect square trinomial and the constant term:</p>
+            <p><m>f(x)=\frac{1}{2}[(x+5)^2]-\frac{25}{2}+\frac{16}{2}</m></p>
+            <p>Simplifying:</p>
+            <p><m>f(x)=\frac{1}{2}(x+5)^2-\frac{9}{2}</m></p>
+        </solution>
+        </task>
+        <task>
+            <statement><p>State the intercepts.</p></statement>
+            <hint><p>To find the y-intercept, evaluate the function at <m>x=0</m>. To 
+              find the x-intercepts, set the function equal to zero and solve for <m>x</m>.</p></hint>
+            <answer><p>y-intercept: <m>(0,8)</m>, x-intercepts: <m>(-2,0)</m> and <m>(-8,0)</m></p></answer>
+            <solution><p>To find the y-intercept, we evaluate the function at <m>x=0</m>:</p>
+            <p><m>f(0)=\frac{1}{2}(0)^2+5(0)+8=8</m></p>
+            <p>Thus, the y-intercept is <m>(0,8)</m>.</p>
+            <p>To find the x-intercepts, we set the function equal to zero and solve for 
+              <m>x</m>:</p>
+            <p><m>0=\frac{1}{2}x^2+5x+8</m></p>
+            <p>Multiplying both sides by 2 to clear the fraction:</p>
+            <p><m>0=x^2+10x+16</m></p>
+            <p>We can now factor the quadratic:</p>
+            <p><m>0=(x+5)^2-25+16</m></p>
+            <p><m>0=(x+5)^2-9</m></p>
+            <p><m>(x+5)^2=9</m></p>
+            <p><m>x+5=\pm 3</m></p>
+            <p><m>x=-5\pm 3</m></p>
+            <p>Thus, the x-intercepts are <m>(-5+3,0)</m> and <m>(-5-3,0)</m>, which 
+              can be written as <m>(-2,0)</m> and <m>(-8,0)</m>.</p>
+        </solution>
+        </task>
+        <task>
+            <statement><p>State the range.</p></statement>
+            <hint><p>Look at the leading coefficient and the k-value of the vertex form.</p></hint>
+            <answer><p><m>\left[-\frac{9}{2},\infty\right)</m></p></answer>
+            <solution><p>Since the coefficient of <m>x^2</m> is positive, the parabola opens 
+              upwards. The vertex represents the minimum point of the function, so the 
+              range starts at the y-coordinate of the vertex and extends to infinity. This gives
+            us the range <m>\left[-\frac{9}{2},\infty\right)</m>.</p>
+        </solution>
+        </task>
+        <task>
+            <statement><p>Graph f(x).</p></statement>
+            <hint><p>Plot the vertex and the intercepts, then sketch the parabola.</p></hint>
+            <answer><image source="./assets/gr1sample_graph_a.png">
+              <description><p>Graph of f(x)</p></description></image></answer>
+            <solution><p>To graph the function, we start by plotting the vertex, which is at 
+              <m>(-5,-\frac{9}{2})</m>. Next, we plot the y-intercept at <m>(0,8)</m> 
+              and the x-intercepts at <m>(-2,0)</m> and <m>(-8,0)</m>. Finally, we sketch 
+              the parabola opening upwards through these points.
+            </p></solution>
+        </task>
     </exercise>
     <exercise workspace="3cm">
-      <statement>
-        <p>A local theatre group is selling tickets for a play to raise money for new 
+      <introduction><p>
+        A local theatre group is selling tickets for a play to raise money for new 
           equipment. They find that if they charge $10 per ticket, they will sell 200 
           tickets. For every $1 increase in price, they will sell 10 fewer tickets.  
           What price should they charge and how many tickets should they sell to 
           maximize their revenue?
-        <ol>
-          <li>Define the variable for your function.</li>
-          <li>Set up the quadratic model.</li>
-          <li>State the practical domain.</li>
-          <li>Find the price and number of tickets that maximize the revenue.</li>
-        </ol>
-        </p>
-      </statement>
+        </p></introduction>
+        <task>
+          <statement><p>Define the variable for your function.</p></statement>
+          <hint><p>Pick a variable and state what it represents in the context of the problem.</p></hint>
+          <answer><p>Let <m>x</m> represent the number of $1 increases in price.</p></answer>
+        </task>
+        <task>
+          <statement><p>Set up the quadratic model.</p></statement>
+          <hint><p>Write the revenue function in terms of the variable you defined. Remember that
+            revenue is price multiplied by quantity.</p></hint>
+          <answer><p><m>R(x)=(10+x)(200-10x)</m> or <m>R(x)=-10x^2+100x+2000</m></p></answer>
+          <solution><p>To set up the revenue function, we first express the price and quantity 
+            in terms of <m>x</m>. The price can be expressed as <m>10+x</m>, since the base 
+            price is $10 and it increases by $1 for each increase. The quantity can be expressed 
+            as <m>200-10x</m>, since they sell 200 tickets at the base price and sell 10 fewer 
+            tickets for each increase. Thus, the revenue function is: <m>R(x)=(10+x)(200-10x)</m> 
+            or <m>R(x)=-10x^2+100x+2000</m></p></solution>
+          </task>
+        <task>
+          <statement><p>State the practical domain.</p></statement>
+          <hint><p>Consider the context of the problem to determine the practical domain.</p></hint>
+          <answer><p><m>[0,20]</m></p></answer>
+          <solution><p>Since <m>x</m> represents the number of $1 increases in price, it cannot be 
+            negative, so the lower bound of the domain is 0. The upper bound is 20, since if they 
+            increase the price by $20, they will not sell any tickets. Thus, the practical domain  
+            is <m>[0,20]</m>.</p></solution>
+          </task>
+          <task>
+          <statement><p>Find the price and number of tickets that maximize the revenue.</p></statement>
+          <hint><p>Find the vertex of the parabola to determine the maximum revenue, 
+            then use that to find the price and quantity.</p></hint>
+          <answer><p>Price: $15, Tickets sold: 150</p></answer>
+          <solution><p>To find the price and number of tickets that maximize the revenue, we 
+            first find the vertex of the parabola represented by the revenue function. The 
+            x-coordinate of the vertex can be found using the formula <m>x=-\frac{b}{2a}</m>, 
+            where <m>a=-10</m> and <m>b=100</m>. Substituting these values, we get 
+            <m>x=-\frac{100}{2(-10)}=5</m>. This means that the maximum revenue occurs when 
+            there are 5 increases in price. The price at this point is <m>10+5=15</m>, and 
+            the quantity sold is <m>200-10(5)=150</m>. Thus, to maximize revenue, 
+            they should charge $15 and sell 150 tickets.</p></solution>
+          </task>
+    </exercise>
+
+    <exercise workspace="3cm">
+      <introduction><p>
+       An apple orchard has 30 trees per acre and each tree produces 400 
+       apples per year. The orchard can increase the number of trees by 
+       planting more, but for each additional tree planted per acre, 
+       the yield per tree decreases by 10 apples. How many trees per acre 
+       should the orchard plant to maximize the total apple production per 
+       acre?
+        </p></introduction>
+        <task>
+          <statement><p>Define the variable for your function.</p></statement>
+          <hint><p>Pick a variable and state what it represents in the context of the problem.</p></hint>
+          <answer><p>Let <m>x</m> represent the number of additional trees planted per acre.</p></answer>
+        </task>
+        <task>
+          <statement><p>Set up the quadratic model.</p></statement>
+          <hint><p>Write the total apple production function in terms of 
+            the variable you defined.</p></hint>
+          <answer><p><m>P(x)=(30+x)(400-10x)</m> or <m>P(x)=-10x^2+100x+12000</m></p></answer>
+          <solution><p>To set up the total apple production function, we first express the 
+            number of trees and the yield per tree in terms of <m>x</m>. The number of trees 
+            can be expressed as <m>30+x</m>, since the base number of trees is 30 and it 
+            increases by 1 for each additional tree planted. The yield per tree can be expressed 
+            as <m>400-10x</m>, since each tree produces 400 apples at the base level and produces 
+            10 fewer apples for each additional tree planted. Thus, the total apple production 
+            function is: <m>P(x)=(30+x)(400-10x)</m> or <m>P(x)=-10x^2+100x+12000</m></p></solution>
+          </task>
+        <task>
+          <statement><p>State the practical domain.</p></statement>
+          <hint><p>Consider the context of the problem to determine the practical domain.</p></hint>
+          <answer><p><m>[0,40]</m></p></answer>
+          <solution><p>Since <m>x</m> represents the number of additional trees planted per acre, it cannot be negative, so the lower bound of the domain is 0. The upper bound is 40, since if they plant 40 additional trees per acre, each tree will produce 0 apples. Thus, the practical domain is <m>[0,40]</m>.</p></solution>
+          </task>
+          <task>
+          <statement><p>Find the number of trees per acre that maximize the total apple production.</p></statement>
+          <hint><p>Find the vertex of the parabola to determine the maximum total apple production, 
+            then use that to find the number of trees.</p></hint>
+          <answer><p>Trees per acre: 5</p></answer>
+          <solution><p>To find the number of trees per acre that maximize the total apple production, we 
+            first find the vertex of the parabola represented by the production function. The 
+            x-coordinate of the vertex can be found using the formula <m>x=-\frac{b}{2a}</m>, 
+            where <m>a=-10</m> and <m>b=100</m>. Substituting these values, we get 
+            <m>x=-\frac{100}{2(-10)}=5</m>. This means that the maximum total apple production occurs when 
+            there are 5 additional trees planted per acre. Thus, to maximize total apple production, 
+            they should plant 35 trees per acre.</p></solution>
+          </task>
+    </exercise>
+    <exercise workspace="3cm">
+      <introduction><p>
+        A photograph measures 8in by 10in. A border of uniform width is to 
+        be added around the photograph. If the area of the border is to be 
+        224 square inches, find the width of the border.
+        </p></introduction>
+        <task>
+          <statement><p>Define the variable for your function.</p></statement>
+          <hint><p>Pick a variable and state what it represents in the context of the problem.</p></hint>
+          <answer><p>Let <m>x</m> represent the width of the border in inches.</p></answer>
+        </task>
+        <task>
+          <statement><p>Set up the quadratic model.</p></statement>
+          <hint><p>Write the area of the border function in terms of the 
+            variable you defined. Remember that the area of the border is 
+            the area of the larger rectangle (photo + border) minus the area 
+            of the photo.</p></hint>
+          <answer><p><m>A(x)=(8+2x)(10+2x)-80</m> or <m>A(x)=4x^2+36x</m></p></answer>
+          <solution><p>To set up the area of the border function, we first express the dimensions of the 
+            larger rectangle (photo + border) in terms of <m>x</m>. The length of the larger rectangle 
+            is <m>10+2x</m> and the width is <m>8+2x</m>. The area of the larger rectangle is <m>(10+2x)(8+2x)</m>. 
+            The area of the photo is 80 square inches. Therefore, the area of the border is <m>A(x)=(10+2x)(8+2x)-80</m> 
+            or <m>A(x)=4x^2+36x</m>.</p></solution>
+          </task>
+        <task>
+          <statement><p>Find the width of the border.</p></statement>
+          <hint><p>Solve the equation <m>A(x)=224</m> for <m>x</m>.</p></hint>
+          <answer><p>Width of the border: 4 inches</p></answer>
+          <solution><p>To find the width of the border, we solve the equation 
+            <m>A(x)=224</m> for <m>x</m>. Substituting the quadratic model, we get:
+            <m>\begin{align*}
+            4x^2+36x \amp= 224 \\
+            4x^2+36x-224 \amp= 0 \\
+            x^2+9x-56 \amp= 0
+            \end{align*}</m>
+            Using the quadratic formula, we find that $x=4$ or $x=-14$. Since $x$ 
+            represents a width, it must be positive. Therefore, the width of the 
+            border is 4 inches.</p></solution>
+          </task>
     </exercise>
   </page>
-</worksheet> 
+</worksheet>

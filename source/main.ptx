@@ -93,6 +93,7 @@ b      <title>Outcome Videos</title>
           <xi:include href="./videos/gr_videos/gr2vid.ptx"/>
           <xi:include href="./videos/gr_videos/gr3vid.ptx"/>
           <xi:include href="./videos/gr_videos/gr4vid.ptx"/>
+          <xi:include href="./videos/gr_videos/gr5vid.ptx"/>
         </section>
         <section xml:id="el_videos">
           <title>Exponential and Logarithmic Functions</title>
@@ -131,6 +132,7 @@ b      <title>Outcome Videos</title>
         <title>Graphing of Functions</title>
           <xi:include href="./sample_outcomes/gr_outcomes/gr1_sample.ptx"/>
           <xi:include href="./sample_outcomes/gr_outcomes/gr2_sample.ptx"/>
+          <xi:include href="./sample_outcomes/gr_outcomes/gr3_sample.ptx"/>
       </section>
       <section xml:id="el_outcomes">
         <title>Exponential and Logarithmic Functions</title>
@@ -145,19 +147,19 @@ b      <title>Outcome Videos</title>
     </chapter>
 
     
-    <chapter xml:id="slides">
-      <title>Lecture Slides</title>
+    <!--<chapter xml:id="slides">-->
+      <!--<title>Lecture Slides</title>-->
       <!-- Include handouts -->
-      <xi:include href="./slides/bf1slides.ptx"/>
-    </chapter>
+      <!--<xi:include href="./slides/bf1slides.ptx"/>-->
+    <!--</chapter>-->
 
-    <chapter xml:id="homework">
-      <title>Homework</title>
+    <!--<chapter xml:id="homework">-->
+      <!--<title>Homework</title>-->
 
-      <!-- Include homework files -->
+     <!-- Include homework files -->
       <!--<xi:include href="./homework/homework01.ptx"/>-->
 
-    </chapter>
+    <!--</chapter>-->
 
     <!--<chapter xml:id="quizzes">-->
       <!--<title>Quizzes and Retakes</title>-->

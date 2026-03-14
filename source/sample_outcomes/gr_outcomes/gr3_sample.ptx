@@ -37,70 +37,200 @@
     </ul>
     </objectives>
 
-  
   <page>
     <exercise workspace="3cm">
-      <statement>
-        <p>
-           Given the function <m>r(x)=-3(x-1)^3(x+2)(x+1)^2</m>.
-          <ol>
-            <li>State the domain of <m>r(x)</m>.</li>
-            <li>State the asymptotes of <m>r(x)</m>, using correct notation.</li>
-            <li>State any deleted points of <m>r(x)</m>.</li>
-            <li>State the x-intercepts and y-intercept of <m>r(x)</m>.</li>
-            <li>Graph the function <m>r(x)</m>, showing the attributes with 
-              appropriate scales and labels.</li>
-          </ol>
-        </p>
-      </statement>
+      <introduction><p>Given the function <m>r(x)=\frac{4x^2}{x^2-2x-3}</m>.</p></introduction>
+      <task>
+        <statement><p>State the domain. </p></statement>
+        <hint><p>Set the denominator equal to zero and solve for x to find the values that 
+          are not in the domain.</p></hint>
+          <answer><p><m>(-\infty,-1)\cup(-1,3)\cup(3,\infty)</m></p></answer>
+          <solution><p>To find the domain, we set the denominator equal to zero and 
+            solve for x. We have: <m>x^2-2x-3=0</m>. Factoring, we get <m>(x-3)(x+1)=0</m>. 
+            Therefore, <m>x=3</m> and <m>x=-1</m> are not in the domain. The domain is 
+            <m>(-\infty,-1)\cup(-1,3)\cup(3,\infty)</m>.</p></solution>
+      </task>
+      <task>
+          <statement><p>State any intercepts and/or asymptotes.</p></statement>
+          <hint><p>To find the vertical asymptotes, we look at the values that are not in the domain. 
+            To find the horizontal or oblique asymptote, we compare the degrees of the numerator and denominator.</p></hint>
+          <answer><p>Vertical asymptotes: x=-1 and x=3. Horizontal asymptote: y=4. 
+            x-intercept: (0,0). y-intercept: (0,0).</p></answer>
+          <solution><p>To find the vertical asymptotes, we look at the values that are not in the domain. We have vertical 
+            asymptotes at <m>x=-1</m> and <m>x=3</m>. To find the horizontal or oblique asymptote, we compare the degrees 
+            of the numerator and denominator. The degree of the numerator is 2 and the degree of the denominator is 2. 
+            Since the degrees are equal, there is a horizontal asymptote at <m>y=\frac{4}{1}=4</m>. 
+            To find the x-intercept, we set the numerator equal to zero and solve for x. We have <m>4x^2=0</m>, 
+            which gives us an x-intercept at <m>(0,0)</m>. 
+            To find the y-intercept, we evaluate the function at x=0. We have <m>r(0)=\frac{4(0)^2}{(0)^2-2(0)-3}=0</m>, 
+            which gives us a y-intercept at <m>(0,0)</m>.</p></solution>
+      </task>
+      <task>
+          <statement><p>State any deleted points.</p></statement>
+          <hint><p>Deleted points occur when there is a common factor in the numerator and 
+            denominator that can be canceled.</p></hint>
+          <answer><p>No deleted points.</p></answer>
+      </task>
+      <task>
+          <statement><p>Provide a sketch of the graph.</p></statement>
+          <hint><p>Use the intercepts, asymptotes, and general shape of the graph to sketch it.</p></hint>
+      </task>
     </exercise>
     <exercise workspace="3cm">
-      <statement>
-        <p>Given the function <m>r(x)=\frac{4x^2}{x^2-2x-3}</m>.
-        <ol>
-          <li>State the domain. </li>
-          <li>State any intercepts and/or asymptotes.</li>
-          <li>State any deleted points.</li>
-          <li>Provide a sketch of the graph.</li>
-        </ol>
-        </p>
-      </statement>
+      <introduction><p>
+           Given the function <m>r(x)=\frac{3x-x^2}{2x-2}</m>.
+      </p></introduction>
+          <task>
+            <statement><p>State the domain. </p></statement>
+            <hint><p>Set the denominator equal to zero and solve for x to find the values that 
+              are not in the domain.</p></hint>
+            <answer><p><m>(-\infty,1)\cup(1,\infty)</m></p></answer>
+            <solution><p>To find the domain, we set the denominator equal to zero and 
+              solve for x. We have: <m>2x-2=0</m>. Solving for x gives us <m>x=1</m>. Therefore, the domain is 
+              <m>(-\infty,1)\cup(1,\infty)</m>.</p></solution>
+          </task>
+          <task>
+            <statement><p>State any intercepts and/or asymptotes.</p></statement>
+            <hint><p>To find the vertical asymptotes, we look at the values that are not in the domain. 
+              To find the horizontal or oblique asymptote, we compare the degrees of the numerator and denominator.</p></hint>
+            <answer><p>Vertical asymptote: x=1. Oblique asymptote: y=-\frac{1}{2}x+\frac{1}{2}. 
+              x-intercept: (0,0). y-intercept: (0,0).</p></answer>
+            <solution><p>We have a vertical asymptote at <m>x=1</m>. To find the oblique asymptote, we perform 
+              polynomial long division. The result is <m>y=-\frac{1}{2}x+\frac{1}{2}</m>. For the intercepts, we 
+              set the numerator equal to zero to find the x-intercept and evaluate the function at x=0 to find the 
+              y-intercept.</p></solution>
+          </task>
+          <task>
+            <statement><p>State any deleted points.</p></statement>
+            <hint><p>Deleted points occur when there is a common factor in the numerator and 
+              denominator that can be canceled.</p></hint>
+            <answer><p>No deleted points.</p></answer>
+          </task>
+          <task>
+            <statement><p>Provide a sketch of the graph.</p></statement>
+            <hint><p>Use the intercepts, asymptotes, and general shape of the graph to sketch it.</p></hint>
+            <solution><p></p></solution>
+          </task>
     </exercise>
     <exercise workspace="3cm">
-      <statement>
-        <p>Given the function <m>r(x)=\frac{6x-12}{-2x^2+3x-1}</m>.
-        <ol>
-          <li>State the domain. </li>
-          <li>State any intercepts and/or asymptotes.</li>
-          <li>State any deleted points.</li>
-          <li>Provide a sketch of the graph.</li>
-        </ol>
-        </p>
-      </statement>
+      <introduction><p>
+        Given the function <m>r(x)=\frac{6x-12}{-2x^2+3x-1}</m>.
+      </p></introduction>
+      <task>
+        <statement><p>State the domain. </p></statement>
+        <hint><p>Set the denominator equal to zero and solve for x to find the values that 
+          are not in the domain.</p></hint>
+        <answer><p><m>(-\infty,\frac{1}{2})\cup(\frac{1}{2},1)\cup(1,\infty)</m></p></answer>
+        <solution><p>To find the domain, we set the denominator equal to zero and 
+          solve for x. We have: <m>-2x^2+3x-1=0</m>. Factoring, we get <m>(-2x+1)(x-1)=0</m>. 
+          Therefore, <m>x=\frac{1}{2}</m> and <m>x=1</m> are not in the domain. The domain is 
+          <m>(-\infty,\frac{1}{2})\cup(\frac{1}{2},1)\cup(1,\infty)</m>.</p></solution>
+      </task>
+      <task>
+        <statement><p>State any intercepts and/or asymptotes.</p></statement>
+        <hint><p>To find the vertical asymptotes, we look at the values that are not in the domain. 
+          To find the horizontal or oblique asymptote, we compare the degrees of the numerator and denominator.</p></hint>
+        <answer><p>Vertical asymptotes: x=\frac{1}{2} and x=1. Oblique asymptote: y=\frac{3}{2}x-3. 
+          x-intercept: (2,0). y-intercept: (0,12).</p></answer>
+        <solution><p>We have vertical asymptotes at <m>x=\frac{1}{2}</m> and <m>x=1</m>. To find the 
+          oblique asymptote, we perform polynomial long division. The result is <m>y=\frac{3}{2}x-3</m>. 
+          For the intercepts, we set the numerator equal to zero to find the x-intercept and evaluate the 
+          function at x=0 to find the y-intercept.</p></solution>
+      </task>
+      <task>
+        <statement><p>State any deleted points.</p></statement>
+        <hint><p>Deleted points occur when there is a common factor in the numerator and 
+          denominator that can be canceled.</p></hint>
+        <answer><p>No deleted points.</p></answer>
+      </task>
+      <task>
+        <statement><p>Provide a sketch of the graph.</p></statement>
+        <hint><p>Use the intercepts, asymptotes, and general shape of the graph to sketch it.</p></hint>
+        <solution><p></p></solution>
+      </task>
     </exercise>
     <exercise workspace="3cm">
-      <statement>
-        <p>Given the function <m>r(x)=\frac{3x-x^2}{2x-2}</m>.
-        <ol>
-          <li>State the domain. </li>
-          <li>State any intercepts and/or asymptotes.</li>
-          <li>State any deleted points.</li>
-          <li>Provide a sketch of the graph.</li>
-        </ol>
-        </p>
-      </statement>
+      <introduction><p>
+        Given the function <m>r(x)=\frac{-3x^2-5x+1}{x+1}</m>.
+      </p></introduction>
+      <task>
+        <statement><p>State the domain. </p></statement>
+        <hint><p>Set the denominator equal to zero and solve for x to find the values that 
+          are not in the domain.</p></hint>
+        <answer><p><m>(-\infty,-1)\cup(-1,\infty)</m></p></answer>
+        <solution><p>To find the domain, we set the denominator equal to zero and 
+          solve for x. We have: <m>x+1=0</m>. Therefore, <m>x=-1</m> is not in the domain. The domain is 
+          <m>(-\infty,-1)\cup(-1,\infty)</m>.</p></solution>
+      </task>
+      <task>
+        <statement><p>State any intercepts and/or asymptotes.</p></statement>
+        <hint><p>To find the vertical asymptotes, we look at the values that are not in the domain. 
+          To find the horizontal or oblique asymptote, we compare the degrees of the numerator and denominator.</p></hint>
+        <answer><p>Vertical asymptote: x=-1. Oblique asymptote: y=-3x-2. 
+          x-intercept: (\frac{1}{3},0). y-intercept: (0,1).</p></answer>
+        <solution><p>We have a vertical asymptote at <m>x=-1</m>. To find the oblique asymptote, we perform 
+          polynomial long division. The result is <m>y=-3x-2</m>. For the intercepts, we 
+          set the numerator equal to zero to find the x-intercept and evaluate the function at x=0 to find the 
+          y-intercept.</p></solution>
+      </task>
+      <task>
+        <statement><p>State any deleted points.</p></statement>
+        <hint><p>Deleted points occur when there is a common factor in the numerator and 
+          denominator that can be canceled.</p></hint>
+        <answer><p>No deleted points.</p></answer>
+      </task>
+      <task>
+        <statement><p>Provide a sketch of the graph.</p></statement>
+        <hint><p>Use the intercepts, asymptotes, and general shape of the graph to sketch it.</p></hint>
+        <solution><p></p></solution>
+      </task>
     </exercise>
     <exercise workspace="3cm">
-      <statement>
-        <p>Given the function <m>r(x)=\frac{-3x^2-5x+1}{x+1}</m>.
-        <ol>
-          <li>State the domain. </li>
-          <li>State any intercepts and/or asymptotes.</li>
-          <li>State any deleted points.</li>
-          <li>Provide a sketch of the graph.</li>
-        </ol>
-        </p>
-      </statement>
+      <introduction><p>
+          Given the function <m>r(x)=\frac{x^3+3x^2+6x+8}{x^2-x-6}</m>.
+        </p></introduction>
+      <task>
+        <statement>
+          <p>
+            State the domain. </p>
+          </statement>
+          <hint><p>Set the denominator equal to zero and solve for x to find the values that 
+            are not in the domain.</p></hint>
+          <answer><p><m>(-\infty,-2)\cup(-2,3)\cup(3,\infty)</m></p></answer>
+          <solution><p>To find the domain, we set the denominator equal to zero and 
+            solve for x. We have: <m>x^2-x-6=0</m>. Factoring, we get <m>(x-3)(x+2)=0</m>. 
+            Therefore, <m>x=-2</m> and <m>x=3</m> are not in the domain. The domain is 
+            <m>(-\infty,-2)\cup(-2,3)\cup(3,\infty)</m>.</p></solution>
+      </task>
+      <task>
+        <statement><p>State any intercepts and/or asymptotes.</p></statement>
+        <hint><p>To find the vertical asymptotes, we look at the values that are not in the 
+          domain. To find the horizontal or oblique asymptote, we compare the degrees of the 
+          numerator and denominator.</p></hint>
+        <answer><p>Vertical asymptote: x=3. Oblique asymptote: y=x+4. 
+          x-intercept: none. y-intercept: (0,-\frac{4}{3}).</p></answer>
+        <solution><p>We have a vertical asymptote at <m>x=3</m>. To find the 
+          oblique asymptote, we perform polynomial long division. The result is <m>y=x+4</m>. 
+          For the intercepts, we set the numerator equal to zero to find the x-intercept and 
+          evaluate the function at x=0 to find the y-intercept.</p></solution>
+      </task>
+      <task>
+        <statement><p>State any deleted points.</p></statement>
+        <hint><p>Deleted points occur when there is a common factor in the numerator and 
+          denominator that can be canceled.</p></hint>
+        <answer><p>The function has a hole at x=-2, which corresponds to the point 
+          (-2,-\frac{6}{5}).</p></answer>
+        <solution><p>To find any deleted points, we look for common factors in the numerator and denominator. 
+          We can factor the denominator as <m>(x-3)(x+2)</m>. We can factor the numerator as <m>(x+2)(x^2+x+4)</m>. 
+          Therefore, there is a common factor of <m>(x+2)</m> that can be canceled. This means there is a hole 
+          at x=-2. To find the y-coordinate of the hole, we can evaluate the function at x=-2 after canceling the 
+          common factor. This gives us <m>r(-2)=-\frac{6}{5}</m>. Therefore, the hole is at the point (-2,-\frac{6}{5}).</p></solution>
+      </task>
+      <task>
+        <statement><p>Provide a sketch of the graph.</p></statement>
+        <hint><p>Use the intercepts, asymptotes, and general shape of the graph to sketch it.</p></hint>
+        <solution><p></p></solution>
+      </task>
     </exercise>
   </page>
 </worksheet> 

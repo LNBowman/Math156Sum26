@@ -37,28 +37,98 @@
   
   <page>
     <exercise workspace="3cm">
-      <statement>
-        <p>
+      <introduction><p>
            Given the function <m>f(x)=-3(x-1)^3(x+2)(x+1)^2</m>.
-          <ol>
-            <li>State the degree and leading coefficient of <m>f(x)</m>.</li>
-            <li>State the end behavior of <m>f(x)</m>, using correct notation.</li>
-            <li>State the x-intercepts and y-intercept of <m>f(x)</m>.</li>
-          </ol>
-        </p>
-      </statement>
+      </p></introduction>
+      <task>
+        <statement><p>State the degree and leading coefficient of <m>f(x)</m>.</p></statement>
+        <hint><p>Look at the exponents of each factor to find the degree. Look at the coefficient 
+          of the highest degree term to find the leading coefficient.</p></hint>
+        <answer><p>Degree: 6, Leading Coefficient: -3</p></answer>
+        <solution><p>To find the degree of the polynomial, we add up the exponents 
+          of the factors. The degree is 3 + 1 + 2 = 6.</p></solution>
+      </task>
+      <task>
+        <statement><p>State the end behavior of <m>f(x)</m>, using correct notation.</p></statement>
+        <hint><p>Since the degree is even and the leading coefficient is negative, the end behavior will be 
+          the same on both sides and will go down.</p></hint>
+        <answer><p>As <m>x \to \infty</m>, <m>f(x) \to -\infty</m>. As <m>x \to -\infty</m>, <m>f(x) \to -\infty</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p>State the x-intercepts and y-intercept of <m>f(x)</m>.</p></statement>
+        <hint><p>To find the x-intercepts, set each factor equal to zero and solve for x. To find the y-intercept, 
+          evaluate the function at x=0.</p></hint>
+        <answer><p>x-intercepts: (1,0), (-2,0), (-1,0); y-intercept: (0, -6)</p></answer>
+        <solution><p>To find the x-intercepts, we set each factor equal to zero and solve for x. 
+          Setting <m>(x-1)^3=0</m> gives us the x-intercept (1,0). Setting <m>(x+2)=0</m> gives us the x-intercept 
+          (-2,0). Setting <m>(x+1)^2=0</m> gives us the x-intercept (-1,0).</p></solution>
+      </task>
     </exercise>
     <exercise workspace="3cm">
-      <statement>
-        <p>Given the function <m>p(x)=-x^4-2x^3+3x^2+4x-4</m>.
-        <ol>
-          <li>State the end behavior of <m>p(x)</m>, using correct notation.</li>
-          <li>Write <m>p(x)</m> in factored form.</li>
-          <li>Sketch the graph of <m>p(x)</m>, showing the correct intercepts 
-            and general behavior.</li>
-        </ol>
-        </p>
-      </statement>
+      <introduction><p>
+           Given the function <m>g(x)=2x^4-3x^3+5x^2-7\</m>.
+      </p></introduction>
+          <task>
+            <statement><p>State the degree and leading coefficient of <m>g(x)</m>.</p></statement>
+            <hint><p>Look at the highest degree term to find the degree and leading coefficient.</p></hint>
+            <answer><p>Degree: 4, Leading Coefficient: 2</p></answer>
+            <solution><p>To find the degree of the polynomial, we look at the highest degree term, 
+              which is <m>2x^4</m>. The degree is 4 and the leading coefficient is 2.</p></solution>
+          </task>
+          <task>  
+            <statement><p>State the end behavior of <m>g(x)</m>, using correct notation.</p></statement>
+            <hint><p>Since the degree is even and the leading coefficient is positive, the end behavior will be 
+              the same on both sides and will go up.</p></hint>
+            <answer><p>As <m>x \to \infty</m>, <m>g(x) \to \infty</m>. As <m>x \to -\infty</m>, 
+              <m>g(x) \to \infty</m>.</p></answer>
+          </task>
+          <task>
+            <statement><p>State the x-intercepts and y-intercept of <m>g(x)</m>.</p></statement>
+            <hint><p>To find the x-intercepts, set the function equal to zero and solve for x. To find the y-intercept, 
+              evaluate the function at x=0.</p></hint>
+            <answer><p>x-intercepts: (0,0), (1,0), (-1,0); y-intercept: (0, -7)</p></answer>
+            <solution><p>To find the x-intercepts, we set the function equal to zero and solve for x. 
+              Setting <m>2x^4-3x^3+5x^2-7=0</m> gives us the x-intercepts (0,0), (1,0), and (-1,0). 
+              To find the y-intercept, we evaluate the function at x=0: <m>g(0)=2(0)^4-3(0)^3+5(0)^2-7=-7</m>. 
+              Therefore, the y-intercept is (0, -7).</p></solution>
+          </task>
+          <task>
+            <statement><p>Sketch the graph of <m>g(x)</m>, showing the correct intercepts and general behavior.</p></statement>
+            <hint><p>Use the end behavior, intercepts, behavior at the roots and general shape of the graph to sketch it.</p></hint>
+            <answer><image source="./assets/gr2sample_graph_a.png">
+              <description><p>Graph of g(x)</p></description></image></answer>
+          </task>
+        </exercise>
+    <exercise workspace="3cm">
+      <introduction><p>
+        Given the function <m>p(x)=-x^4-2x^3+3x^2+4x-4</m>.
+      </p></introduction>
+        <task>
+          <statement><p>State the end behavior of <m>p(x)</m>, using correct notation.</p></statement>
+          <hint><p>Since the degree is even and the leading coefficient is negative, the end behavior will be 
+            the same on both sides and will go down.</p></hint>
+        </task>
+        <task>
+          <statement><p>Write <m>p(x)</m> in factored form.</p></statement>
+          <hint><p>Use the Possible Rational Root Theorem to find a root, then use synthetic division to factor the polynomial. 
+            Repeat this process until the polynomial is completely factored.</p></hint>
+          <answer><p><m>p(x)=-1(x-1)(x+2)(x^2+x-2)</m></p></answer>
+          <solution><p>To factor the polynomial, we first use the Possible Rational Root Theorem to find a root. 
+            We test the factors of the constant term (-4) and the leading coefficient (-1). We find that x=1 is a 
+            root. We then use synthetic division to divide the polynomial by (x-1). This gives us a quotient of 
+            <m>-1(x^3+x^2-2x-4)</m>. We then factor the quotient using synthetic division again, finding that x=-2 
+            is a root. This gives us a quotient of <m>-1(x^2+x-2)</m>. We can then factor this further to get 
+            <m>p(x)=-1(x-1)(x+2)(x-1)(x+2)</m>.</p>
+          </solution>
+        </task>
+        <task>
+          <statement><p>Sketch the graph of <m>p(x)</m>, showing the correct intercepts 
+            and general behavior.</p></statement>
+          <hint><p>Use the end behavior, intercepts, behavior at the roots and general shape of the graph to sketch it.</p></hint>
+          <answer><image source="./assets/gr2sample_graph_b.png">
+            <description><p>Graph of p(x)</p></description></image>
+          </answer>
+        </task>
     </exercise>
   </page>
 </worksheet> 

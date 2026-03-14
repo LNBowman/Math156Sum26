@@ -33,18 +33,36 @@
   
   <page>
     <exercise workspace="3cm">
-      <statement><p>
+      <introduction><p>
           Given the function <m>f(x)=\frac{2}{x+4}-1</m>.
-          <ol>
-            <li>State the basic function.</li>
-            <li>State the transformations applied to the basic function.</li>
-            <li>Determine where the point <m>(2,\frac{1}{2})</m> would be translated to 
-              on <m>f</m> under the transformations.</li>
-          </ol>
-      </p></statement>
-      <hint><p></p></hint>
-      <answer><p></p></answer>
-      <solution><p></p></solution>
+      </p></introduction>
+      <task>
+        <statement><p>State the basic function.</p></statement>
+        <solution><p><m>y=\frac{1}{x}</m></p></solution>
+      </task>
+      <task>
+        <statement><p>State the transformations applied to the basic function.</p></statement>
+        <hint><p>Look at the function <m>f(x)=\frac{2}{x+4}-1</m> and 
+          compare it to the basic function <m>y=\frac{1}{x}</m>. Think 
+          about what the numerical coefficients and constants represent, 
+          as well as any negative signs.</p></hint>
+        <solution><p>The transformations applied are: a horizontal shift 
+          left by 4 units, a vertical stretch by a factor of 2, and a 
+          vertical shift down by 1 unit.</p></solution>
+      </task>
+      <task>
+        <statement><p>Determine where the point <m>(2,\frac{1}{2})</m> would be translated to 
+        on <m>f</m> under the transformations.</p></statement>
+        <hint><p>Use the order of transformations to move the point: horizontal shift, 
+          vertical stretch, vertical shift.</p></hint>
+        <answer><p><m>(-2,0)</m></p></answer>
+        <solution><p>First we will apply the horizontal shift left by 4 units, which 
+          moves the point from <m>(2,\frac{1}{2})</m> to <m>(-2,\frac{1}{2})</m>. Next, 
+          we will apply the vertical stretch by a factor of 2, which multiplies the 
+          y-coordinate by 2, resulting in <m>(-2,1)</m>. Finally, we will apply the 
+          vertical shift down by 1 unit, which subtracts 1 from the y-coordinate, 
+          resulting in <m>(-2,0)</m>.</p></solution>
+      </task>
     </exercise>
     <exercise workspace="3cm">
       <introduction><p>
