@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>GR-2 Rational Functions</title>
+  <introduction>
+    <p>
+      This outcome covers rational functions. You should be able to identify the domain and range of a 
+      rational function. Be able to determine the vertical, horizontal, and oblique asymptotes of a 
+      rational function. You should also be able to find the x-intercepts and y-intercept of a rational 
+      function. If a rational function has holes (deleted points), you should be able to identify 
+      these as well. You should also be able to determine the behavior of a rational function near 
+      the asymptotes and the end behavior of a rational function. You should also be able to graph rational functions.  You should be able to write out complete 
+      steps to solve these types of problems by hand, without the use of a calculator.
+    </p>
+    <p>For the quiz on this outcome you would be given 30 minutes to complete 2 problems. Here are samples 
+      of the types of problems you will encounter:</p>
+  </introduction>
+  <objectives>
+    <ul>
+      <li><p>Simplifying Expressions: Simplify algebraic expressions by combining like terms and applying the 
+        distributive property. Answers should be completely simplified.</p></li>
+        <li><p>Basics of Graphing: Give a graph with appropriate scales and labels. The line should have the 
+          correct intercepts and general behavior.</p></li>
+      <li><p>Problem structure: Solution should be organized and easy to follow, with clear, complete steps 
+        that follow progressively from one to the next.</p></li>
+      <li><p>Mathematical Communication: Solutions should be presented in a clear and logical manner, with 
+        appropriate use of mathematical notation and terminology. Equations should have at most one equal 
+        sign and expressions on both sides.</p></li>
+      <li><p>End Behavior: Determine the end behavior of a rational function and write this using 
+        correct notation.</p></li>
+      <li><p>Write the equations of the vertical, horizontal, and oblique asymptotes of a rational function.</p></li>
+      <li><p>Write the x-intercepts and the y-intercept of a rational function.</p></li>
+      <li><p>Identify any holes (deleted points) of a rational function.</p></li>
+       <li><p>Determine the behavior of a rational function near the asymptotes.</p></li>
+      <li><p>Graphing: Graph the function with appropriate scales and labels, showing the correct 
+        intercepts and general behavior.</p></li>
+    </ul>
+    </objectives>
+
+  
+  <page>
+    <exercise workspace="3cm">
+      <statement>
+        <p>
+           Given the function <m>r(x)=-3(x-1)^3(x+2)(x+1)^2</m>.
+          <ol>
+            <li>State the domain of <m>r(x)</m>.</li>
+            <li>State the asymptotes of <m>r(x)</m>, using correct notation.</li>
+            <li>State any deleted points of <m>r(x)</m>.</li>
+            <li>State the x-intercepts and y-intercept of <m>r(x)</m>.</li>
+            <li>Graph the function <m>r(x)</m>, showing the attributes with 
+              appropriate scales and labels.</li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise workspace="3cm">
+      <statement>
+        <p>Given the function <m>r(x)=\frac{4x^2}{x^2-2x-3}</m>.
+        <ol>
+          <li>State the domain. </li>
+          <li>State any intercepts and/or asymptotes.</li>
+          <li>State any deleted points.</li>
+          <li>Provide a sketch of the graph.</li>
+        </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise workspace="3cm">
+      <statement>
+        <p>Given the function <m>r(x)=\frac{6x-12}{-2x^2+3x-1}</m>.
+        <ol>
+          <li>State the domain. </li>
+          <li>State any intercepts and/or asymptotes.</li>
+          <li>State any deleted points.</li>
+          <li>Provide a sketch of the graph.</li>
+        </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise workspace="3cm">
+      <statement>
+        <p>Given the function <m>r(x)=\frac{3x-x^2}{2x-2}</m>.
+        <ol>
+          <li>State the domain. </li>
+          <li>State any intercepts and/or asymptotes.</li>
+          <li>State any deleted points.</li>
+          <li>Provide a sketch of the graph.</li>
+        </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise workspace="3cm">
+      <statement>
+        <p>Given the function <m>r(x)=\frac{-3x^2-5x+1}{x+1}</m>.
+        <ol>
+          <li>State the domain. </li>
+          <li>State any intercepts and/or asymptotes.</li>
+          <li>State any deleted points.</li>
+          <li>Provide a sketch of the graph.</li>
+        </ol>
+        </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet> 
